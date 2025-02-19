@@ -3099,7 +3099,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d84e-43ae-67dc-2914" name="Dire Avenger Exarch" hidden="false" collective="false" import="true" type="model">
@@ -3118,6 +3118,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb04-ee57-3c8c-6949" type="min"/>
+              </constraints>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxInRoster" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ef42-4301-bd53-85af" name="Dire Avenger Exarch" publicationId="555e-9663-pubN65910" page="116" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -3308,7 +3311,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="23.0"/>
+                <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3326,7 +3329,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <entryLink id="e8c9-c551-5cb8-9f8b" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35ca-55e0-5493-e216" name="Disciples of Vaul" hidden="false" collective="false" import="true" type="upgrade">
@@ -11035,6 +11038,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
               </modifiers>
               <infoLinks>
                 <infoLink id="f2ca-ac36-a625-036c" name="" hidden="false" targetId="8fb0-b50c-5541-99c5" type="profile"/>
+                <infoLink id="0p41-4n89-j4ml-vs32" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -12422,14 +12426,14 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <profile id="8fdf-752a-7198-c8e4" name="Wraithblade" publicationId="555e-9663-pubN65910" page="121" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
-            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
-            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">2</characteristic>
             <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
             <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">6</characteristic>
             <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
-            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
             <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
-            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
             <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
           </characteristics>
         </profile>
@@ -12469,7 +12473,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -12504,7 +12508,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="6ef8-e012-d0ca-a08e" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5190-023c-32bf-09ee" name="Wraithguard" publicationId="555e-9663-pubN65910" page="120" hidden="false" collective="false" import="true" type="unit">
@@ -12531,6 +12535,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
             <selectionEntry id="31f9-c183-a04f-440f" name="Wraithcannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="f1e8-9ff0-fa64-60c6" hidden="false" targetId="dd84-700c-ae7d-98b7" type="profile"/>
+                <infoLink id="7b31-8x82-j7kl-ag32" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -12538,7 +12543,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
             </selectionEntry>
             <selectionEntry id="87fd-aa58-0524-6476" name="D-Scythe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="10">
+                <modifier type="increment" field="points" value="5">
                   <repeats>
                     <repeat field="selections" scope="5190-023c-32bf-09ee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7296-cc44-b1bc-a624" repeats="1" roundUp="false"/>
                   </repeats>
@@ -12567,20 +12572,20 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 <profile id="aa55-8e35-482f-3fd9" name="Wraithguard" publicationId="555e-9663-pubN65910" page="120" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
-                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
-                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">2</characteristic>
+                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
                     <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
                     <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">6</characteristic>
                     <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
-                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
-                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
                     <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="32.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -12590,7 +12595,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="3be4-7e72-c80c-d393" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4267-a3dc-2138-2b87" name="Wraithknight" publicationId="555e-9663-pubN65910" page="136" hidden="false" collective="false" import="true" type="model">
@@ -12660,6 +12665,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
             <selectionEntry id="ca18-da48-b9a2-8c66" name="2x Heavy Wraithcannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="2be4-d1db-75a7-e5ca" name="" hidden="false" targetId="a23a-87ce-2685-549f" type="profile"/>
+                <infoLink id="1n21-4x29-j7vl-jk32" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -12951,6 +12957,7 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
             <selectionEntry id="cb14-1f53-49aa-4753" name="D-Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="8d13-4080-88c1-b54c" name="" hidden="false" targetId="8fb0-b50c-5541-99c5" type="profile"/>
+                <infoLink id="7b41-4x89-j7vl-jk32" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="60.0"/>
@@ -12959,6 +12966,7 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
             <selectionEntry id="b3ed-4a31-ed23-63db" name="Wraithcannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="dfec-e9b3-0720-a7d3" name="" hidden="false" targetId="dd84-700c-ae7d-98b7" type="profile"/>
+                <infoLink id="7b41-8x86-j7vl-ag32" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="45.0"/>
@@ -15712,8 +15720,8 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
     <rule id="e105-5c27-50b5-0479" name="Distort Rift" publicationId="555e-9663-pubN70264" page="225" hidden="false">
       <description>The D-Impaler ignores all active void shields and power fields on a target model, but does not destroy or remove them. In addition, after the D-Impaler has fired, roll a D6. On a 4+, leave the Massive Blast (7&quot;) template in place until the beginning of the controlling player&apos;s next game turn. If any model either begins or ends the Movement phase under the template, roll a D6. A non-vehicle model suffers a single wound on the roll of a 6, with no armour saves, Invulnerable saves or cover saves allowed. Vehicle models take a Glancing hit on the roll of a 6. Super-heavy vehicles and Gargantuan Creatures are unaffected.</description>
     </rule>
-    <rule id="daf7-7479-9ca8-1061" name="Distort Scythe" publicationId="555e-9663-pubN65910" page="149" hidden="false">
-      <description>When rolling on the Destroyer Weapon Attack table for a weapon that has this special rule, subtract 1 from the result of the D6 roll (to a minimum of 1). Furthermore, a weapon with this special rule is assumed to have a Strength of 4 for the purposes of determining if a hit has the Instant Death special rule.</description>
+    <rule id="daf7-7479-9ca8-1061" name="Distort" publicationId="555e-9663-pubN65910" page="149" hidden="false">
+      <description>When rolling To Wound against non-vehicle models with this weapon, on rolls of a 6, it wounds automatically (regardless of the targets Toughness) and has the Instant Death special rule. Against vehicles, if this weapon rolls a 6 for armour penetration, it causes a penetrating hit, regardless of whether the armour penetration roll was higher than the vehicle's armour value or not.</description>
     </rule>
     <rule id="61d6-8501-533f-1470" name="Eldar Jetbike" publicationId="555e-9663-pubN116800" page="153" hidden="false">
       <description>A model riding an Eldar Jetbike has a 3+ Armour Save and a Twin-linked Shuriken Catapult. Their unit type also changes to Eldar Jetbike. (See Warhammer 40k Rulebook)</description>
@@ -15987,9 +15995,9 @@ A unit can only make a Soulburst action once per turn.</description>
     <profile id="8fb0-b50c-5541-99c5" name="D-Cannon" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Barrage, Blast</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Barrage, Blast, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="de85-6f72-12af-fc0d" name="D-Flail (Blast)" publicationId="555e-9663-pubN154929" page="174" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -16019,9 +16027,9 @@ A unit can only make a Soulburst action once per turn.</description>
     <profile id="d7af-bc85-dd2d-4891" name="D-scythe" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Distort Scythe</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="07b3-d631-4f39-168f" name="Dark Lance" publicationId="555e-9663-pubN112644" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -16283,9 +16291,9 @@ A unit can only make a Soulburst action once per turn.</description>
     <profile id="2903-1ed7-77aa-b0a0" name="Heavy D-Scythe" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, Distort Scythe</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="dc8e-3d7d-2adc-7b56" name="Heavy Mesh Armour" publicationId="555e-9663-pubN65910" page="153" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -16301,9 +16309,9 @@ A unit can only make a Soulburst action once per turn.</description>
     <profile id="a23a-87ce-2685-549f" name="Heavy Wraithcannon" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="1ab8-31f6-2817-ceda" name="Holo-fields" publicationId="555e-9663-pubN65910" page="155" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -16869,9 +16877,9 @@ A unit can only make a Soulburst action once per turn.</description>
     <profile id="dd84-700c-ae7d-98b7" name="Wraithcannon" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="5e41-1a1d-ee36-0756" name="The Celestial Lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
