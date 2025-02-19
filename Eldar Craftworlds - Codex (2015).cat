@@ -3118,9 +3118,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb04-ee57-3c8c-6949" type="min"/>
-              </constraints>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxInRoster" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ef42-4301-bd53-85af" name="Dire Avenger Exarch" publicationId="555e-9663-pubN65910" page="116" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
