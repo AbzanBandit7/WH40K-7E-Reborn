@@ -5160,9 +5160,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 <infoLink id="58b1-109e-6fbf-02f7" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="d745-eae5-ad72-b7f8" name="Members - 8 - 20" hidden="false" collective="false" import="true" defaultSelectionEntryId="e590-a8f6-12f5-09cc">
+                <selectionEntryGroup id="d745-eae5-ad72-b7f8" name="Members - 10 - 20" hidden="false" collective="false" import="true" defaultSelectionEntryId="e590-a8f6-12f5-09cc">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <selectionEntries>
@@ -5235,7 +5235,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name="pts" typeId="points" value="8.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7e04-9b88-2baf-398e" name="Storm Guardian w/ Flamer" hidden="false" collective="false" import="true" type="model">
@@ -5304,7 +5304,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name="pts" typeId="points" value="8.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4566-7454-08a2-68ae" name="Storm Guardian w/ Fusion Gun" hidden="false" collective="false" import="true" type="model">
@@ -5373,7 +5373,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name="pts" typeId="points" value="8.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3e34-36a7-08e7-4f87" name="Storm Guardian w/ Power Sword and Pistol" hidden="false" collective="false" import="true" type="model">
@@ -5448,7 +5448,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name="pts" typeId="points" value="8.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5466,7 +5466,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 <entryLink id="9f8c-4961-009e-2bf7" hidden="false" collective="false" import="true" targetId="2e27-450d-bac7-6412" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8032,7 +8032,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="12.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8042,7 +8042,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="a1bb-5684-e2c5-aba6" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="917c-2159-1f25-6dac" name="Revenant Titan [FW]" publicationId="555e-9663-pubN70264" page="220" hidden="false" collective="false" import="true" type="unit">
@@ -9632,9 +9632,9 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <infoLink id="24d2-e884-5f7b-5e88" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4331-943e-cc9d-25c9" name="Members - 8 - 20" hidden="false" collective="false" import="true" defaultSelectionEntryId="83b4-7c0f-1ad3-df18">
+        <selectionEntryGroup id="4331-943e-cc9d-25c9" name="Members - 10 - 20" hidden="false" collective="false" import="true" defaultSelectionEntryId="83b4-7c0f-1ad3-df18">
           <constraints>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
@@ -9707,7 +9707,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a5f3-5750-1564-dc8c" name="Storm Guardian w/ Flamer" hidden="false" collective="false" import="true" type="model">
@@ -9772,7 +9772,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="77d0-711c-4509-d587" name="Storm Guardian w/ Fusion Gun" hidden="false" collective="false" import="true" type="model">
@@ -9841,7 +9841,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6ce9-1f3e-37ec-7a05" name="Storm Guardian w/ Power Sword and Pistol" hidden="false" collective="false" import="true" type="model">
@@ -9898,7 +9898,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <infoLink id="551d-2c2a-06e1-676f" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2459-112f-3fb9-c773" name="Shuriken Pistol" hidden="false" collective="true" import="true" type="upgrade">
@@ -9916,7 +9916,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9935,7 +9935,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="7cd9-f264-339a-1589" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="686b-9c21-b3dc-f690" name="Striking Scorpions" publicationId="555e-9663-pubN65910" page="118" hidden="false" collective="false" import="true" type="unit">
@@ -12177,10 +12177,13 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="17.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9655-c850-0f12-a44d" name="Windrider w/ Shuriken Cannon" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="c33b-5179-2f40-3e9b" name="Windrider" publicationId="555e-9663-pubN65910" page="11" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
                   <characteristics>
@@ -12237,10 +12240,13 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="17.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5eb5-4add-3578-6558" name="Windrider w/ Scatter Laser" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="c329-3738-e8e9-46b5" name="Windrider" publicationId="555e-9663-pubN65910" page="11" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
                   <characteristics>
@@ -12296,7 +12302,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="17.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -12306,7 +12312,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="89be-636b-6809-1ee4" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2e0-b265-c182-d363" name="Wraith Constructs" publicationId="555e-9663-pubN65910" page="95" hidden="false" collective="false" import="true" type="upgrade">
