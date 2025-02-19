@@ -5094,7 +5094,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5113,7 +5113,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <entryLink id="6753-b3c5-5f66-c1cb" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de72-ccff-d66e-031b" name="Guardian Stormhost" publicationId="555e-9663-pubN65910" page="140" hidden="false" collective="false" import="true" type="upgrade">
