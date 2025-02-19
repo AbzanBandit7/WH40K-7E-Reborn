@@ -2473,6 +2473,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="babe-8c59-34cc-91c3" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67a8-3924-685d-68b9" type="min"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="9455-bcd1-e4b6-e3fa" name="Dark Reaper Exarch" publicationId="555e-9663-pubN65910" page="129" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -3118,7 +3119,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb04-ee57-3c8c-6949" type="min"/>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+                <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ef42-4301-bd53-85af" name="Dire Avenger Exarch" publicationId="555e-9663-pubN65910" page="116" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -4038,6 +4039,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7bee-17b4-e3ce-5adc" type="min"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="aed3-1fa4-5e56-db49" name="Fire Dragon Exarch" publicationId="555e-9663-pubN65910" page="119" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -6288,6 +6290,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c127-91c0-496c-8cdc" type="min"/>
+                <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="0a58-1123-3720-6766" name="Howling Banshee Exarch" publicationId="555e-9663-pubN65910" page="117" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -8463,6 +8466,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
             <selectionEntry id="343b-ab38-865a-d92e" name="Shadow Spectre Exarch" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="8dbe-6175-5d81-4ce9" name="Shadow Spectre Exarch" publicationId="555e-9663-pubN70264" page="135" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -8871,6 +8875,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2511-974e-a7e6-45fe" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1f-8c45-d623-60d8" type="min"/>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
                       </constraints>
                       <profiles>
                         <profile id="7381-aab2-053e-3044" name="Shadow Spectre Exarch" publicationId="555e-9663-pubN70264" page="135" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -9138,6 +9143,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06cf-ec65-22b2-944b" type="min"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a33a-d6f1-8058-d27d" name="Shining Spear Exarch" publicationId="555e-9663-pubN65910" page="125" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -9967,6 +9973,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca7-e8d4-8aa3-7ee2" type="min"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="8a5c-fa70-8c93-6522" name="Striking Scorpion Exarch" publicationId="555e-9663-pubN65910" page="118" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -10464,6 +10471,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ae-1286-b77f-1bee" type="min"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a806-f0d9-8cc3-cc0d" name="Swooping Hawk Exarch" publicationId="555e-9663-pubN65910" page="123" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -11644,6 +11652,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f43f-9923-4828-8086" type="min"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <profiles>
                 <profile id="fde8-f606-77cd-475b" name="Warp Spider Exarch" publicationId="555e-9663-pubN65910" page="124" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -12987,6 +12996,7 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9876-a1ed-7e39-e564" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
         <rule id="09f3-15ec-4d64-55d8" name="Skyhunter" publicationId="555e-9663-pubN65910" page="126" hidden="false">
