@@ -299,6 +299,11 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <categoryLink id="c3eb-b112-77a7-1224-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="c444-b112-77a7-1224" hidden="false" collective="false" import="true" targetId="522g-d4yu-eplb-04ec" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c444-b112-77a7-1224-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="fccc-4e48-7b1b-c7b3" hidden="false" collective="false" import="true" targetId="bc01-daa0-b610-0ec2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="fccc-4e48-7b1b-c7b3-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
@@ -8053,6 +8058,117 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="522g-d4yu-eplb-04ec" name="Shroud Runners" publicationId="555e-9663-pubN65910" page="115" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="26db-f1fe-9f9b-959d" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
+        <infoLink id="16e4-aa5e-9260-6a3c" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
+        <infoLink id="d816-e67a-7808-471c" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+        <infoLink id="7339-c016-2c04-c54c" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+        <infoLink id="9196-b986-7e93-4d00" hidden="false" targetId="7182-6dce-dc98-9f7c" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="67b8-3119-c221-346b" name="Members - 3 to 6" hidden="false" collective="false" import="true" defaultSelectionEntryId="9rt1-183f-d24b-86cf">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9rt1-183f-d24b-86cf" name="Shroud Runner" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdf2-fhj9-6524-dd6d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3x2c-yt7e-89l6-m96b" name="Shroud Runner" publicationId="555e-9663-pubN65910" page="115" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Eldar Jetbike</characteristic>
+                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                    <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+                    <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                    <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
+                    <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="c541-e495-0e43-2e96" name="Eldar Jetbike" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9y76-2e8f-8f88-b0a6" hidden="false" targetId="61d6-8501-533f-1470" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d92e-2a1e-e823-510b" name="Mesh Armour" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7c62-b0j0-93p0-0565" hidden="false" targetId="96a8-cd3b-9e8c-c772" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="s1tr-3437-2ca7-9475" name="Ranger Long Rifle" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="vn6y-e9c5-5807-7ss0" hidden="false" targetId="3f38-5a1c-3b36-84d6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="zt49-k0cf-8c5c-hew0" name="Scatter Laser" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9208-d0a5-f60f-bd2c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c48d-4175-cc3b-c893" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="87r2-7c69-evfd-0t59" hidden="false" targetId="20df-1398-62ba-3600" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9x08-557b-b889-49c9" name="Shuriken Pistol" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9418-8j64-asz0-4l15" hidden="false" targetId="acaa-8094-58c1-5117" type="profile"/>
+                    <infoLink id="effa-fcd7-e513-5pd2" hidden="false" targetId="ce57-25dd-7d75-6574" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="s0pl-5684-ny46-azd6" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="917c-2159-1f25-6dac" name="Revenant Titan [FW]" publicationId="555e-9663-pubN70264" page="220" hidden="false" collective="false" import="true" type="unit">
