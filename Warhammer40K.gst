@@ -5462,7 +5462,7 @@ Similarly, if a model makes a shooting attack with a weapon that has the Shred s
     <rule id="7182-6dce-dc98-9f7c" name="Shrouded" publicationId="e1ebd931--pubN66380" hidden="false">
       <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it&apos;s in the open.
 
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 3+ cover save).</description>
     </rule>
     <rule id="e6bc-ea23-502f-5042" name="Slow and Purposeful" publicationId="e1ebd931--pubN66380" hidden="false">
       <description>A unit that contains at least one model with this special rule cannot Run, Turbo-boost, move Flat Out, perform Sweeping Advances or fire Overwatch. However, they can shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
@@ -5474,7 +5474,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule.</description>
     </rule>
     <rule id="2ee4-4ad5-04de-d3e2" name="Stealth" publicationId="e1ebd931--pubN66380" page="" hidden="false">
-      <description>A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type. Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to amaximum of a 2+ cover save).</description>
+      <description>A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type. Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to amaximum of a 3+ cover save).</description>
     </rule>
     <rule id="8e8f-e6ca-9f2c-e019" name="Strafing Run" publicationId="e1ebd931--pubN66380" hidden="false">
       <description>When shooting Assault, Heavy, Rapid Fire or Salvo weapons at Artillery, Beasts, Bikes, Cavalry, Infantry, Monstrous Creatures and vehicles without the Flyer or Skimmer type, this vehicle has +1 Ballistic Skill.</description>

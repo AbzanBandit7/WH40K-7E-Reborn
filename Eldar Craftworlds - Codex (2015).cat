@@ -1640,22 +1640,23 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
             <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Monsterous Creature (Character)</characteristic>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">10</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">10</characteristic>
-            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">6</characteristic>
-            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">6</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">7</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">7</characteristic>
             <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">5</characteristic>
             <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">10</characteristic>
             <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">5</characteristic>
             <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
-            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="6ab7-a415-3d7a-c82d" name="Khaine Awakened" publicationId="555e-9663-pubN65910" page="137" hidden="false">
-          <description>The Avatar, and all friendly units with the Eldar faction within 12&quot; of the Avatar, have the Fearless, Furious Charge and Rage special rules.</description>
+          <description>The Avatar, and all friendly units with the Eldar faction within 12&quot; of the Avatar, have the Fearless.</description>
         </rule>
         <rule id="8514-4e5d-69d4-e7e5" name="Molten Body" publicationId="555e-9663-pubN65910" page="137" hidden="false">
-          <description>The Avatar is unaffected by all Pyromancy psychic powers, all flamer weapons as defined in the 40k Rulebook, and all attacks that have the Melta and/or Soul Blaze special rules.</description>
+          <description>The Avatar is unaffected by all Pyromancy psychic powers, all flamer weapons as defined in the 40k Rulebook, and all attacks that have the Melta and/or Soul Blaze special rules. In addition the Strength of all Shooting Attacks made
+against the Avatar is reduced by 1.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2460,7 +2461,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4f6e-a28f-5900-5e73" name="Dark Reaper Exarch" hidden="false" collective="false" import="true" type="model">
@@ -2577,7 +2578,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="40.0"/>
+                <cost name="pts" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2614,7 +2615,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ac1-ceda-dee4-00dc" name="Dire Avenger Shrine" publicationId="555e-9663-pubN65910" page="143" hidden="false" collective="false" import="true" type="upgrade">
@@ -4029,7 +4030,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="22.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1bec-fca0-424e-0a7f" name="Fire Dragon Exarch" hidden="false" collective="false" import="true" type="model">
@@ -4127,7 +4128,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="32.0"/>
+                <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4137,7 +4138,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <entryLink id="abeb-162c-40eb-c6aa" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0735-8ea8-07fc-7537" name="Fire Prism" hidden="false" collective="false" import="true" type="model">
@@ -6280,7 +6281,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ad17-6f14-227e-1676" name="Howling Banshee Exarch" hidden="false" collective="false" import="true" type="model">
@@ -6391,7 +6392,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="23.0"/>
+                <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6401,7 +6402,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <entryLink id="8126-97ba-ce40-bf0f" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ae2-58a9-bb99-46cf" name="Illic Nightspear" publicationId="555e-9663-pubN65910" page="101" hidden="false" collective="false" import="true" type="unit">
@@ -6952,7 +6953,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
             <characteristic name="Side" typeId="d12e-7bdb-191c-4849">12</characteristic>
             <characteristic name="Rear" typeId="a4cb-791a-6a75-4e4a">11</characteristic>
             <characteristic name="HP" typeId="93e6-d4b1-28a8-944b">5</characteristic>
-            <characteristic name="Type" typeId="eb65-838c-8eaa-8b5d">Vehicle (Flyer, Hover)</characteristic>
+            <characteristic name="Type" typeId="eb65-838c-8eaa-8b5d">Vehicle (Tank, Flyer, Hover)</characteristic>
             <characteristic name="Combat Role" typeId="d477-c087-173f-9f1c">Attack Flyer (see Lynx Combat Role)</characteristic>
             <characteristic name="Pursuit" typeId="e04d-332e-8b52-0071">2</characteristic>
             <characteristic name="Agility" typeId="ae34-f5c0-19af-4883">1</characteristic>
@@ -6984,6 +6985,7 @@ The Controlling player may choose to have a Lynx deployed on the table at the be
               <infoLinks>
                 <infoLink id="85bb-5550-12b3-41f2" hidden="false" targetId="0ddd-8c2e-aecc-9dea" type="profile"/>
                 <infoLink id="b748-7946-581d-93b3" hidden="false" targetId="356c-8c7b-eb33-47f1" type="profile"/>
+                <infoLink id="346l-s7kw-jp9l-ag32" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -9013,7 +9015,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                       <costs>
-                        <cost name="pts" typeId="points" value="35.0"/>
+                        <cost name="pts" typeId="points" value="45.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -9071,7 +9073,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
-                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
                     <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
                   </characteristics>
                 </profile>
@@ -9280,7 +9282,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
+                <cost name="pts" typeId="points" value="45.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10133,7 +10135,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="27.0"/>
+                <cost name="pts" typeId="points" value="40.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7516-60d2-51bd-c37f" name="Striking Scorpion" hidden="false" collective="false" import="true" type="model">
@@ -10220,7 +10222,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="17.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10238,7 +10240,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="7788-1da2-330c-7caf" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b951-0a20-a241-a343" name="Sunstorm Squadron" publicationId="555e-9663-pubN76419" page="146" hidden="false" collective="false" import="true" type="upgrade">
@@ -10462,7 +10464,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="16.0"/>
+                <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fda1-986a-98ad-de2f" name="Swooping Hawk Exarch" hidden="false" collective="false" import="true" type="model">
@@ -10490,7 +10492,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">6</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10637,7 +10639,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="26.0"/>
+                <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10647,7 +10649,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="661d-15a1-7ac1-c4ab" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2d5-45b0-e569-dbe3" name="Tanglefield Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -11643,7 +11645,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="19.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f43-1713-ab14-5406" name="Warp Spider Exarch" hidden="false" collective="false" import="true" type="model">
@@ -11756,7 +11758,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="29.0"/>
+                <cost name="pts" typeId="points" value="40.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11766,7 +11768,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <entryLink id="841d-c15f-1d03-7766" name="" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3311-36a5-3c69-3c97" name="Wasp Assault Walkers [FW]" publicationId="555e-9663-pubN70264" page="218" hidden="false" collective="false" import="true" type="unit">
@@ -13532,6 +13534,7 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
             <infoLink id="8b0e-cfe1-bf25-bcf9" hidden="false" targetId="de85-6f72-12af-fc0d" type="profile"/>
             <infoLink id="626b-b3af-623a-6849" hidden="false" targetId="1819-49ba-e5cd-a716" type="profile"/>
             <infoLink id="9f4b-b776-3660-ffd0" hidden="false" targetId="ae8e-ffdc-6dee-b6d0" type="rule"/>
+            <infoLink id="1842-ll29-j7vl-oq62" hidden="false" targetId="daf7-7479-9ca8-1061" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -15794,7 +15797,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <description>All enemy units within 12&quot; of a Shadow Spectre squad that includes an Exarch with this special rule rolls an extra D6 when making Leadership and Morale checks, using the two highest rolls to resolve the test. Models with the Fearless special rule are immune to this effect.</description>
     </rule>
     <rule id="d4df-8983-b2a4-0f6c" name="Shadowstrike" publicationId="555e-9663-pubN65910" page="118" hidden="false">
-      <description>If a unit that consistes entirely of models with this special rule infiltrates, it has the Shrouded special rule. If the unit shoots (including Overwatch) or fights in combat, it loses the Shrouded special rule.</description>
+      <description>Models with this special rule start the game with the Shrouded special rule. The first time they charge an enemy unit, they lose Shrouded and gain the Rage special rule, in addition from that point forward the unit must always move and conslidate towards the closest enemy unit, charging if possible.</description>
     </rule>
     <rule id="4193-5515-9c29-945e" name="Skimmer Assault" publicationId="555e-9663-pubN70264" page="192" hidden="false">
       <description>A vehicle with this special rule that moves Flat Out may fire all its weapons as Snap Shots in the same turn.</description>
@@ -16031,7 +16034,7 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3+1, Blast, Dispersed, Barrage</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3+1, Blast, Distort, Barrage</characteristic>
       </characteristics>
     </profile>
     <profile id="1819-49ba-e5cd-a716" name="D-Flail (Rift)" publicationId="555e-9663-pubN154929" page="174" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -16039,7 +16042,7 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Dispersed</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="6d2d-af15-e63f-c27c" name="D-Impaler" publicationId="555e-9663-pubN70264" page="225" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -16385,17 +16388,17 @@ A unit can only make a Soulburst action once per turn.</description>
     <profile id="0ddd-8c2e-aecc-9dea" name="Lynx Pulsar (Salvo)" publicationId="555e-9663-pubN154929" page="194" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 3, Twin-linked</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 3, Twin-linked, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="356c-8c7b-eb33-47f1" name="Lynx Pulsar (Saturation)" publicationId="555e-9663-pubN154929" page="194" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast, Distort</characteristic>
       </characteristics>
     </profile>
     <profile id="a733-49b0-1a58-c71e" name="Mandiblasters" publicationId="555e-9663-pubN65910" page="154" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
