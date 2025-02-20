@@ -1390,7 +1390,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">6</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3817,7 +3817,7 @@ against the Avatar is reduced by 1.</description>
                 <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                 <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                 <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
-                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9195,13 +9195,13 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry id="c85a-64a5-048a-df48" name="Heavy Aspect Armour" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="c85a-64a5-048a-df48" name="Aspect Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="7f68-4f8f-c2a0-6272" hidden="false" targetId="db0b-5182-b154-fda6" type="profile"/>
+                    <infoLink id="7f68-4f8f-c2a0-6272" hidden="false" targetId="4ea3-9fe7-4d90-bb06" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -9289,13 +9289,13 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 </rule>
               </rules>
               <selectionEntries>
-                <selectionEntry id="14db-26fb-81db-d2a3" name="Heavy Aspect Armour" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="14db-26fb-81db-d2a3" name="Aspect Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="666e-f051-1f8b-d3ba" hidden="false" targetId="db0b-5182-b154-fda6" type="profile"/>
+                    <infoLink id="666e-f051-1f8b-d3ba" hidden="false" targetId="4ea3-9fe7-4d90-bb06" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -12148,7 +12148,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                 <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                 <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
-                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">6+</characteristic>
               </characteristics>
             </profile>
             <profile id="b239-5fd6-a567-b7db" name="Windrider Warlock" publicationId="555e-9663-pubN65910" page="114" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
@@ -12267,7 +12267,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12330,7 +12330,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12393,7 +12393,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16267,7 +16267,7 @@ A unit can only make a Soulburst action once per turn.</description>
     </profile>
     <profile id="67f9-80c5-207b-16da" name="Eldar Jetbike" publicationId="555e-9663-pubN65910" page="153" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model riding an Eldar Jetbike has a 3+ Armour Save and a Twin-linked Shuriken Catapult. Their unit type also changes to Eldar Jetbike. (see 40k Rulebook)</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model riding an Eldar Jetbike adds +1 to their Toughness and Armour Save, and have a Twin-linked Shuriken Catapult, Scatter Laser in the case of Shroud Runners. Their unit type also changes to Eldar Jetbike. (see 40k Rulebook)</characteristic>
       </characteristics>
     </profile>
     <profile id="87c2-b0d7-fcfe-f010" name="Eldar Missile Launcher (Plasma)" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
