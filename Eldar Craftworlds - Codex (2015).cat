@@ -13405,7 +13405,6 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
       </profiles>
       <infoLinks>
         <infoLink id="41cb-535d-d177-c229" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-        <infoLink id="b242-ebba-9178-7d11" hidden="false" targetId="2ee4-4ad5-04de-d3e2" type="rule"/>
         <infoLink id="24c0-3600-418d-01ba" hidden="false" targetId="8e8f-e6ca-9f2c-e019" type="rule"/>
         <infoLink id="98b5-3028-60af-440c" hidden="false" targetId="6fc3-10c7-ad0f-4b3a" type="rule"/>
         <infoLink id="4efa-0ba9-c1f0-9682" hidden="false" targetId="78a5-e7d1-89b3-2fb5" type="rule"/>
@@ -13583,7 +13582,7 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
             <characteristic name="Front" typeId="3a4e-bc1d-4a12-7176">10</characteristic>
             <characteristic name="Side" typeId="d12e-7bdb-191c-4849">10</characteristic>
             <characteristic name="Rear" typeId="a4cb-791a-6a75-4e4a">10</characteristic>
-            <characteristic name="HP" typeId="93e6-d4b1-28a8-944b">2</characteristic>
+            <characteristic name="HP" typeId="93e6-d4b1-28a8-944b">3</characteristic>
             <characteristic name="Type" typeId="eb65-838c-8eaa-8b5d">Vehicle (Flyer)</characteristic>
             <characteristic name="Combat Role" typeId="d477-c087-173f-9f1c">Interceptor</characteristic>
             <characteristic name="Pursuit" typeId="e04d-332e-8b52-0071">5</characteristic>
@@ -15696,6 +15695,8 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
       <description>A model with this special rule has a 4+ cover save unless it remained stationary in its previous Movement phase.</description>
     </rule>
     <rule id="2243-1d72-669d-1780" name="Agile" hidden="false"/>
+      <description>A unit with this special rule increases any cover saves granted by the Jink special rule by +1.</description>
+    </rule>
     <rule id="80e8-2653-cfa1-0d13" name="Ancient Doom" publicationId="555e-9663-pubN65910" page="148" hidden="false">
       <description>A model with this special rule has the Hatred special rule against Daemons of Slaanesh or models with the Mark of Slaanesh. Furthermore, when making Fear tests, a unit containing at least one model with this special rule suffers a -1 penalty to its Leadership if it is engaged in combat with a unit that contains at least one model with the Mark of Slaanesh or the Daemon of Slaanesh special rule.</description>
     </rule>
@@ -15842,8 +15843,6 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
 
 D6     Result
 1       Devoured: the psyker is claimed, body and soul, by the great power which destroyed the Eldar empire of old. The model gains the Daemon of Slaanesh* special rule and no longer acts in its original controlling player&apos;s turn. It instead acts during the opposing player&apos;s turn, is counted as an enemy model and is controlled for the remainer of the battle by the opposing player. If the model was part of a unit when this result was rolled, it is now locked in combat with that unit. The model counts as destroyed for the purposes of Victory points and objectives, and may no longer attempt to manifest Psychic powers after having rolled this result.
-   
-          *Daemon of Slaanesh: a model with this special rule gains the Daemon, Hatred (Daemons of Khorne) and Rend special rules, and may Run an additional 3&quot;.
 
 2-3     Soul-wracked: The cruel caesses of the minions of Slaanesh send the psyker into a paroxysm of pain and twist the intent of their art to murderous purposes. This model and any unit is has joined is treated as though it had failed a Pinning test and Goes to Ground. The opposing player then chooses a new target for the Psychic power the model was attempting to manifest, and may choose for the power to treat units under their control as friendly or enemy for the purposes of targeting the power. The new target unit must be a permissible target as noted under the power&apos;s description, and the opposing player may choose to have the power simply fail if no alternative targets are available or possible.
 
