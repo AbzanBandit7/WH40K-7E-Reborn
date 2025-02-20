@@ -3767,7 +3767,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <infoLink id="1fb6-8a4c-afdd-7b8a" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
         <infoLink id="319d-17a6-4568-6478" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="426x-15sm-4511-6428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
-        </infoLink>
+        <infoLink>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
