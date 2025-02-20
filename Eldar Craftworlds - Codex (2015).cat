@@ -197,7 +197,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
     </entryLink>
     <entryLink id="7971-fe0a-64f8-5747" hidden="false" collective="false" import="true" targetId="4d4f-24e2-e942-41b7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7971-fe0a-64f8-5747-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="7971-fe0a-64f8-5747-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b22c-2625-8ae0-514b" hidden="false" collective="false" import="true" targetId="d421-22ec-4df1-b213" type="selectionEntry">
@@ -1882,6 +1882,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <infoLink id="6d35-4729-1f82-eb2e" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
         <infoLink id="ddb4-53a8-0b53-94c1" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
         <infoLink id="60ce-8b90-9e3e-79c3" hidden="false" targetId="ed92-4bd2-7f00-1801" type="rule"/>
+        <infoLink id="365h-b2v5-5459-sg45" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="accf-846a-33c4-a3ee" name="Ghosthelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3407,6 +3408,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <infoLink id="bb25-4b6e-cc06-73ee" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="9493-03f0-b37d-9f47" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
         <infoLink id="dec4-95c0-0e0f-f54f" hidden="false" targetId="ed92-4bd2-7f00-1801" type="rule"/>
+        <infoLink id="462x-14sm-4511-6428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="bb22-d511-fa83-f1fe" name="Ghosthelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3763,7 +3765,9 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
       <infoLinks>
         <infoLink id="5757-0f72-2c57-2995" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="1fb6-8a4c-afdd-7b8a" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
-        <infoLink id="319d-17a6-4568-6478" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule">
+        <infoLink id="319d-17a6-4568-6478" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
+        <infoLink id="426x-15sm-4511-6428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
+        </infoLink>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9584,6 +9588,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <infoLink id="a9e2-23b8-c4ad-1cfb" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="0be0-d73a-d7c1-5ab7" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
         <infoLink id="42ed-54ed-3779-ebcf" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
+        <infoLink id="642x-14sm-4251-6828" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="5bce-a531-35a1-5f06" name="Rune Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -12880,6 +12885,7 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
         <infoLink id="8a3b-f3f2-56c1-09da" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
         <infoLink id="239c-29a1-38b3-b0c3" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="ac39-2938-ca4c-12bf" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
+        <infoLink id="586x-45mn-3861-0028" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="7d23-5693-613a-0fda" name="Wraithshield" hidden="false" collective="false" import="true" type="upgrade">
@@ -13125,7 +13131,8 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
       <infoLinks>
         <infoLink id="eae7-cbd5-348d-0594" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="ca28-a2e4-b479-0d99" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
-        <infoLink id="63ec-4eab-27d3-4b8d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule">
+        <infoLink id="63ec-4eab-27d3-4b8d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
+        <infoLink id="986x-45sm-5411-9428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14977,6 +14984,7 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
         </infoLink>
         <infoLink id="3dc8-591c-7398-c4ed" name="" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
         <infoLink id="a0f2-53ec-eb09-d003" name="" hidden="false" targetId="b979-afe4-ed51-d7a6" type="rule"/>
+        <infoLink id="365h-d3f5-1849-0028" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="b8f5-8751-5018-4e17" name="Runesuit" publicationId="555e-9663-pubN66004" hidden="false" collective="false" import="true" type="upgrade">
@@ -15694,6 +15702,20 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
     </rule>
     <rule id="6799-f7d7-c08d-b146" name="Assured Destruction" publicationId="555e-9663-pubN65910" page="119" hidden="false">
       <description>Models with this special rule have a +1 modifier when rolling on the Vehicle Damage Table.</description>
+    </rule>
+    <rule id="d8ee-98d6-c1f4-rh63" name="Asuryani Perils of the Warp" publicationId="3ae4-9ad8-pubN65739" page="154" hidden="false">
+      <description>A model with this special rule follows all the usual rules for Psykers and is considered to have the Psyker special rule, but when called upon to roll on the Perils of the Warp table rolls on the following table instead:
+
+D6     Result
+1       Devoured: the psyker is claimed, body and soul, by the great power which destroyed the Eldar empire of old. The model gains the Daemon of Slaanesh* special rule and no longer acts in its original controlling player&apos;s turn. It instead acts during the opposing player&apos;s turn, is counted as an enemy model and is controlled for the remainder of the battle by the opposing player. If the model was part of a unit when this result was rolled, it is now locked in combat with that unit. The model counts as destroyed for the purposes of Victory points and objectives, and may no longer attempt to manifest Psychic powers after having rolled this result.
+   
+          *Daemon of Slaanesh: a model with this special rule gains the Daemon, Hatred (Daemons of Khorne) and Rend special rules, and may Run an additional 3&quot;.
+
+2-3     Soul-wracked: The cruel caresses of the minions of Slaanesh send the psyker into a paroxysm of pain and twist the intent of their art to murderous purposes. This model and any unit it has joined is treated as though it had failed a Pinning test and Goes to Ground. The opposing player then chooses a new target for the Psychic power the model was attempting to manifest, and may choose for the power to treat units under their control as friendly or enemy for the purposes of targeting the power. The new target unit must be a permissible target as noted under the power&apos;s description, and the opposing player may choose to have the power simply fail if no alternative targets are available or possible.
+
+4-5     Warp Terrors: Daemons swirl close about the frayed veil that separates realspace from the Warp, taunting the Eldar witch and their kin with the doom that awaits them. All friendly units with the Faction Eldar Corsair within 6&quot;, including this model and any unit it has joined, must make an immediate Morale check, rolling three D6 and keeping the two highest dice to determine the result.
+
+6         The Eye of She Who Thirsts: The psyker gains the attention of Slaanesh. For the remainder of the game, whenever this model is called upon to take a Psychic test, the controlling player must roll on the Wild Psyker Perils of the Warp table if any doubles are rolled. A model already affected by this result must re-roll any results of 6 on this table.</description>
     </rule>
     <rule id="4df2-e7af-24be-0674" name="Battle Focus" publicationId="555e-9663-pubN65910" page="148" hidden="false">
       <description>A unit comprised entirely of models with the Battle Focus special rule can either shoot and then Run, or Run and then shoot, in the same Shooting phase. The unit must complete both actions before you move onto the next unit - otherwise the chance to make the second action is forfeit.
