@@ -197,7 +197,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
     </entryLink>
     <entryLink id="7971-fe0a-64f8-5747" hidden="false" collective="false" import="true" targetId="4d4f-24e2-e942-41b7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7971-fe0a-64f8-5747-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+        <categoryLink id="7971-fe0a-64f8-5747-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b22c-2625-8ae0-514b" hidden="false" collective="false" import="true" targetId="d421-22ec-4df1-b213" type="selectionEntry">
