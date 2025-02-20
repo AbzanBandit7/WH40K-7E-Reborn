@@ -15871,7 +15871,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <description>When rolling To Wound against non-vehicle models with this weapon, on rolls of a 6, it wounds automatically (regardless of the targets Toughness) and has the Instant Death special rule. Against vehicles, if this weapon rolls a 6 for armour penetration, it causes a penetrating hit, regardless of whether the armour penetration roll was higher than the vehicle's armour value or not.</description>
     </rule>
     <rule id="61d6-8501-533f-1470" name="Eldar Jetbike" publicationId="555e-9663-pubN116800" page="153" hidden="false">
-      <description>A model riding an Eldar Jetbike has a 3+ Armour Save and a Twin-linked Shuriken Catapult. Their unit type also changes to Eldar Jetbike. (See Warhammer 40k Rulebook)</description>
+      <description>A model riding an Eldar Jetbike adds +1 to their Toughness and Armour Save, and have a Twin-linked Shuriken Catapult, Scatter Laser in the case of Shroud Runners. Their unit type also changes to Eldar Jetbike. (see 40k Rulebook)</description>
     </rule>
     <rule id="e60ddb5a-86a2-651e-7941-d8e8a17b9435" name="Fighter Ace (Eldar)" publicationId="555e-9663-pubN87340" page="45" hidden="false">
       <description>Eldar/Dark Eldar:
