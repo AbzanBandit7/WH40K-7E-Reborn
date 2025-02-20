@@ -13131,8 +13131,8 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
       <infoLinks>
         <infoLink id="eae7-cbd5-348d-0594" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="ca28-a2e4-b479-0d99" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
-        <infoLink id="63ec-4eab-27d3-4b8d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="986x-45sm-5411-9428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
+        <infoLink id="63ec-4eab-27d3-4b8d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13140,7 +13140,6 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
               </conditions>
             </modifier>
           </modifiers>
-        </infoLink>
         <infoLink id="0fb5-2735-47b4-f776" hidden="false" targetId="8e59-1172-280d-75e8" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -15703,13 +15702,11 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
     <rule id="6799-f7d7-c08d-b146" name="Assured Destruction" publicationId="555e-9663-pubN65910" page="119" hidden="false">
       <description>Models with this special rule have a +1 modifier when rolling on the Vehicle Damage Table.</description>
     </rule>
-    <rule id="d8ee-98d6-c1f4-rh63" name="Asuryani Perils of the Warp" publicationId="3ae4-9ad8-pubN65739" page="154" hidden="false">
+    <rule id="d8ee-98d6-c1f4-rh63" name="Asuryani Perils of the Warp" publicationId="555e-9663-pubN65910" page="154" hidden="false">
       <description>A model with this special rule follows all the usual rules for Psykers and is considered to have the Psyker special rule, but when called upon to roll on the Perils of the Warp table rolls on the following table instead:
 
 D6     Result
 1       Devoured: the psyker is claimed, body and soul, by the great power which destroyed the Eldar empire of old. The model gains the Daemon of Slaanesh* special rule and no longer acts in its original controlling player&apos;s turn. It instead acts during the opposing player&apos;s turn, is counted as an enemy model and is controlled for the remainder of the battle by the opposing player. If the model was part of a unit when this result was rolled, it is now locked in combat with that unit. The model counts as destroyed for the purposes of Victory points and objectives, and may no longer attempt to manifest Psychic powers after having rolled this result.
-   
-          *Daemon of Slaanesh: a model with this special rule gains the Daemon, Hatred (Daemons of Khorne) and Rend special rules, and may Run an additional 3&quot;.
 
 2-3     Soul-wracked: The cruel caresses of the minions of Slaanesh send the psyker into a paroxysm of pain and twist the intent of their art to murderous purposes. This model and any unit it has joined is treated as though it had failed a Pinning test and Goes to Ground. The opposing player then chooses a new target for the Psychic power the model was attempting to manifest, and may choose for the power to treat units under their control as friendly or enemy for the purposes of targeting the power. The new target unit must be a permissible target as noted under the power&apos;s description, and the opposing player may choose to have the power simply fail if no alternative targets are available or possible.
 
