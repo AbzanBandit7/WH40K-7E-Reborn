@@ -13405,7 +13405,6 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
       </profiles>
       <infoLinks>
         <infoLink id="41cb-535d-d177-c229" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-        <infoLink id="b242-ebba-9178-7d11" hidden="false" targetId="2ee4-4ad5-04de-d3e2" type="rule"/>
         <infoLink id="24c0-3600-418d-01ba" hidden="false" targetId="8e8f-e6ca-9f2c-e019" type="rule"/>
         <infoLink id="98b5-3028-60af-440c" hidden="false" targetId="6fc3-10c7-ad0f-4b3a" type="rule"/>
         <infoLink id="4efa-0ba9-c1f0-9682" hidden="false" targetId="78a5-e7d1-89b3-2fb5" type="rule"/>
@@ -15695,7 +15694,7 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
     <rule id="b0b5-2001-3816-d334" name="Aerobatic Grace" hidden="false">
       <description>A model with this special rule has a 4+ cover save unless it remained stationary in its previous Movement phase.</description>
     </rule>
-    <rule id="2243-1d72-669d-1780" name="Agile" hidden="false"/>
+    <rule id="2243-1d72-669d-1780" name="Agile" publicationId="555e-9663-pubN65910" page="148" hidden="false">
       <description>A unit with this special rule increases any cover saves granted by the Jink special rule by +1.</description>
     </rule>
     <rule id="80e8-2653-cfa1-0d13" name="Ancient Doom" publicationId="555e-9663-pubN65910" page="148" hidden="false">
