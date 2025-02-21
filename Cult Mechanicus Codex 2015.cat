@@ -1024,40 +1024,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <categoryLink id="b133-f7f6-9104-3552-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="db01-0e13-d9f7-2ee2" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5bc2-e061-a439-c689" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false"/>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="db01-0e13-d9f7-2ee2-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b180-59eb-0531-4662" name="New EntryLink" hidden="false" collective="false" import="true" targetId="bdee-f95e-fcbd-01ec" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false"/>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="b180-59eb-0531-4662-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9b32-6c11-4b9e-6870" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6755-ac2f-6fcf-d8ac" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false"/>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="9b32-6c11-4b9e-6870-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0a67-fb03-a3a1-f4aa" name="New EntryLink" hidden="false" collective="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0a67-fb03-a3a1-f4aa-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4c21-00e1-7e4a-84ef" name="New EntryLink" hidden="false" collective="false" import="true" targetId="01cb-069b-1e31-75ee" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4c21-00e1-7e4a-84ef-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d8c1-d75f-cfec-f802" name="Arc claw" publicationId="4fe1-8588-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
