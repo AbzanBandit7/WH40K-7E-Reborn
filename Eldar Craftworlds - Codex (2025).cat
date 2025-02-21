@@ -1699,7 +1699,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="195.0"/>
+        <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9189-615f-ade9-6fbb" name="Baharroth" publicationId="555e-9663-pubN65910" page="106" hidden="false" collective="false" import="true" type="unit">
