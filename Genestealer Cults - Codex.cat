@@ -1202,7 +1202,7 @@ Primus: Preferred Enemy
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="il66-bvoc-d87e-7d61" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="nygh-5611-ed70-f305">
+        <selectionEntryGroup id="il66-bvoc-d87e-7d61" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="egs3-4z6b-sp77-dt26">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -1216,7 +1216,7 @@ Primus: Preferred Enemy
                 <infoLink id="2a9c-12tp-bxq1-c942" hidden="false" targetId="ad0d-b285-72d6-bbe9" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="egs3-4web-30a7-fe76" name="Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -1227,7 +1227,7 @@ Primus: Preferred Enemy
                 <infoLink id="4632-pety-959f-491d" hidden="false" targetId="9777mf0d-9a2f-995e-0a7e-99d0cfdb48db" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="egs3-4z6b-sp77-dt26" name="Achilles Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1238,7 +1238,7 @@ Primus: Preferred Enemy
                 <infoLink id="4632-idwy-72ju-4306" hidden="false" targetId="9xcz-9a2f-995e-0a7e-9d62" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
