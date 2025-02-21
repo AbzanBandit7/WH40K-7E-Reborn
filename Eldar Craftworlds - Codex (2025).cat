@@ -1660,8 +1660,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
           <description>The Avatar, and all friendly units with the Eldar faction within 12&quot; of the Avatar, have the Fearless.</description>
         </rule>
         <rule id="8514-4e5d-69d4-e7e5" name="Molten Body" publicationId="555e-9663-pubN65910" page="137" hidden="false">
-          <description>The Avatar is unaffected by all Pyromancy psychic powers, all flamer weapons as defined in the 40k Rulebook, and all attacks that have the Melta and/or Soul Blaze special rules. In addition the Strength of all Shooting Attacks made
-against the Avatar is reduced by 1.</description>
+          <description>The Avatar is unaffected by all Pyromancy psychic powers, all flamer weapons as defined in the 40k Rulebook, and all attacks that have the Melta and/or Soul Blaze special rules.</description>
         </rule>
       </rules>
       <infoLinks>
