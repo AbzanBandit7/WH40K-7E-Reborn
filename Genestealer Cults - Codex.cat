@@ -105,7 +105,7 @@
         <categoryLink id="233e-53fd-dc83-f265-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ntvg-53fd-dc83-f265" hidden="false" collective="false" import="true" targetId="3vvc-6c21-1954-43bd" type="selectionEntry">
+    <entryLink id="ntvg-53fd-dc83-f265" hidden="false" collective="false" import="true" targetId="3eee-6c21-1954-43bd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ntvg-53fd-dc83-f265-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -1285,7 +1285,11 @@ Primus: Preferred Enemy
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntry id="3vvc-6c21-1954-43bd" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3eee-6c21-1954-43bd" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="7poo-aa78-3124-1698" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e21-a319-2463-0bd9">
           <constraints>
@@ -1298,7 +1302,7 @@ Primus: Preferred Enemy
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d00-f952-9bae-5293" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -4704,6 +4708,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
             <entryLink id="e865-86f7-aca8-a66c" hidden="false" collective="false" import="true" targetId="afef-c367-8ce3-cf7b" type="selectionEntry"/>
             <entryLink id="1687-7c08-5f64-5aef" hidden="false" collective="false" import="true" targetId="3d55-6c21-1954-43bd" type="selectionEntry"/>
             <entryLink id="1025-2474-7775-1865" hidden="false" collective="false" import="true" targetId="d280-a036-93f3-3d67" type="selectionEntry"/>
+            <entryLink id="1025-2474-7775-plok" hidden="false" collective="false" import="true" targetId="3eee-6c21-1954-43bd" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
