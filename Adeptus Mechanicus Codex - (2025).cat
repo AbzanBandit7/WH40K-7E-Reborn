@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4fe1-8588-ca35-920b" name="Adeptus Mechanicus: Codex (2025)" revision="2020" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4fe1-8588-ca35-920b" name="Cult Mechanicus: Codex (2015)" revision="2020" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4fe1-8588-pubN65537" name="Codex: Cult Mechanicus"/>
     <publication id="4fe1-8588-pubN66283" name="Canticles of the Omnissiah"/>
@@ -9,13 +9,10 @@
     <publication id="2301-1cab-pubN65537" name="Codex: Skitarii"/>
     <publication id="2301-1cab-pubN66152" name="Fall of Cadia"/>
     <publication id="2301-1cab-pubN66427" name="Start Collecting! Skitarii"/>
-    <publication id="2301-1cab-pubN72663" name="BRB 2014"/>
-    <publication id="2301-1cab-pubN73033" name="Horus Heresy: Mechanicum - Taghmata Army List"/>
-    <publication id="2301-1cab-pubN75893" name="FW Experimental Rules"/>
-    <publication id="2301-1cab-pubN79167" name="Codex: Cult Mechanicus"/>
     <publication id="2301-1cab-pubN80766" name="Codex: Skitarii "/>
+    <publication id="2301-1cab-pubN75893" name="FW Experimental Rules"/>
   </publications>
-<categoryEntries>
+  <categoryEntries>
     <categoryEntry id="7505-fbc1-3375-6073" name="Formation (Cohort Cult)" hidden="false"/>
     <categoryEntry id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ" hidden="false"/>
     <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false"/>
@@ -29,21 +26,7 @@
     <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false"/>
     <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false"/>
     <categoryEntry id="9743-ce99-3284-5782" name="Primary Detachment" hidden="false"/>
-    <categoryEntry id="4e57-8996-91bc-0957" name="Formation (War Conv.)" hidden="false"/>
-    <categoryEntry id="ffe4-2701-10c2-462e" name="Instructions" hidden="false"/>
-    <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false"/>
-    <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false"/>
-    <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false"/>
-    <categoryEntry id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support" hidden="false"/>
-    <categoryEntry id="d713cda3-5d0f-40d8-b621-69233263ec2a" name="Fortification" hidden="false"/>
-    <categoryEntry id="ff36a6f3-19bf-4f48-8956-adacfd28fe74" name="No Force Org Slot" hidden="false"/>
-    <categoryEntry id="a93d-db3e-7185-c3ff" name="Formation (Cohort Skitarii)" hidden="false"/>
-    <categoryEntry id="b231-38f2-ebec-4fca" name="Eradication Cohort" hidden="false"/>
-    <categoryEntry id="e048-768c-2f31-659e" name="Formation (Conclave Aquisitorius)" hidden="false"/>
-    <categoryEntry id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ" hidden="false"/>
-    <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false"/>
-    <categoryEntry id="41a4-c4a9-7790-4259" name="Primary Detachment" hidden="false"/>
-</categoryEntries>
+  </categoryEntries>
   <forceEntries>
     <forceEntry id="6509-57d1-c3af-6135" name="AdM Cohort Mechanicus" hidden="false">
       <categoryLinks>
@@ -177,101 +160,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a987-506e-03f2-1b32" type="max"/>
             <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="233f-1db4-2a72-5cc3" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="ce48-9bc2-217e-89d8" name="AdM War Convocation" hidden="false">
-      <categoryLinks>
-        <categoryLink id="ce48-9bc2-217e-89d8-4e57-8996-91bc-0957" name="Formation (War Conv.)" hidden="false" targetId="4e57-8996-91bc-0957" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6dc-1863-6a06-f281" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ec2-d28b-030a-bd6a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ce48-9bc2-217e-89d8-ffe4-2701-10c2-462e" name="Instructions" hidden="false" targetId="ffe4-2701-10c2-462e" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="da33-bb2b-3871-bd66" name="AdM Skitarii Maniple" hidden="false">
-      <rules>
-        <rule id="2d1d-b517-db6a-e442" name="Tireless Advance" hidden="false">
-          <description>All models from this Detachment have the Crusader and Scout USR. Units from this Detachment cannot Outflank due to this special rule, but can do as the result of a different special rule (such as Infiltrate, or a Mission special rule).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="623f-33b4-0caf-6794" name="New InfoLink" hidden="false" targetId="1794-e0e0-bedf-e46b" type="rule"/>
-        <infoLink id="8428-9e79-3555-093a" name="New InfoLink" hidden="false" targetId="f987-c2a3-1a7a-9703" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="da33-bb2b-3871-bd66-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1586-17e4-25e2-4405" type="min"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="b1f0-bcab-c2ae-4ae8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="da33-bb2b-3871-bd66-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="1e0b-1376-1d91-bbec" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="da33-bb2b-3871-bd66-c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="bb5e-3662-8ba6-8cb0" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="da33-bb2b-3871-bd66-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="e63f-b5d2-7ae4-21fc" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="da33-bb2b-3871-bd66-d713cda3-5d0f-40d8-b621-69233263ec2a" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="ab81-b305-821c-92ac" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="da33-bb2b-3871-bd66-ff36a6f3-19bf-4f48-8956-adacfd28fe74" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="1f17-a7e2-0b60-3941" name="AdM Cohort Mechanicus" hidden="false">
-      <categoryLinks>
-        <categoryLink id="1f17-a7e2-0b60-3941-a93d-db3e-7185-c3ff" name="Formation (Cohort Skitarii)" hidden="false" targetId="a93d-db3e-7185-c3ff" primary="false"/>
-        <categoryLink id="1f17-a7e2-0b60-3941-ffe4-2701-10c2-462e" name="Instructions" hidden="false" targetId="ffe4-2701-10c2-462e" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="9f6c-e21b-f988-8e17" name="AdM Eradication Cohort" hidden="false">
-      <categoryLinks>
-        <categoryLink id="9f6c-e21b-f988-8e17-b231-38f2-ebec-4fca" name="Eradication Cohort" hidden="false" targetId="b231-38f2-ebec-4fca" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="11dd-be72-b83b-f6fc" name="AdM Conclave Aquisitiorius" publicationId="2301-1cab-pubN66152" hidden="false">
-      <categoryLinks>
-        <categoryLink id="11dd-be72-b83b-f6fc-ffe4-2701-10c2-462e" name="Instructions" hidden="false" targetId="ffe4-2701-10c2-462e" primary="false"/>
-        <categoryLink id="11dd-be72-b83b-f6fc-e048-768c-2f31-659e" name="Formation (Conclave Aquisitorius)" hidden="false" targetId="e048-768c-2f31-659e" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="2086-3a89-9082-e522" name="AdM Grand Convocation" hidden="false">
-      <rules>
-        <rule id="3877-a4e1-279d-baa2" name="Noospheric Choir" hidden="false">
-          <description>If this detachment contains the maximum number of units (excluding troops), all units of this detachment have the Canticles of the Omnissiah USR.</description>
-        </rule>
-        <rule id="2631-e6d3-07e7-fbc8" name="Chosen of the Omnissiah" hidden="false">
-          <description>If this detachment is your primary, you can re-roll the result on the Warlord Trait table.</description>
-        </rule>
-        <rule id="e139-30b6-334c-2793" name="Agents of the Omnissiah" hidden="false">
-          <description>All vehicles in this detachment have the It will not Die USR. In addition, all vehicles that are within 6&quot; of an HQ from this detachment at the start of the turn have the Power of the Machine Spirit USR until the start of your next turn.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="2086-3a89-9082-e522-848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <categoryLink id="2086-3a89-9082-e522-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <categoryLink id="2086-3a89-9082-e522-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <categoryLink id="2086-3a89-9082-e522-c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <categoryLink id="2086-3a89-9082-e522-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <categoryLink id="2086-3a89-9082-e522-c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
-        <categoryLink id="2086-3a89-9082-e522-41a4-c4a9-7790-4259" name="Primary Detachment" hidden="false" targetId="41a4-c4a9-7790-4259" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="491e-8183-b43b-4136" type="max"/>
-            <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="2806-3748-0613-2126" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -901,295 +789,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c1da-0c96-6f59-0e12" name="Dominus Maniple" publicationId="2301-1cab-pubN66427" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="19ae-7f65-9248-abba" hidden="false" targetId="2069-b9d9-1400-c8ea" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="c1da-0c96-6f59-0e12-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cf3e-44d8-4261-a668" name="Tech Priest Dominus" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ae5d-56f9-3484-f8c5" hidden="false" collective="false" import="true" targetId="b2b6-f8d5-ad35-3976" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3252-c4e3-bfb7-5333" name="Skitarii" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11d3-2470-70c9-8053" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e2b2-0d62-f4c0-2918" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c102-d5f8-191c-1cc3" hidden="false" collective="false" import="true" targetId="abe6-f073-e7b7-7560" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ddb-2e6c-4afd-1470" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="31f8-5a92-0d14-7128" hidden="false" collective="false" import="true" targetId="fe8a-7e02-959a-7e87" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d975-1e78-ceed-b0e7" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="b753-2253-264e-b320" name="New EntryLink" hidden="false" collective="false" import="true" targetId="972a-e04a-e9f6-e0e0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b4a9-0698-e324-9e28" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d118-912f-8819-6de7" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6be5-d88d-153a-b105" name="How to create AdMech formations" hidden="false" collective="false" import="true" type="model">
-      <rules>
-        <rule id="d3cf-b48c-a150-91c3" name="Instructions" hidden="false">
-          <description>For every combined formation exists a separate detachment in each codex. They are named appropriately. When building a list, add each detachment with the required units/formations to create the super formation.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="6be5-d88d-153a-b105-ffe4-2701-10c2-462e" hidden="false" targetId="ffe4-2701-10c2-462e" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d640-a4f0-1327-2932" name="Ironstrider Cavaliers" publicationId="2301-1cab-pubN65537" page="67" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="c17a-335e-b299-5893" name="Ident Confirmed" publicationId="2301-1cab-pubN65537" page="67" hidden="false">
-          <description>At first game turn&apos;s start, select an enemy character. This formation re-rolls Wounds against that character and her or his unit.</description>
-        </rule>
-        <rule id="c664-3d4e-a937-3901" name="Mindlnked Hunters" publicationId="2301-1cab-pubN65537" page="67" hidden="false">
-          <description>This formation&apos;s targets are never obscured by this formation&apos;s intervening models.</description>
-        </rule>
-        <rule id="095c-bb56-b6d2-581d" name="The Noose Tightens" publicationId="2301-1cab-pubN65537" page="67" hidden="false">
-          <description>Must reserve all this formation&apos;s units. Roll for all units to arrive simultaneously, beginning your first turn.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="c923-f8a8-e99c-c872" hidden="false" targetId="c2d5-d82e-74f8-fe82" type="rule"/>
-        <infoLink id="7da1-4613-47c4-10e5" hidden="false" targetId="e15d-1437-cfb2-b8dd" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="d640-a4f0-1327-2932-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="aad8-6c07-7056-e143" hidden="false" collective="false" import="true" targetId="987c-9f99-920a-0ef5" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc1a-95ea-5c54-e760" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e94-4719-e1c5-75e2" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e7d5-e543-6e2c-4612" hidden="false" collective="false" import="true" targetId="4e77-55d8-bbc8-144d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00bd-6dc3-fc4e-2576" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc38-727c-f7e9-e04c" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="15ba-8111-7f7c-75c6" name="Show Forgeworld" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="15ba-8111-7f7c-75c6-ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ba12-f7f9-a658-d326" name="Sicarian Killclade" publicationId="2301-1cab-pubN65537" page="66" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="6ea3-da90-0172-8809" name="Malignant Susurrations" publicationId="2301-1cab-pubN65537" page="66" hidden="false">
-          <description>This formation&apos;s Infiltrators&apos; Neurostatic Aura extends 12&quot; instead of 6&quot;.</description>
-        </rule>
-        <rule id="c5ca-3a67-1ea6-e01c" name="Slaughtersprint" publicationId="2301-1cab-pubN65537" page="66" hidden="false">
-          <description>During any one turn after the first, this formation&apos;s Ruststalkers may charge after running.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="ba12-f7f9-a658-d326-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="cb37-9f6a-1504-1bde" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4609-c966-1649-c1f6" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5a8-1138-c509-e24a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26d3-d7bf-a889-0487" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1068-288e-3fc8-3ec0" hidden="false" collective="false" import="true" targetId="8cf8-701d-d60c-5d93" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c784-6996-5c7a-d4c1" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4bc6-c2fd-5878-6a9c" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b01a-2ebb-5719-3535" name="Cohort Mechanicus" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="92f2-dd29-c1ad-461f" name="Alpha Primus" hidden="false">
-          <description>If this formation&apos;s Tech Priest Dominus is your warlord, he can generate his Warlord Trait from either Codex: Skitarii or Codex: Cult Mechanicus.</description>
-        </rule>
-        <rule id="565a-69e7-40c6-2ba9" name="The Primus Canticle" hidden="false">
-          <description>All units in a Cohort Mechanicus have the Canticle of the Omnissiah special rule (see Codex: Cult Mechancus), even though they do not have the Cult Mechanicus Faction. In addition, if your army contains a Cohort Mechanicus, you can use the following Canticle of the Omnissiah in addition to those listed in Codex: Cult Mechanicus. This Canticle can never be used more than once in the same battle.
-
-BLESSING OF BINHARIC DELIVERANCE
-The unalloyed version of this famous blessing carries great power. It siphons a fraction of the Motive Force from those faithful nearby and releases it in the form of crackling electrogheists that intercept incoming shots, delivering the Omnissiah&apos;s chosen from harm.
-
-Units / Effect
-1-3 = All friendly models with the Canticles of the Omnissiah special rule have a 6+ Invulnerable save
-4-7 = All friendly models with the Canticles of the Omnissiah special rule have a 5+ Invulnerable save
-8 + = All friendly models with the Canticles of the Omnissiah special rule have a 4+ Invulnerable save </description>
-        </rule>
-        <rule id="9b87-d353-8290-ad5d" name="The Primus Imperative" hidden="false">
-          <description>All units in a Cohort Mechanicus have the Doctrina Imperatives special rule (see Codex: Skitarii), even though they do not have the Skitarii Faction.
-In addition, if your army contains a Cohort Mechanicus, you can use the following Doctrina Imperative in addition to those listed in Codex: Skitarii. This Imperative can never be used more than once on the same battle.
-
-EXECUTIONER EXTREMIS (PRIMUS)
-The proscribed imperative known as Executioner Exremis drives the faithful to the absolute peak of their potential. Rumours exist that it causes subtle but irreparable damage to brain stems and circuit nests in the process, but discerning Tech-Priests judge the sacrifice worthwhile.
-
-Until the start of your next turn, all friendly models with the Doctrina Imperatives special rule add 3 to both their Ballistic Skill and Weapon Skill characteristics.
-</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="b01a-2ebb-5719-3535-a93d-db3e-7185-c3ff" hidden="false" targetId="a93d-db3e-7185-c3ff" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="dede-2232-c8bb-efd3" name="Walkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cbf-d018-d606-72af">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c031-7d7e-7c4e-f9f9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8dd8-c20f-c7ae-811a" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="4426-a54f-639e-c1ed" hidden="false" collective="false" import="true" targetId="9a9d-b23d-b041-d17a" type="selectionEntry"/>
-            <entryLink id="6cbf-d018-d606-72af" hidden="false" collective="false" import="true" targetId="bf51-df45-8f2d-ab4c" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="1405-0bbd-482d-c04d" hidden="false" collective="false" import="true" targetId="8cf8-701d-d60c-5d93" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d9b-2e8d-404c-444e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ba4-554f-10fa-9fec" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="cb3f-1c82-67f8-d318" name="" hidden="false" collective="false" import="true" targetId="b5a3-28a2-1846-7742" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c9c-b7e8-bf94-0a34" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e9a-98f9-4df8-b5ba" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1326-31fe-9341-e99e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="abe6-f073-e7b7-7560" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b32-b354-bd5a-8182" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c49c-0fc3-96cb-8134" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="db0c-537a-a708-e812" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fe8a-7e02-959a-7e87" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b97-5bc5-0e92-60d4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53aa-3c38-b2c5-2f97" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="3637-e232-0ce4-3095" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4609-c966-1649-c1f6" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f5c-f045-13b3-5f5d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cdcf-d253-18fc-e2ea" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c874-3ec8-f557-4e40" name="Eradication Cohort" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d5-1f26-be3b-c573" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="575b-fa4e-fe3d-d4eb" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="c874-3ec8-f557-4e40-b231-38f2-ebec-4fca" hidden="false" targetId="b231-38f2-ebec-4fca" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="13e9-0c36-7d74-df65" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8101-fe83-7bc3-0cb3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9108-d15e-86ac-4183" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eea-c042-2264-2b72" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a694-feb5-8714-d745" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4609-c966-1649-c1f6" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eea-7b79-628a-c977" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b25-2b86-1a71-2f12" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1b4f-4e84-74a4-a466" name="Conclave Aquisitorius" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302f-d01a-1350-10e7" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6873-03c8-222d-1cf9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="1b4f-4e84-74a4-a466-e048-768c-2f31-659e" hidden="false" targetId="e048-768c-2f31-659e" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ac37-f0b8-e84d-2943" name="Maniples or Cohort" hidden="false" collective="false" import="true" defaultSelectionEntryId="9675-4fa7-32a9-c2be">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="128d-67cb-1bc4-629d" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e7-ace7-ea59-fec1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9675-4fa7-32a9-c2be" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f2be-9d6c-bbfa-b2ee" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fdb7-4442-212d-6593" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="1b4f-4e84-74a4-a466" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5fa0-6faf-6b59-894b" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdb7-4442-212d-6593" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="5fa0-6faf-6b59-894b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="40ff-ce13-d176-71a8" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="7a18-c315-72a2-07d8" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="1b4f-4e84-74a4-a466" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2be-9d6c-bbfa-b2ee" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a18-c315-72a2-07d8" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -5768,6 +5367,7 @@ Buildings and Fortifications: D</description>
 Roll a D6 and add the following modifiers (if applicable): +1 for a Servo Harness, and +1 for each Servo armed servitor in his unit.
 If the result is 5 or more you may either restore a Hull Point or repair a Weapon Destroyed or Immobilised result, this is effective immediately (ie the vehicle can then fire the repaired weapon)</description>
     </rule>
+    
     <rule id="c9ed-17d1-ac41-a27c" name="Adeptus Titanicus Faction" hidden="false">
       <description>All Secutarii units have the Adeptus Titanicus Faction. The Adeptus Titanicus are part of the Armies of the Imperium and ally as such
 as described in the Allies section of Warhammer 40,000: The Rules.</description>
