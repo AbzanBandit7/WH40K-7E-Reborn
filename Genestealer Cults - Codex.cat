@@ -105,7 +105,7 @@
         <categoryLink id="233e-53fd-dc83-f265-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ntvg-53fd-dc83-f265" hidden="false" collective="false" import="true" targetId="5re7-54e0-7ac9-3dc4" type="selectionEntry">
+    <entryLink id="ntvg-53fd-dc83-f265" hidden="false" collective="false" import="true" targetId="3vvc-6c21-1954-43bd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ntvg-53fd-dc83-f265-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -1283,6 +1283,18 @@ Primus: Preferred Enemy
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntry id="3vvc-6c21-1954-43bd" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7poo-aa78-3124-1698" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e21-a319-2463-0bd9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="iitt-a319-2463-0bd9" hidden="false" collective="false" import="true" targetId="5re7-54e0-7ac9-3dc4" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
