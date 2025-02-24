@@ -2276,34 +2276,6 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                 <cost name="pts" typeId="points" value="195.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0fa4-c15d-ae42-3d71" name="Mindstorm Squadron" publicationId="555e-9663-pubN78255" page="51" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="ebba-ea1e-e1a9-f889" name="Mindstorm" publicationId="555e-9663-pubN78255" page="51" hidden="false">
-                  <description>A Mindstorm Squadron of two or more Hemlock Wraithfighters may combine their fire to create a Mindstorm. The Mindstorm is of varying size depending on the number of Hemlocks within 12&quot; of the Command Vehicle (including the Command Vehicle itself).
-
-        2 - Blast (3&quot;)
-        3 - Large Blast (5&quot;)
-        4 - Massive Blast (7&quot;)
-        5 - Apocalyptic Blast (10&quot;)
-
-        Instead of firing their heavy D-Scythes normally, the formation may place a blast marker of any size up to the maximum listed on the table above. It must be placed anywhere within 72&quot; and within line of sight of all of the Hemlocks contributing to the Mindstorm. Then roll for scatter. Any unit touched by the blast marker is not hit as normal but instead must pass a Leadership test on 3D6 plus the number of contributors. If the unit fails this test, it suffers a number of wounds equal to the amound by which the test was failed. Armour and cover saves cannot be taken against wounds caused by Mindstorm. If the Mindstorm touches a vehicle, make an unmodified roll on the Vehicle Damage table and apply the result - no Hull Point damage is inflicted.</description>
-                </rule>
-              </rules>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="98ba-f230-664c-06a1" name="Hemlock Wraithfighters - 3 to 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="a2a9-156d-4b49-77c6">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="a2a9-156d-4b49-77c6" hidden="false" collective="false" import="true" targetId="ee6c-7b23-6648-dc61" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
