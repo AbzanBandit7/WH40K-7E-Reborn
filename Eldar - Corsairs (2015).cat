@@ -555,28 +555,11 @@ Any other character model chosen as part of the same Detachment as a Corsair Pri
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="8c6b-cd95-56ab-b880" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ec6c-8056-2b8d-ce13" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0de-65bb-046f-8efe" type="notEqualTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink id="4ec6-b023-d4b7-4daf" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ec6c-8056-2b8d-ce13" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0de-65bb-046f-8efe" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d0de-65bb-046f-8efe" name="Members - 5 to 10" hidden="false" collective="false" import="true" defaultSelectionEntryId="e15c-361c-ddb2-5dcc">
@@ -1166,7 +1149,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
             <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
             <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
             <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8/5</characteristic>
-            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1248,7 +1231,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
                     <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                     <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9/6</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1440,7 +1423,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
                         <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                         <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8/5</characteristic>
-                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1490,7 +1473,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
                         <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                         <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8/5</characteristic>
-                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1541,7 +1524,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
                         <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                         <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8/5</characteristic>
-                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1627,7 +1610,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
                         <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                         <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8/5</characteristic>
-                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1677,7 +1660,7 @@ No more than one Corsair Baron may be assigned to any single unit, and a Cloud D
                         <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
                         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
                         <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8/5</characteristic>
-                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4411,28 +4394,11 @@ In addition, Zooming Flyers of the Interceptor type always count as having the S
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="faee-81ac-5f22-9ab7" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="6602-7acd-8055-3a88" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc4-aad3-fa3a-e298" type="notEqualTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink id="7687-07b8-6c1f-8335" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="6602-7acd-8055-3a88" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc4-aad3-fa3a-e298" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="81e8-f556-d6cb-3fb6" name="Prince Bonus" hidden="true" collective="false" import="true">
@@ -4594,7 +4560,7 @@ During the Dogfight phase, if a player has any Air Leviathan in Reserves or Ongo
       </profiles>
       <rules>
         <rule id="755d-41c6-488b-6fd7" name="Transport Capacity (Corsair Venom)" publicationId="3ae4-9ad8-pubN65739" page="166" hidden="false">
-          <description>The Venom may carry five models.</description>
+          <description>The Venom may carry six models.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5291,28 +5257,11 @@ During the Dogfight phase, if a player has any Air Leviathan in Reserves or Ongo
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="296d-1ab9-573b-4e23" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="32ef-a338-6ac8-b805" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2bef-b845-8ba0-f801" type="notEqualTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink id="6ba6-38b5-7dc4-cc8a" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="32ef-a338-6ac8-b805" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2bef-b845-8ba0-f801" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7070,7 +7019,7 @@ Lust for Dark Power: The power of his ancestors sings through him, encouraging t
       <description>A weapon with this type rolls 3D6 for Armour Penetration rolls, adding the results together to determine the final result. If any of the dice rolled for Armour Penetration score a 6, the Strength of the weapon is increased by +1 and the AP is improved by -1.</description>
     </rule>
     <rule id="61d6-8501-533f-1470" name="Eldar Jetbike" publicationId="3ae4-9ad8-pubN99925" page="153" hidden="false">
-      <description>A model riding an Eldar Jetbike has a 3+ Armour Save and a Twin-linked Shuriken Catapult. Their unit type also changes to Eldar Jetbike. (See Warhammer 40k Rulebook)</description>
+      <description>A model riding an Eldar Jetbike adds +1 to their Toughness and Armour Save, and have a Twin-linked Shuriken Catapult, Scatter Laser in the case of Shroud Runners. Their unit type also changes to Eldar Jetbike. (see 40k Rulebook)</description>
     </rule>
     <rule id="e60ddb5a-86a2-651e-7941-d8e8a17b9435" name="Fighter Ace" publicationId="3ae4-9ad8-pubN105674" hidden="false">
       <description>Eldar/Dark Eldar:

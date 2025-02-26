@@ -12312,7 +12312,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
+                        <condition field="selections" scope="5926-905e-64dd-70c2" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
                         <condition field="selections" scope="5926-905e-64dd-70c2" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
@@ -12322,7 +12322,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
+                        <condition field="selections" scope="5926-905e-64dd-70c2" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>

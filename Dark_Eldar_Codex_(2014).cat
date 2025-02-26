@@ -6826,7 +6826,7 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
         <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
         <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Skimmer, Fast, Open-topped, Transport (10)</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Skimmer, Fast, Open-topped, Transport (11)</characteristic>
       </characteristics>
     </profile>
     <profile id="10df333a-f7e2-c4e7-d3eb-2c4cacf610ac" name="Ravager" page="0" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
@@ -7227,7 +7227,7 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
         <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
         <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Skimmer, Fast, Open-topped, Transport (5)</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Skimmer, Fast, Open-topped, Transport (6)</characteristic>
       </characteristics>
     </profile>
     <profile id="33caa9d7-2bd8-3fb5-75e7-d6f5e5c43107" name="Venom Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

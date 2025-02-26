@@ -265,7 +265,7 @@ Wound rolls of 1 in the Shooting phase.</description>
                         <infoLink id="da81fe3b-13a4-a7be-48e5-fa2e4e8eee19" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e52a6783-f75e-d74e-b441-d3d971fae1ba" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -276,7 +276,7 @@ Wound rolls of 1 in the Shooting phase.</description>
                         <infoLink id="950bf2ea-fd67-10f1-c1c8-4caafb603d5a" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -541,12 +541,12 @@ Wound rolls of 1 in the Shooting phase.</description>
                 <entryLink id="6bc9c7d9-89a1-ac80-1c89-9b4672c89bae" hidden="false" collective="false" import="true" targetId="f7e7a6e8-3838-f8db-3380-ad8b10c489ec" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="120.0"/>
+                <cost name="pts" typeId="points" value="100.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="daf625e0-9cb5-68da-c7d9-a24273d83a78" name="Tyrannofex" publicationId="f2f40acf--pubN65999" page="95" hidden="false" collective="false" import="true" type="model">
@@ -2407,7 +2407,7 @@ these Victory Points.</description>
                         <infoLink id="b8ef6f13-4da8-262a-44ca-edaac817e4ca" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="75aa417d-2422-efd0-4e1f-058ee6bd8d6a" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2418,7 +2418,7 @@ these Victory Points.</description>
                         <infoLink id="055a7093-c055-25d5-f4fc-cfbad07b9fd6" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3013,7 +3013,7 @@ these Victory Points.</description>
                         <infoLink id="a746befe-0eba-d693-85f9-2b3f0844bd0a" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2c77e186-3afb-1dc6-fd8e-0f2af0ea7b04" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3024,7 +3024,7 @@ these Victory Points.</description>
                         <infoLink id="26b4b647-fbc6-5f09-17de-20c90f9b5ff0" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3912,7 +3912,7 @@ suffer -5 to their Initiative
                         <infoLink id="4e1b-1855-4590-a887" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d736-cfac-7190-2b21" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3923,7 +3923,7 @@ suffer -5 to their Initiative
                         <infoLink id="8952-a7d1-09b4-e3c3" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5143,7 +5143,7 @@ suffer -5 to their Initiative
                         <infoLink id="c3f7d40e-31bf-97e1-66b8-a7543ff33fe0" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="07e7ba8e-d60c-25c0-9eb2-fc3a58b56dee" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5154,7 +5154,7 @@ suffer -5 to their Initiative
                         <infoLink id="29b4c1e5-a3ba-d4ba-3002-230e41c3af3b" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -6721,7 +6721,7 @@ suffer -5 to their Initiative
                         <infoLink id="7f9fd856-0896-ecac-5642-fd1f9a6aafa6" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ed3ab1ed-5508-f767-0ff2-54b22a95f313" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -6732,7 +6732,7 @@ suffer -5 to their Initiative
                         <infoLink id="c64df3d1-06f3-6abd-9330-a8427c7ca927" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -7726,7 +7726,7 @@ Leviathan II).</description>
                         <infoLink id="8d5602fa-7cfb-a193-7c38-d24581a7e486" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bc56bcec-9092-ab8e-4513-bf0321ee28e9" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -7737,7 +7737,7 @@ Leviathan II).</description>
                         <infoLink id="9f7fbfd7-93e9-4894-d892-3e7da3cd8be1" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -7908,7 +7908,7 @@ Leviathan II).</description>
                             <infoLink id="3d2a3fe1-a623-b821-a4d8-224ef567ad6e" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="10.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="232c6be9-2a4e-36f9-259c-c1a0d89149cd" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -7919,7 +7919,7 @@ Leviathan II).</description>
                             <infoLink id="6854f67c-8187-d546-e7d1-951fe3f22b66" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="20.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -8771,7 +8771,7 @@ Leviathan II).</description>
                             <infoLink id="e8b8c4ae-4fbf-017f-efe8-4c619ee1f7ff" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="10.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="c1cfffbf-65d4-e942-c7ec-afa1e474c5c1" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8782,7 +8782,7 @@ Leviathan II).</description>
                             <infoLink id="f9ad22a9-7ebe-bf6a-6850-5ac75916a4f7" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="20.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -9868,7 +9868,7 @@ Leviathan II).</description>
                             <infoLink id="c6575bd3-f6cd-3190-1836-f62660058164" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="10.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="44f28a46-a30c-1484-893e-ee7cc4365271" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -9879,7 +9879,7 @@ Leviathan II).</description>
                             <infoLink id="a6ae85c5-f2c7-110d-c80b-29f28496818e" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="20.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -14953,7 +14953,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                     <infoLink id="042a9256-c334-5e0f-bda7-c9da9d595a91" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f693eb9c-b261-aded-8ab1-2e0d3ac12aff" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -14964,7 +14964,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                     <infoLink id="47fd1b98-c262-66fe-5de5-2158671f2679" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="20.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -15146,7 +15146,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                         <infoLink id="a8b81e3f-0592-79e5-fca7-fdab6da3eac1" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5ef7d3f5-e8c9-0434-ea2c-c00c1b6a56e1" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -15157,7 +15157,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                         <infoLink id="560c2c7d-e8f4-47fb-b042-5399e57ffdeb" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -17491,7 +17491,7 @@ Formation&apos;s Tyranid Warrior Brood can re-roll failed To Wound rolls of 1 in
                         <infoLink id="ad1c3d0f-42ab-e3c2-b218-ead69a396967" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="097d341e-2dab-59b9-d7ad-22fdb6921ea7" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -17502,7 +17502,7 @@ Formation&apos;s Tyranid Warrior Brood can re-roll failed To Wound rolls of 1 in
                         <infoLink id="93c3b17a-83d9-30a3-ca92-96d15ea7d9dc" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -21671,7 +21671,7 @@ own, unless their own would be higher for any reason.</description>
                 <infoLink id="3724-6a06-6429-fa81" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed4e-e022-7d73-b434" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -21682,7 +21682,7 @@ own, unless their own would be higher for any reason.</description>
                 <infoLink id="ffea-71ef-b701-16ce" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -22060,7 +22060,7 @@ own, unless their own would be higher for any reason.</description>
                     <infoLink id="8f6b-621b-3516-cfe8" hidden="false" targetId="8b10bd36-32b3-540b-bb93-5a057b02f5fb" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8141-fdd3-c97a-832e" name="Lashwhip &amp; Boneswords" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -22071,7 +22071,7 @@ own, unless their own would be higher for any reason.</description>
                     <infoLink id="8e6a-c5e1-c25a-863b" hidden="false" targetId="c120996b-3afb-1f41-fcbf-a29cc0165927" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="20.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
