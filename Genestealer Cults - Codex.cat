@@ -2601,6 +2601,42 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="412b-754m-ds58-c356" name="Incinerator" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="eu76-d26a-0xws-4b1b3" hidden="false" targetId="werf-4cde-7783-1bom" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="rvww-70da-a6324-csb6" name="jackal Small Arms" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e1c7-d3z1-0yy4-4hnjc" hidden="false" targetId="2vcb-dqrewe-71ac-bxa0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="rfrf-932v-ed29-fij0" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2isq-6a4c-nukj-44af" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="7fc4-a083-d5cf-b43a" name="Hybrid Metamorphs" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ec26-6432-2f8c-04e3" hidden="false" targetId="5e06-11ab-8ac6-6375" type="rule"/>
@@ -3934,6 +3970,18 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="lmo20-9qp9-0a94-33b3" name="Atalan Power Weapon" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7fc9-aqrt-0bvc-0d72" hidden="false" targetId="cesw-2d4b-f9ef-aeef" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="f6c9-f5a0-5a66-c0a1" name="Primus" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="maxInForce" value="1">
@@ -4170,9 +4218,9 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
             <infoLink id="5a86-cces-324b-9854" hidden="false" targetId="97fa-f269-4a0b-pirs" type="profile"/>
           </infoLinks>
           <entryLinks>
-            <entryLink id="qwcesj-2361-9352-3759" hidden="false" collective="false" import="true" targetId="e294-a5c7-e01e-0a82" type="profile"/>
-            <entryLink id="cesj-2cezf-9352-3759" hidden="false" collective="false" import="true" targetId="2vcb-dqrewe-71ac-bxa0" type="profile"/>
-            <entryLink id="cesj-2dqf-9352-3759" hidden="false" collective="false" import="true" targetId="cesw-2d4b-f9ef-aeef" type="profile"/>
+            <entryLink id="qwcesj-2361-9352-3759" hidden="false" collective="false" import="true" targetId="9d00-f952-9bae-5293" type="selectionEntry"/>
+            <entryLink id="cesj-2cezf-9352-3759" hidden="false" collective="false" import="true" targetId="rvww-70da-a6324-csb6" type="selectionEntry"/>
+            <entryLink id="cesj-2dqf-9352-3759" hidden="false" collective="false" import="true" targetId="lmo20-9qp9-0a94-33b3" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="16.0"/>
@@ -4203,8 +4251,8 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <infoLink id="5a86-c2v3-324b-9854" hidden="false" targetId="97fa-f269-4a0b-5zzz" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="qwpj-2361-9352-3759" hidden="false" collective="false" import="true" targetId="e294-a5c7-e01e-0a82" type="profile"/>
-                <entryLink id="qwpj-2dqf-9352-3759" hidden="false" collective="false" import="true" targetId="2vcb-dqrewe-71ac-bxa0" type="profile"/>
+                <entryLink id="qwpj-2361-9352-3759" hidden="false" collective="false" import="true" targetId="9d00-f952-9bae-5293" type="selectionEntry"/>
+                <entryLink id="qwpj-2dqf-9352-3759" hidden="false" collective="false" import="true" targetId="rvww-70da-a6324-csb6" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
@@ -4218,7 +4266,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <infoLink id="5a86-c2v3-324b-tttr4" hidden="false" targetId="97fa-f269-4a0b-5zzz" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="qwpj-2361-9ad352-3759" hidden="false" collective="false" import="true" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                <entryLink id="qwpj-2361-9ad352-3759" hidden="false" collective="false" import="true" targetId="9d00-f952-9bae-5293" type="selectionEntry"/>
                 <entryLink id="b23a-asny-tjyt-42eb" hidden="false" collective="false" import="true" targetId="4e41-70da-a6f8-c2b6" type="selectionEntry"/>
               </entryLinks>
               <costs>
@@ -4258,9 +4306,9 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <infoLink id="bbtt-cxaw1-324b-9854" hidden="false" targetId="97fa-fax9-4axb-5xxx" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="qwpj-2361-qv12-33j59" hidden="false" collective="false" import="true" targetId="e294-a5c7-e01e-0a82" type="profile"/>
-                <entryLink id="qwpj-2dqf-sysb2-3759" hidden="false" collective="false" import="true" targetId="2vcb-dqrewe-71ac-bxa0" type="profile"/>
-                <entryLink id="1231-2142-9vdv2-3yje" hidden="false" collective="false" import="true" targetId="0437-bd86-51f9-9c86" type="profile"/>
+                <entryLink id="qwpj-2361-qv12-33j59" hidden="false" collective="false" import="true" targetId="9d00-f952-9bae-5293" type="selectionEntry"/>
+                <entryLink id="qwpj-2dqf-sysb2-3759" hidden="false" collective="false" import="true" targetId="rvww-70da-a6324-csb6" type="selectionEntry"/>
+                <entryLink id="1231-2142-9vdv2-3yje" hidden="false" collective="false" import="true" targetId="770c-8a60-e262-918d" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="42.0"/>
@@ -4271,9 +4319,9 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <infoLink id="b15t-c1631-39ib-9gte" hidden="false" targetId="97fa-fax9-4axb-5xxx" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="q15r-2361-qv12-33j59" hidden="false" collective="false" import="true" targetId="e294-a5c7-e01e-0a82" type="profile"/>
-                <entryLink id="q87mj-2dqf-sysb2-3759" hidden="false" collective="false" import="true" targetId="2vcb-dqrewe-71ac-bxa0" type="profile"/>
-                <entryLink id="1231-2kki2-asdv2-31ve" hidden="false" collective="false" import="true" targetId="werf-4cde-7783-1bom" type="profile"/>
+                <entryLink id="q15r-2361-qv12-33j59" hidden="false" collective="false" import="true" targetId="9d00-f952-9bae-5293" type="selectionEntry"/>
+                <entryLink id="q87mj-2dqf-sysb2-3759" hidden="false" collective="false" import="true" targetId="rvww-70da-a6324-csb6" type="selectionEntry"/>
+                <entryLink id="1231-2kki2-asdv2-31ve" hidden="false" collective="false" import="true" targetId="412b-754m-ds58-c356" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="37.0"/>
@@ -4284,9 +4332,9 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <infoLink id="b15t-piz1-39ib-9gte" hidden="false" targetId="97fa-fax9-4axb-5xxx" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="q15r-2361-qpiz-33j59" hidden="false" collective="false" import="true" targetId="e294-a5c7-e01e-0a82" type="profile"/>
-                <entryLink id="q87mj-2pizf-sysb2-3759" hidden="false" collective="false" import="true" targetId="2vcb-dqrewe-71ac-bxa0" type="profile"/>
-                <entryLink id="1piz-2kki2-asdv2-31ve" hidden="false" collective="false" import="true" targetId="0031-0314-5b36-a220" type="profile"/>
+                <entryLink id="q15r-2361-qpiz-33j59" hidden="false" collective="false" import="true" targetId="9d00-f952-9bae-5293" type="selectionEntry"/>
+                <entryLink id="q87mj-2pizf-sysb2-3759" hidden="false" collective="false" import="true" targetId="rvww-70da-a6324-csb6" type="selectionEntry"/>
+                <entryLink id="1piz-2kki2-asdv2-31ve" hidden="false" collective="false" import="true" targetId="rfrf-932v-ed29-fij0" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="32.0"/>

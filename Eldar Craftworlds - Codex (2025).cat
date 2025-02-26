@@ -12372,22 +12372,9 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1ebc-b46d-7566-633c" name="Shuriken Cannon" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="3f64-6223-fefe-1665" hidden="false" targetId="c208-d493-2195-7587" type="profile"/>
-                    <infoLink id="a1f6-e473-1ee7-3e76" hidden="false" targetId="ce57-25dd-7d75-6574" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5a7f-4a01-6bc7-63e9" name="Weapon Selection - 1 required" hidden="false" collective="false" import="true" defaultSelectionEntryId="66fc-28aa-ba51-b91f">
+                <selectionEntryGroup id="5aerf-4131-6bc7-63e9" name="Weapon Selection - 1 required" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ebc-b46d-7566-633c">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
