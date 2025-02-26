@@ -551,8 +551,8 @@ Any other character model chosen as part of the same Detachment as a Corsair Pri
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8c6b-cd95-56ab-b880" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry">
-            <entryLink id="4ec6-b023-d4b7-4daf" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry">
+            <entryLink id="8c6b-cd95-56ab-b880" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry"/>
+            <entryLink id="4ec6-b023-d4b7-4daf" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d0de-65bb-046f-8efe" name="Members - 5 to 10" hidden="false" collective="false" import="true" defaultSelectionEntryId="e15c-361c-ddb2-5dcc">
@@ -4383,8 +4383,8 @@ In addition, Zooming Flyers of the Interceptor type always count as having the S
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="faee-81ac-5f22-9ab7" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry">
-            <entryLink id="7687-07b8-6c1f-8335" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry">
+            <entryLink id="faee-81ac-5f22-9ab7" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry"/>
+            <entryLink id="7687-07b8-6c1f-8335" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="81e8-f556-d6cb-3fb6" name="Prince Bonus" hidden="true" collective="false" import="true">
@@ -5239,8 +5239,8 @@ During the Dogfight phase, if a player has any Air Leviathan in Reserves or Ongo
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="296d-1ab9-573b-4e23" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry">
-            <entryLink id="6ba6-38b5-7dc4-cc8a" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry">
+            <entryLink id="296d-1ab9-573b-4e23" hidden="false" collective="false" import="true" targetId="d114-b204-e895-9429" type="selectionEntry"/>
+            <entryLink id="6ba6-38b5-7dc4-cc8a" hidden="false" collective="false" import="true" targetId="70d4-5cd0-ecd2-7ed5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
