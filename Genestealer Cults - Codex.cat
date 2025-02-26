@@ -110,6 +110,11 @@
         <categoryLink id="ntvg-53fd-dc83-f265-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cisr-53fd-dc83-f265" hidden="false" collective="false" import="true" targetId="zchr-190b-914c-2cmc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cisr-53fd-dc83-f265-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="ca6e-c88c-e9fd-9eba" hidden="false" collective="false" import="true" targetId="afef-c367-8ce3-cf7b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ca6e-c88c-e9fd-9eba-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
@@ -4211,8 +4216,8 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="zchr-190b-914c-2cmc" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d10e9b1a-92f7-ee4c-bddd-1e674a62af4a" type="lessThan"/>
-                    <condition field="selections" scope="zchr-190b-914c-2cmc" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d10e9b1a-92f7-ee4c-bddd-1e674a62af4a" type="greaterThan"/>
+                    <condition field="selections" scope="zchr-190b-914c-2cmc" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40dd-1269-54ec-bf09" type="lessThan"/>
+                    <condition field="selections" scope="zchr-190b-914c-2cmc" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40dd-1269-54ec-bf09" type="greaterThan"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4221,7 +4226,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="zchr-190b-914c-2cmc" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d10e9b1a-92f7-ee4c-bddd-1e674a62af4a" type="equalTo"/>
+                    <condition field="selections" scope="zchr-190b-914c-2cmc" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40dd-1269-54ec-bf09" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
