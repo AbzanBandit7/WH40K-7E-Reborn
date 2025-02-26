@@ -547,13 +547,6 @@ Any other character model chosen as part of the same Detachment as a Corsair Pri
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0e38-8b06-2512-bb61" name="Dedicated Transport - up to 1" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ec6c-8056-2b8d-ce13" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc17-1aeb-9dab-c3c7" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
@@ -4386,13 +4379,6 @@ In addition, Zooming Flyers of the Interceptor type always count as having the S
           </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup id="6317-5a26-c3d3-ca03" name="Dedicated Transport - up to 1" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="6602-7acd-8055-3a88" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b164-5a8a-c07d-5ed6" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
@@ -5249,13 +5235,6 @@ During the Dogfight phase, if a player has any Air Leviathan in Reserves or Ongo
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3052-dbbf-7637-6d7a" name="Dedicated Transport - up to 1" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="32ef-a338-6ac8-b805" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe89-7f36-9aed-34a4" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
