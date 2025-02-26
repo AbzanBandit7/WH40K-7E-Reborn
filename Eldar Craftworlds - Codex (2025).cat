@@ -12296,7 +12296,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9655-c850-0f12-a44d" name="Windrider w/ Shuriken Cannon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9655-c850-0f12-a44d" name="Windrider w/ Special Weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="maxSelections" value="1.0">
                   <conditionGroups>
@@ -12312,7 +12312,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
+                        <condition field="selections" scope="5926-905e-64dd-70c2" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
                         <condition field="selections" scope="5926-905e-64dd-70c2" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
@@ -12322,7 +12322,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
+                        <condition field="selections" scope="5926-905e-64dd-70c2" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -12386,99 +12386,41 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5eb5-4add-3578-6558" name="Windrider w/ Scatter Laser" hidden="false" collective="false" import="true" type="model">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="1.0">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" field="maxSelections" value="2.0">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" field="maxSelections" value="3.0">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c329-3738-e8e9-46b5" name="Windrider" publicationId="555e-9663-pubN65910" page="11" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Eldar Jetbike</characteristic>
-                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
-                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
-                    <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
-                    <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
-                    <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
-                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
-                    <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
-                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
-                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntries>
-                <selectionEntry id="fd65-007e-e3e0-e9db" name="Eldar Jetbike" hidden="false" collective="true" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="5a7f-4a01-6bc7-63e9" name="Weapon Selection - 1 required" hidden="false" collective="false" import="true" defaultSelectionEntryId="66fc-28aa-ba51-b91f">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="b096-e99b-8d6e-5e3e" hidden="false" targetId="61d6-8501-533f-1470" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="9a03-d681-8e9e-4320" name="Mesh Armour" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="98dc-3ab7-494f-08fd" hidden="false" targetId="96a8-cd3b-9e8c-c772" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="49c2-97e6-ab2f-0648" name="Scatter Laser" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="589a-67e9-7cd7-a0b8" hidden="false" targetId="20df-1398-62ba-3600" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                  <selectionEntries>
+                    <selectionEntry id="1ebc-b46d-7566-633c" name="Shuriken Cannon" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="3f64-6223-fefe-1665" hidden="false" targetId="c208-d493-2195-7587" type="profile"/>
+                        <infoLink id="a1f6-e473-1ee7-3e76" hidden="false" targetId="ce57-25dd-7d75-6574" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="49c2-97e6-ab2f-0648" name="Scatter Laser" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="589a-67e9-7cd7-a0b8" hidden="false" targetId="20df-1398-62ba-3600" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
