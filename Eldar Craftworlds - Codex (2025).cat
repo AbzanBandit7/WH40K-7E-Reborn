@@ -12302,7 +12302,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="5926-905e-64dd-70c2" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
+                        <condition field="selections" scope="5926-905e-64dd-70c2" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="lessThan"/>
                         <condition field="selections" scope="5926-905e-64dd-70c2" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c82-6de4-868c-b95d" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
