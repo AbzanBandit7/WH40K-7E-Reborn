@@ -12380,9 +12380,8 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="1ebc-b46d-7566-633c" name="Shuriken Cannon" hidden="false" collective="true" import="true" type="upgrade">
+                    <selectionEntry id="1ebc-b46d-7566-633c" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                       </constraints>
                       <infoLinks>
@@ -12393,9 +12392,8 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                         <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="49c2-97e6-ab2f-0648" name="Scatter Laser" hidden="false" collective="true" import="true" type="upgrade">
+                    <selectionEntry id="49c2-97e6-ab2f-0648" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                       </constraints>
                       <infoLinks>
