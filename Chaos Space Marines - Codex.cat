@@ -705,6 +705,11 @@ D6 Result
         <categoryLink id="3213-b570-07ba-5743-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="f401-5f0f-8b53-ebee" hidden="false" collective="false" import="true" targetId="8fc3-1996-1513-fc93" type="selectionEntry" name="(FW) Relic Whirlwind Scorpius">
+      <categoryLinks>
+        <categoryLink id="f401-5f0f-8b53-ebee-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="11de-a7aa-853e-c615" hidden="false" collective="false" import="true" targetId="598f-3cba-b8c5-e748" type="selectionEntry" name="Chaos Lord">
       <categoryLinks>
         <categoryLink id="11de-a7aa-853e-c615-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true" name="HQ"/>
@@ -3211,6 +3216,68 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="205"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fc3-1996-1513-fc93" name="(FW) Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caf5-714c-6faf-3ea0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c0e8-265d-ff99-46ea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a9ca-5545-8c90-62cb" name="Whirlwind Scorpius" publicationId="7ab0-ceb9-pubN169253" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">13</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Tank)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f2e4-1e8e-ce3c-311e" hidden="false"  targetId="7050b6c0-56e6-f142-9579-83b73560e74c" type="rule" name="Infernal Relic"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="ca77-1a78-cb88-2d42" name="Scorpius Multi-launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7898-304a-ba7e-862a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5200-160e-389b-e101" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="be50-ec20-3f33-06a0" name="Scorpius Multi-launcher" publicationId="7ab0-ceb9-pubN169253" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Barrage, Blast, Rocket Barrage</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="cfd5-0f7a-6289-95b4" name="Rocket Barrage" publicationId="7ab0-ceb9-pubN169253" hidden="false">
+              <description>In a turn in which the vehicle has not moved, the Multi-launcher&apos;s rate of fire is increased to Heavy 1+D3</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9pioi8-6dbc-6b3b-ccf1" hidden="false" collective="false" import="true" targetId="767879b7-ee12-d3c5-5523-498a308a5850" type="selectionEntryGroup" name="Chaos Vehicle Upgrades"/>
+        <entryLink id="d880-11552n-29a8-bde9" hidden="false" collective="false" import="true" targetId="9be57471-9796-716e-1145-bd67dedf8425" type="selectionEntryGroup" name="Legacies of Ruin (Tanks)"/>
+        <entryLink id="432f-8rbw2-3a90-b633" name="Searchlight" hidden="false" collective="false" import="true" targetId="9a52-7dfa-ebd7-2fb6" type="selectionEntry"/>
+        <entryLink id="evwr2-6505-ab61-6626" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="12ab-f49a-fc79-0e30" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f11-b8cd-ffeb-c533" name="[FW] Chaos Fellblade" hidden="true" collective="false" import="true" type="model">
