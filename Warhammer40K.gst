@@ -5522,6 +5522,9 @@ Twin-linked Template weapons are fired just like a single weapon, but must re-ro
     <rule id="3eda-669d-bd54-e3c0" name="Daemon" publicationId="e1ebd931--pubN66380" page="" hidden="false">
       <description>Models with the Daemon special rule have a 5+ invulnerable save, and also have the Fear special rule.</description>
     </rule>
+    <rule id="8u13-6v2d-bd54-e26b0" name="Deflagrate" publicationId="e1ebd931--pubN66380" page="" hidden="false">
+      <description>After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately resolve a number of additional automatic hits on the same unit using the weapon&apos;s profile equal to the number of unsaved wounds - these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits.</description>
+    </rule>
     <rule id="acb1-64c4-ef54-3a55" name="Soul Blaze" publicationId="e1ebd931--pubN66380" hidden="false">
       <description>If a unit suffers one or more unsaved Wounds from an attack with this special rule, it is set ablaze and continues to burn - mark it with a coin or counter as a reminder.
 
@@ -5926,6 +5929,14 @@ If the special rules of a model specify that they can never be Pinned, they auto
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="evolk-b9f1-6c38-584c" name="Volkite Charger" publicationId="e1ebd931--pubN66380" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Deflagrate</characteristic>
       </characteristics>
     </profile>
     <profile id="ccc3-cffe-e84e-abd0" name="Vulcan Mega-bolter" publicationId="e1ebd931--pubN66380" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

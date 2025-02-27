@@ -800,6 +800,11 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <categoryLink id="9516-b596-c6ce-542f-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="harah-b596-cah4e-58m76f" hidden="false" collective="false" import="true" targetId="jqiox-e04a-e9f6-e0e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="harah-b596-cah4e-58m76f-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="a96f-9fe1-a8b1-d754" hidden="false" collective="false" import="true" targetId="b12e-945e-63f9-613e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a96f-9fe1-a8b1-d754-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
@@ -3033,6 +3038,19 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="263a-8080-88fa-3d0f" name="Twin-linked Mauler Bolt Cannon" publicationId="2301-1cab-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8haya-26bc-9217-1fd3" hidden="false" targetId="hayaya-1f2c-1ca2-c72e" type="profile"/>
+        <infoLink id="ahaya2-9664-10b8-c12e" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
+        <infoLink id="ahaya1-9664-10b8-c12e" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="b97c-e6c1-6214-c04f" name="Omnispex" publicationId="2301-1cab-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="points" value="0">
@@ -3051,6 +3069,98 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="jqiox-e04a-e9f6-e0e0" name="Triaros Armoured Conveyor" publicationId="2301-1cab-pubN65537" page="63" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="3c13-a012-325bb-9699" name="Flare Shield" publicationId="2301-1cab-pubN65537" page="63" hidden="false">
+          <description>A flare shield operates against shooting attacks that strike the vehicle's front arc. It reduces the strength of attacks by weapons with the Template or Blast type by -2, and other shooting attacks strength by -1. A flare shield has no effect on closecombat attacks nor attacks inflicted with the Destroyer special rule.</description>
+        </rule>
+        <rule id="31v5-a012-3u56ib-9129" name="Shock Ram" publicationId="2301-1cab-pubN65537" page="63" hidden="false">
+          <description>When Ramming or being rammed, the Triaros counts as Front Armour 15 and rolls once on the Haywire table in addition to any damage it causes normally. When conducting Tank Shock attacks, any unit automatically suffers D6 Str 6 AP 5 hits in addition to resolving the tank shock as normal. It is not a weapon and may not be destroyed.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="14c18-a841-4864-wweu9" hidden="false" targetId="haytr-9fe0-e15d-1vc6e" type="profile"/>
+        <infoLink id="c658-a841-4864-979s9" hidden="false" targetId="hdauwc-9a28-b179-5e6b" type="profile"/>
+        <infoLink id="a1v1b6-84vrev9-ff45-47cd" name="New InfoLink" hidden="false" targetId="4b04-2a83-8ae7-d134" type="profile"/>
+        <infoLink id="a5o98p-4b46-1e5e-a641" hidden="false" targetId="65bd-6536-65d7-665a" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="v1cd1-2vby-6496-60b8" name="Dunecrawler Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="qrvq7-6535-e68a-fba0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="qrvq7-6535-e68a-fba0" hidden="false" collective="false" import="true" targetId="263a-8080-88fa-3d0f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ferqdq-749b-eec5-c490" name="Heresy Vehicle Equipment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="qfqwwe1-d5be-a48e-16f8" name="Hunter-killer Missile" publicationId="2301-1cab-pubN65537" page="56" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="dd25-ffc7-rqc32v0-83ae" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
+                <infoLink id="afcf-012b-2v3425-02ad" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ecqb-352b-9e1c41a-4v14b" name="Blessed Autosimulacra" publicationId="2301-1cab-pubN65537" page="56" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="aqrv-a92f-92c4v13-e4236" name="Blessed Autosimulacra" publicationId="2301-1cab-pubN65537" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a vehicle has suffered hull point damage, at the end of the controlling players turn, roll a D6. On a result of a 6, one hul point is restored.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="uch2ok-86ed-1c414d-1907078" name="Extra Armour" publicationId="2301-1cab-pubN65537" page="56" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9e89-234d-71v4c-82532v" hidden="false" targetId="cdda-8935-b495-3a35" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="erjh5-30ruyra-umr1-b0nryrmf" name="Smoke launchers" publicationId="2301-1cab-pubN65537" page="56" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="141vc2-4c2-e6ad-3d0d" name="Smoke launchers" publicationId="2301-1cab-pubN72663" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of shooting or moving Flat Out, may gain an obscured 5+ cover save until the end of enemy&apos;s next shooting phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ecwqe26-1a31-6234cb-0d1a" name="New InfoLink" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="702c-eb43-f8d4-a13d" hidden="false" collective="false" import="true" targetId="9184-6fcb-3337-a818" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="972a-e04a-e9f6-e0e0" name="Onager Dunecrawler" publicationId="2301-1cab-pubN65537" page="63" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -3064,7 +3174,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
       <infoLinks>
         <infoLink id="c658-a841-4864-98d9" hidden="false" targetId="3bb6-afb9-ca1f-a650" type="profile"/>
         <infoLink id="a58b-0709-ff45-47cd" name="New InfoLink" hidden="false" targetId="4b04-2a83-8ae7-d134" type="profile"/>
-        <infoLink id="a539-4b46-1e5e-a641" hidden="false" targetId="70bd-f836-0ed7-626a" type="rule"/>
+        <infoLink id="a539-4b46-1e5e-a641" hidden="false" targetId="65bd-6536-65d7-665a" type="rule"/>
         <infoLink id="c260-7236-956b-21ec" hidden="false" targetId="b46e-ccf2-3b67-cbac" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -3929,6 +4039,14 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           </constraints>
         </entryLink>
       </entryLinks>
+      <selectionEntryGroup id="3c1v423-f8a0-ccca-3583" name="Dedicated Transport" hidden="false" collective="false" import="true">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d9e-c8ea-8886-15e8" type="max"/>
+        </constraints>
+        <entryLinks>
+          <entryLink id="f21x3-c646-914c-3abe" hidden="false" collective="false" import="true" targetId="jqiox-e04a-e9f6-e0e0" type="selectionEntry" name="Triaros Armoured Conveyor"/>
+        </entryLinks>
+      </selectionEntryGroup>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3974,6 +4092,14 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           </constraints>
         </entryLink>
       </entryLinks>
+      <selectionEntryGroup id="542n7-f8a0-cc22a-2n7483" name="Dedicated Transport" hidden="false" collective="false" import="true">
+        <constraints>
+          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d9e-c8ea-15bb6-15e8" type="max"/>
+        </constraints>
+        <entryLinks>
+          <entryLink id="1d41f43-c646-91425-3abe" hidden="false" collective="false" import="true" targetId="jqiox-e04a-e9f6-e0e0" type="selectionEntry" name="Triaros Armoured Conveyor"/>
+        </entryLinks>
+      </selectionEntryGroup>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -5374,6 +5500,9 @@ BENEDICTION OF OMNISCIENCE
     <rule id="70bd-f836-0ed7-626a" name="Crawler" publicationId="2301-1cab-pubN65537" page="63" hidden="false">
       <description>Not affected by DIfficult or Dangerous terrain.  Cannot Run.</description>
     </rule>
+    <rule id="65bd-6536-65d7-665a" name="Galvanic Traction Drive" publicationId="2301-1cab-pubN65537" page="63" hidden="false">
+      <description>Must re-roll all failed Dangerous Terrain tests</description>
+    </rule>
     <rule id="7402-7ae1-abb3-03a6" name="Crux Mechanicus" publicationId="2301-1cab-pubN65537" page="64" hidden="false">
       <description>If this is your Primary Detachment, you may re-roll Codex: Skitarii Warlord Traits and your Warlord gets Preferred Enemy.</description>
     </rule>
@@ -6206,6 +6335,23 @@ Buildings and Fortifications: D</description>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Super-heavy)</characteristic>
       </characteristics>
     </profile>
+    <profile id="haytr-9fe0-e15d-1vc6e" name="Triaros Armoured Conveyor" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">14</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">12</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Tank, Transport)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="hdauwc-9a28-b179-5e6b" name="Triaros Armoured Conveyor (Transport)"  hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">20.</characteristic>
+        <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">None.</characteristic>
+        <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">2. One on each side of the hull.</characteristic>
+      </characteristics>
+    </profile>
     <profile id="bb21-f56a-ca1f-50aa" name="Mechanicum Ordinatus Ulator" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
       <characteristics>
         <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
@@ -6238,6 +6384,14 @@ Buildings and Fortifications: D</description>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Blast, Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="hayaya-1f2c-1ca2-c72e" name="Twin-linked Mauler Bolt Cannon" publicationId="2301-1cab-pubN65537" page="73" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Pinning, Twinlinked</characteristic>
       </characteristics>
     </profile>
     <profile id="cf8f-3ac2-0858-b4cd" name="Omnispex" publicationId="2301-1cab-pubN65537" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
