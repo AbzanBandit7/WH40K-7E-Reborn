@@ -3425,7 +3425,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
                       </constraints>
                       <infoLinks>
                         <infoLink id="0cdf-31f9-9ee9-03b0" hidden="false" targetId="d467-bc72-454f-5124" type="profile"/>
-                        <infoLink id="8839-d163-a783-202e" hidden="false" targetId="7932-2f4d-da28-3a6e" type="rule"/>
+                        <infoLink id="8839-d163-a783-202e" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
@@ -3487,7 +3487,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
                       </constraints>
                       <infoLinks>
                         <infoLink id="8bbd-df52-066b-2d5e" hidden="false" targetId="d467-bc72-454f-5124" type="profile"/>
-                        <infoLink id="14b9-b8dd-8a56-3309" hidden="false" targetId="7932-2f4d-da28-3a6e" type="rule"/>
+                        <infoLink id="14b9-b8dd-8a56-3309" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
@@ -4027,6 +4027,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <entryLink id="b35c-aaae-b557-24db" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0af7-8f9f-63db-1088" type="selectionEntry"/>
         <entryLink id="9f37-a19e-d8fb-96ba" hidden="false" collective="false" import="true" targetId="49fe-613b-1adb-fcde" type="selectionEntry"/>
         <entryLink id="0bce-8b7b-bb5a-1610" hidden="false" collective="false" import="true" targetId="1f29-774b-1724-ffad" type="selectionEntry"/>
+        <entryLink id="lqb3c-3bc5-c476-benwm9" hidden="false" collective="false" import="true" targetId="3c1v423-f8a0-ccca-3583" type="selectionEntryGroup"/>
         <entryLink id="0225-5406-5121-a982" hidden="false" collective="false" import="true" targetId="70e3-22dc-f1fe-f562" type="selectionEntryGroup"/>
         <entryLink id="b29c-d6a7-333b-e395" hidden="false" collective="false" import="true" targetId="5c83-9e6f-d5a7-b560" type="selectionEntryGroup">
           <modifiers>
@@ -4056,14 +4057,6 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           </constraints>
         </entryLink>
       </entryLinks>
-      <selectionEntryGroup id="3c1v423-f8a0-ccca-3583" name="Dedicated Transport" hidden="false" collective="false" import="true">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d9e-c8ea-8886-15e8" type="max"/>
-        </constraints>
-        <entryLinks>
-          <entryLink id="f21x3-c646-914c-3abe" hidden="false" collective="false" import="true" targetId="jqiox-e04a-e9f6-e0e0" type="selectionEntry" name="Triaros Armoured Conveyor"/>
-        </entryLinks>
-      </selectionEntryGroup>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -4079,6 +4072,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <entryLink id="8445-12f6-038f-2ae2" hidden="false" collective="false" import="true" targetId="1f29-774b-1724-ffad" type="selectionEntry"/>
         <entryLink id="558c-01e7-be4f-e2ee" hidden="false" collective="false" import="true" targetId="e560-2c5d-9a37-6e84" type="selectionEntry"/>
         <entryLink id="94d3-7b04-de54-51b4" hidden="false" collective="false" import="true" targetId="1ffb-9124-a097-bb18" type="selectionEntry"/>
+        <entryLink id="lokec-3bc5-cb66-be79" hidden="false" collective="false" import="true" targetId="3c1v423-f8a0-ccca-3583" type="selectionEntryGroup"/>
         <entryLink id="9ea8-3bc5-cb66-be79" hidden="false" collective="false" import="true" targetId="70e3-22dc-f1fe-f562" type="selectionEntryGroup"/>
         <entryLink id="6d6c-751f-5323-583d" hidden="false" collective="false" import="true" targetId="1b61-3210-ea9a-d807" type="selectionEntry"/>
         <entryLink id="9d91-f65f-b07c-6b24" hidden="false" collective="false" import="true" targetId="5c83-9e6f-d5a7-b560" type="selectionEntryGroup">
@@ -4109,14 +4103,6 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           </constraints>
         </entryLink>
       </entryLinks>
-      <selectionEntryGroup id="542n7-f8a0-cc22a-2n7483" name="Dedicated Transport" hidden="false" collective="false" import="true">
-        <constraints>
-          <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d9e-c8ea-15bb6-15e8" type="max"/>
-        </constraints>
-        <entryLinks>
-          <entryLink id="1d41f43-c646-91425-3abe" hidden="false" collective="false" import="true" targetId="jqiox-e04a-e9f6-e0e0" type="selectionEntry" name="Triaros Armoured Conveyor"/>
-        </entryLinks>
-      </selectionEntryGroup>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -4574,7 +4560,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
       </constraints>
       <infoLinks>
         <infoLink id="0c78-f100-992a-074b" hidden="false" targetId="a4c7-8cb2-cb9d-2b4a" type="profile"/>
-        <infoLink id="a0e3-2a63-f4df-87db" hidden="false" targetId="7932-2f4d-da28-3a6e" type="rule"/>
+        <infoLink id="a0e3-2a63-f4df-87db" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -5135,6 +5121,14 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <entryLink id="b594-8f3e-be2d-45b2" hidden="false" collective="false" import="true" targetId="b97c-e6c1-6214-c04f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="3c1v423-f8a0-ccca-3583" name="Dedicated Transport" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f21x3-c646-914c-3abe" hidden="false" collective="false" import="true" targetId="jqiox-e04a-e9f6-e0e0" type="selectionEntry" name="Triaros Armoured Conveyor"/>
+      </entryLinks>
+    </selectionEntryGroup>
     <selectionEntryGroup id="f1c1-9ab9-f615-90ec" name="Melee Weapons" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -5525,9 +5519,6 @@ BENEDICTION OF OMNISCIENCE
     </rule>
     <rule id="bbff-c0b9-5689-5318" name="Dataspike" publicationId="2301-1cab-pubN65537" page="75" hidden="false">
       <description>Model may make one attack with this weapon at Initiative step 10 (no pile-in.)</description>
-    </rule>
-    <rule id="7932-2f4d-da28-3a6e" name="Deflagrate" publicationId="2301-1cab-pubN79167" page="75" hidden="false">
-      <description>After normal attacks by this weapon have been resolved, count the number of unsaved Wounds caused on the target unit. Immediately resolve a number of additional automatic Strength 6 AP5 hits on the same unit equal to the number of unsaved Wounds. Models in the target unit must still be in range in order for these additional hits to take effect. Any further Wounds caused as a result of this special rule do not cause any further hits.</description>
     </rule>
     <rule id="b46e-ccf2-3b67-cbac" name="Doctrina Imperatives" publicationId="2301-1cab-pubN65537" page="70" hidden="false">
       <description>Select one at beginning of your Movement phase to last until your next turn. Each is One Use Only.
