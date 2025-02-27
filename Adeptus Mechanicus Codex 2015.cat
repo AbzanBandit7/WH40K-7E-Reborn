@@ -3085,7 +3085,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <infoLink id="a5o98p-4b46-1e5e-a641" hidden="false" targetId="65bd-6536-65d7-665a" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="v1cd1-2vby-6496-60b8" name="Dunecrawler Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="qrvq7-6535-e68a-fba0">
+        <selectionEntryGroup id="v1cd1-2vby-6496-60b8" name="Triaros Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="qrvq7-6535-e68a-fba0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3093,6 +3093,23 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <entryLinks>
             <entryLink id="qrvq7-6535-e68a-fba0" hidden="false" collective="false" import="true" targetId="263a-8080-88fa-3d0f" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="v51v1-2vby-615v6-609ie" name="Triaros Volkite Chargers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="qz463te1-deqbe-25bne-125c1f8" name="Pintle Mounted Volkite Charger" publicationId="2301-1cab-pubN65537" page="56" hidden="false" collective="false" import="true" type="upgrade"> 
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="qpo1epo7-6535-e68a-fba0" hidden="false" targetId="evolk-b9f1-6c38-584c" type="profile"/>
+                <infoLink id="a46n-012b-2vzz123-02ad" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ferqdq-749b-eec5-c490" name="Heresy Vehicle Equipment" hidden="false" collective="false" import="true">
           <selectionEntries>
