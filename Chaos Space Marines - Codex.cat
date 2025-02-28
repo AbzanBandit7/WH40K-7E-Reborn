@@ -705,7 +705,7 @@ D6 Result
         <categoryLink id="3213-b570-07ba-5743-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f401-5f0f-8b53-ebee" hidden="false" collective="false" import="true" targetId="8fc3-1996-1513-fc93" type="selectionEntry" name="(FW) Relic Whirlwind Scorpius">
+    <entryLink id="f401-5f0f-8b53-ebee" hidden="false" collective="false" import="true" targetId="8fc3-1996-1513-fc93" type="selectionEntry" name="[FW] Relic Whirlwind Scorpius">
       <categoryLinks>
         <categoryLink id="f401-5f0f-8b53-ebee-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true" name="Heavy Support"/>
       </categoryLinks>
@@ -3228,7 +3228,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
         <cost name="pts" typeId="points" value="205"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fc3-1996-1513-fc93" name="(FW) Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8fc3-1996-1513-fc93" name="[FW] Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -6123,14 +6123,17 @@ Does not apply to weapons firing without LoS, Fearless units or units without as
         <cost name="pts" typeId="points" value="350"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="64b4-3b28-5dfc-9688" name="(FW) Cerberus Heavy Tank Destroyer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="64b4-3b28-5dfc-9688" name="[FW] Cerberus Heavy Tank Destroyer" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f3f-0846-de83-57d5" type="equalTo"/>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caf5-714c-6faf-3ea0" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c0e8-265d-ff99-46ea" type="max"/>
+      </constraints>
       <profiles>
         <profile id="d5c2-ba1a-3bf2-0ff6" name="Cerberus Heavy Tank Destroyer" publicationId="7ab0-ceb9-pubN192504" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
           <characteristics>
@@ -8499,7 +8502,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <cost name="pts" typeId="points" value="2750"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="krtsvv-33cd-532d-28c9" name="(FW) Kratos" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="krtsvv-33cd-532d-28c9" name="[FW] Kratos" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8710,7 +8713,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </constraints>
           <infoLinks>
             <infoLink id="b7a848e1-e978-6fff-fd4e-54d548cbc4fa" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
-            <infoLink id="ojowrv4-cf64-89ac-a31f" hidden="false" targetId="b811c855-3286-16fa-d95a-e3f0ae417da2" type="rule"/>
+            <infoLink id="8feee296-b3d1-41b6-6798-46ab426e0742" hidden="false" targetId="b811c855-3286-16fa-d95a-e3f0ae417da2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -8732,7 +8735,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <entryLinks>
         <entryLink id="ecq6-97dc-3s346e-8221b" hidden="false" collective="false" import="true" targetId="0024-2280-5b6b-af1d" type="selectionEntryGroup"/>
         <entryLink id="poopq-97dc-146e-rev1b" hidden="false" collective="false" import="true" targetId="7e70-397a-40d0-8462" type="selectionEntryGroup"/>
-        <entryLink id="brc6-97dc-3seae-82mn" hidden="false" collective="false" import="true" targetId="9be57471-9796-716e-1145-bd67dedf8425" type="selectionEntryGroup" name="(FW) Legacies of Ruin (Tank)"/>
+        <entryLink id="brc6-97dc-3seae-82mn" hidden="false" collective="false" import="true" targetId="9be57471-9796-716e-1145-bd67dedf8425" type="selectionEntryGroup" name="[FW] Legacies of Ruin (Tank)"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="400.0"/>
@@ -26772,6 +26775,9 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
     </rule>
     <rule id="cb89-94a7-0d40-027f" name="Black Legion" hidden="false">
       <description>The armies of the Black Legion have no equal among other Chaos Space Marines, as each warrior is a veteran of ten millennia of bloodshed. If you wish, you can say that any Chaos Space Marines Detachment or Formation is also a Black Legion Detachment or Formation.</description>
+    </rule>
+    <rule id="b811c855-3286-16fa-d95a-e3f0ae417da2" name="Turret Co-axial Weapon" publicationId="ca4c-9142-pubN73886" page="257" hidden="false">
+      <description>Co-axial Mounted weapons follow all the rules for Turret Mounted weapons and must be mounted alongside another Turret Mounted weapon. In addition, when Turret Mounted weapons are fired, if the Co-axial Mounted weapon scores at least one Hit on the target unit then all further attacks by weapons mounted on the same Turret, directed at the same target, may re-roll any failed rolls To Hit.</description>
     </rule>
     <rule id="ae970133-d0be-0936-0b4b-009985e0be18" name="Champion of Chaos" page="0" hidden="false">
       <description>A Model with this rule must issue and accept challenges. Where there are multiple models with this rule, the controlling player may decide.
