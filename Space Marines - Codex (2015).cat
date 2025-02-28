@@ -2055,6 +2055,11 @@
         <categoryLink id="caad-a36d-ecf3-24e9-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="c1cew1-a36d-ec43-24e9" hidden="false" collective="false" import="true" targetId="krtsvv-33cd-532d-28c9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c1cew1-a36d-ec43-24e9-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="c82c-a65b-c803-3eeb" hidden="false" collective="false" import="true" targetId="aff1-c88c-5504-e6a5" type="selectionEntry" name="(FW) Whirlwind Hyperios">
       <categoryLinks>
         <categoryLink id="c82c-a65b-c803-3eeb-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true" name="Heavy Support"/>
@@ -19150,6 +19155,245 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
         <cost name="pts" typeId="points" value="275"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="krtsvv-33cd-532d-28c9" name="(FW) Kratos" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f3f-0846-de83-57d5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c0e8-265d-ff99-46ea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="sajn91-6c11-bf3f-bad9" name="Kratos" publicationId="7ab0-ceb9-pubN170041" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="9878-e3f6-b7b4-7225">4</characteristic>
+            <characteristic name="Front" typeId="3a4e-bc1d-4a12-7176">14</characteristic>
+            <characteristic name="Side" typeId="d12e-7bdb-191c-4849">13</characteristic>
+            <characteristic name="Rear" typeId="a4cb-791a-6a75-4e4a">12</characteristic>
+            <characteristic name="HP" typeId="93e6-d4b1-28a8-944b">6</characteristic>
+            <characteristic name="Type" typeId="eb65-838c-8eaa-8b5d">Super-heavy Vehicle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="krao1-ac30-fa18-5ce8" name="Turret-mounted Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f75c-9220-a0c6-6488">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelection" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="52b2-b9c1-9235-21e9" name="Kratos Battle Cannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5794-c75d-ba18-e1f4" hidden="false" targetId="fefab273-43ba-9e27-ff9b-46b14f085d26" type="profile"/>
+                <infoLink id="5794-c75d-ba18-e1f4" hidden="false" targetId="vrwe273-43ba-9e27-ff9b-46b14f085d26" type="profile"/>
+                <infoLink id="435nni-93u1jc-19jkd-91joc" hidden="false" targetId="06c1-b386-e700-bf49" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="tbq2-a96n3m-2um64-34i631" name="Volkite Cardanelle" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="95m587-96da-6b0a-350e" hidden="false" targetId="v84m3-43ba-9e27-ff9b-45d26" type="profile"/>
+                <infoLink id="4qokec-p1jc-19jkd-91joc" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="n74m7c-9220-a46n6-6488" name="Melta Blast-Cannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b26f-4n6dc-n7974mb-b254" name="Melta Blast-Cannon" publicationId="7ab0-ceb9-pubN192504" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Melta</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c142bnm4-cf64-89ac-a31f" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule" name="Melta"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="26n11-a2b640-fa18-5ce8" name="Front Hull-mounted (Left, Right) Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="5161b2-b9c1-9235-21e9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelection" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5161b2-b9c1-9235-21e9" name="(Left, Right) Hull-mounted Heavy Bolters" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="70muym0-ad95-8a02-3c94" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile" name="Heavy Bolter"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1616q2-a96n3m-2um64-34i631" name="(Left, Right) Hull-mounted Autocannons" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="99e1-e978-6fff-fd4e-5499c4fa" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="51616-9150-a1641n6-6488" name="(Left, Right) Hull-mounted Volkite Culverin" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a7776-a575-app4-4b81" name="Volkite Culverin" publicationId="7ab0-ceb9-pubN227548" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">45&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4, Deflagrate</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4wesdec-p1jc-11ed-91joc" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1dsq2-arvw6n3m-2uewrv4-rv631" name="(Left, Right) Hull-mounted Lascannons" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="99e1-e978-6ttf-fd4e-5t4fa" hidden="false" targetId="253c-b2c6-1345-e619" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="53n11-a245340-fa18-5ce8" name="Sponson Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="5rerb2-breer1-9235-21e9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5rerb2-breer1-9235-21e9" name="Heavy Bolters" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="75350-ad3455-34502-3c94" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile" name="Heavy Bolter"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1zq2-j92n3m-2um64-3qw31" name="Heavy Flamers" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="99e1-e978-6fff-fd4e-5499c4fa" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5fgu16-9150-a1yfun6-6488" name="Volkite Culverin" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="autf76-a575-app4-4b81" name="Volkite Culverin" publicationId="7ab0-ceb9-pubN227548" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">45&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4, Deflagrate</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4u7ec-p1jc-1ied-91joc" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="176q2-arun3m-2ywrv4-rv631" name="Lascannons" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9cq1-e978-6v1f-fd4e-567fa" hidden="false" targetId="253c-b2c6-1345-e619" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="c78a310d-2706-b009-b911-957d70e8a58a" name="Co-axial Autocannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b7a848e1-e978-6fff-fd4e-54d548cbc4fa" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+            <infoLink id="ojowrv4-cf64-89ac-a31f" hidden="false" targetId="b811c855-3286-16fa-d95a-e3f0ae417da2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="tr0d-2706-b011-b911-95tra58a" name="Flare Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <rule id="3c13-a012-325bb-9699" name="Flare Shield" publicationId="7ab0-ceb9-pubN170041" page="63" hidden="false">
+            <description>A flare shield operates against shooting attacks that strike the vehicle's front arc. It reduces the strength of attacks by weapons with the Template or Blast type by -2, and other shooting attacks strength by -1. A flare shield has no effect on closecombat attacks nor attacks inflicted with the Destroyer special rule.</description>
+          </rule>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ecq6-97dc-3s346e-8221b" hidden="false" collective="false" import="true" targetId="fd7d-5596-f73f-9ad5" type="selectionEntryGroup"/>
+        <entryLink id="poopq-97dc-146e-rev1b" hidden="false" collective="false" import="true" targetId="fd54-0659-f9e3-97b7" type="selectionEntryGroup"/>
+        <entryLink id="brc6-97dc-3seae-82mn" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="8bbd-dc21-dc06-753b" name="(FW) Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -22897,20 +23141,20 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6600-86e2-c3f4-b688" name="Sponson Mounted Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6600-86e2-c3f4-b688" name="Sponson Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="49a2-9460-7cb2-19b6">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d3d4-6212-0946-3351" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="49a2-9460-7cb2-19b6" hidden="false" collective="false" import="true" targetId="d75c-8a7a-0479-8d6f" type="selectionEntry" name="Heavy Bolter">
               <modifiers>
-                <modifier type="set" field="points" value="20"/>
+                <modifier type="set" field="points" value="0"/>
                 <modifier type="set" field="name" value="Two Heavy Bolters"/>
               </modifiers>
             </entryLink>
             <entryLink id="abe7-f97e-431e-bb43" hidden="false" collective="false" import="true" targetId="253c-b2c6-1345-e619" type="selectionEntry" name="Lascannon">
               <modifiers>
-                <modifier type="set" field="points" value="40"/>
+                <modifier type="set" field="points" value="25"/>
                 <modifier type="set" field="name" value="Two Lascannons"/>
               </modifiers>
             </entryLink>
@@ -29010,16 +29254,14 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                               <characteristics>
                                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
-                                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
+                                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Deflagrate</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
-                          <rules>
-                            <rule id="01dc-51e6-4887-3347" name="Deflagrate" publicationId="7ab0-ceb9-pubN227548" hidden="false">
-                              <description>After normal attacks by this weapon have been resolved, count the number of unsaved Wounds caused on the target unit.  Immediately resolve a number of additional automatic hits on the same unit using the weapon&apos;s profile equal to the number of unsaved Wounds - these can then be saved normally.  Models in the targeted unit must still be in range in order for these additional hits to take effect.  These additional hits do not themselves inflict more hits!</description>
-                            </rule>
-                          </rules>
+                          <infoLinks>
+                            <infoLink id="7n4ec-p43c-194n64-91joc" hidden="false" targetId="8u13-6v2d-bd54-e26b0" type="rule"/>
+                          </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="7"/>
                           </costs>
@@ -32243,6 +32485,9 @@ You must decide which units are splitting into combat squads, and which models g
 
 Note that Bike Squads count as being at full strength when they have eight Space Marine Bikers and one Attack Bike. If split into combat squads, one combat squad will have five Bikers, the other will have three and the Attack Bike.</description>
     </rule>
+    <rule id="b811c855-3286-16fa-d95a-e3f0ae417da2" name="Turret Co-axial Weapon" publicationId="ca4c-9142-pubN73886" page="257" hidden="false">
+      <description>Co-axial Mounted weapons follow all the rules for Turret Mounted weapons and must be mounted alongside another Turret Mounted weapon. In addition, when Turret Mounted weapons are fired, if the Co-axial Mounted weapon scores at least one Hit on the target unit then all further attacks by weapons mounted on the same Turret, directed at the same target, may re-roll any failed rolls To Hit.</description>
+    </rule>
     <rule id="9aae-559e-5df6-8399" name="Wing Leader (Space Marines)" publicationId="7ab0-ceb9-pubN109967" hidden="false">
       <description>At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table relevant to their Faction for each Wing Leader to determine their special rule.
 
@@ -32348,6 +32593,30 @@ Note that Bike Squads count as being at full strength when they have eight Space
     <profile id="9deb-eab2-fc34-69ec" name="Auspex" publicationId="7ab0-ceb9-pubN65751" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with an auspex can use it in place of making a shooting attack.  If he does so, target an enemy unit within 12&quot; (This does not count as choosing a target for his unit to shoot at).  A unit that is targeted by one or more auspexes has its cover save reduced by 1 until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fefab273-43ba-9e27-ff9b-46b14f085d26" name="Kratos Battle Cannon (Blast Shells)" publicationId="7ab0-ceb9-pubN65751" page="135" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="vrwe273-43ba-9e27-ff9b-46b14f085d26" name="Kratos Battle Cannon (AP Shells)" publicationId="7ab0-ceb9-pubN65751" page="135" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordinance 1, Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="v84m3-43ba-9e27-ff9b-45d26" name="Volkite Cardanelle" publicationId="7ab0-ceb9-pubN65751" page="135" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">45&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 10, Deflagrate</characteristic>
       </characteristics>
     </profile>
     <profile id="66cc-5179-d9ea-1c96" name="Space Marine Bike" publicationId="7ab0-ceb9-pubN65751" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">

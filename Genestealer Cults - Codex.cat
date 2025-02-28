@@ -1341,7 +1341,7 @@ Primus: Preferred Enemy
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="il66-bvoc-d87e-7d61" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="egs3-4z6b-sp77-dt26">
+        <selectionEntryGroup id="il66-bvoc-d87e-7d61" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="nygh-5611-ed70-f305">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -1355,7 +1355,7 @@ Primus: Preferred Enemy
                 <infoLink id="2a9c-12tp-bxq1-c942" hidden="false" targetId="ad0d-b285-72d6-bbe9" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="egs3-4web-30a7-fe76" name="Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -1377,7 +1377,7 @@ Primus: Preferred Enemy
                 <infoLink id="4632-idwy-72ju-4306" hidden="false" targetId="9xcz-9a2f-995e-0a7e-9d62" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1407,7 +1407,7 @@ Primus: Preferred Enemy
                 <infoLink id="cake-pety-959f-491d" hidden="false" targetId="rtf4-3uy1-83e6-6b48" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ghdt-4z6b-934g-dii6" name="Survey Augur" hidden="false" collective="false" import="true" type="upgrade">
@@ -1418,7 +1418,7 @@ Primus: Preferred Enemy
                 <infoLink id="4yy2-864j-58tu-4sed" hidden="false" targetId="svy4-3uy1-8aug-6b48" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5886,9 +5886,9 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
     </profile>
     <profile id="9xcz-9a2f-995e-0a7e-9d62" name="Achilles Missile Launcher" publicationId="f840-ed73-pubN65537" page="80" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36</characteristic>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
       </characteristics>
     </profile>
@@ -6479,7 +6479,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
     </profile>
     <profile id="svy4-3uy1-8aug-6b48" name="Survey Augur" publicationId="f840-ed73-pubN99150" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unit has night vision, and ignore cover on targets within 18&quot;</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unit has night vision, and targets within 18&quot; have -1 to their cover saves.</characteristic>
       </characteristics>
     </profile>
     <profile id="54fd-a42b-7c29-d48d" name="Toxin Injector" publicationId="f840-ed73-pubN65537" page="100" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
