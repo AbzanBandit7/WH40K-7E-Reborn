@@ -4689,6 +4689,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
       </rules>
       <infoLinks>
         <infoLink id="0ef4-c3dc-0474-a3bb" hidden="false" targetId="280d-1a0c-5916-3012" type="rule" name="Fear"/>
+        <infoLink id="potmc-cc8c-9fa0-7e9d" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule" name="Power of the Machine Spirit"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0538-bbf7-4b96-9327-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true" name="Heavy Support"/>
@@ -5248,6 +5249,7 @@ Does not apply to weapons firing without LoS, Fearless units or units without as
       </profiles>
       <infoLinks>
         <infoLink id="f4a9-c92d-246f-653a" hidden="false" targetId="8024-df0a-ec75-95c0" type="rule" name="Assault Vehicle"/>
+        <infoLink id="31331c-a410ee-6531-cf74" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule" name="Power of the Machine Spirit"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8396-673d-1c28-1a60-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true" name="Heavy Support"/>
@@ -5437,7 +5439,7 @@ Does not apply to weapons firing without LoS, Fearless units or units without as
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="285"/>
+        <cost name="pts" typeId="points" value="295"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c34a-d07a-38d3-c954" name="[FW] Chaos Storm Eagle" publicationId="5af86795--pubN75711" page="57" hidden="true" collective="false" import="true" type="unit">
@@ -10288,6 +10290,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </profiles>
       <infoLinks>
         <infoLink id="851c-0131-eafc-0cf0" hidden="false" targetId="8024-df0a-ec75-95c0" type="rule" name="Assault Vehicle"/>
+        <infoLink id="8e43-cc8c-9qdc0-7e9d" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule" name="Power of the Machine Spirit"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="8371-ff3a-f522-c3c2" name="Twin-Linked Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -10322,7 +10325,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="d1ab-76d4-8a05-5bd5" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="12ab-f49a-fc79-0e30" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="230"/>
+        <cost name="pts" typeId="points" value="250"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="598f-3cba-b8c5-e748" name="Chaos Lord" page="0" hidden="false" collective="false" import="true" type="model">
