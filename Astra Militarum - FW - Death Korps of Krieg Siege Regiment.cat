@@ -3786,7 +3786,7 @@
                 <entryLink id="5881-b5c0-d9dc-f06a" hidden="false" collective="false" import="true" targetId="c23dbe20-6e87-1b1e-462e-4bd050161057" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150.0"/>
+                <cost name="pts" typeId="points" value="130.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3cb5-a6f4-6b32-b1f3" name="Battle Tank" publicationId="eec64b43--pubN67491" page="225" hidden="false" collective="false" import="true" type="model">
@@ -3860,7 +3860,7 @@
                 <entryLink id="022d-76bf-b1b6-b37c" hidden="false" collective="false" import="true" targetId="c23dbe20-6e87-1b1e-462e-4bd050161057" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="115.0"/>
+                <cost name="pts" typeId="points" value="120.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2a04-7b7a-233d-fc49" name="Eradicator" publicationId="eec64b43--pubN67491" page="0" hidden="false" collective="false" import="true" type="model">
@@ -4018,7 +4018,7 @@
                         <infoLink id="1d18-ad66-8460-eaa9" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0798-8521-e8b3-7564" name="Storm Bolter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -4029,7 +4029,7 @@
                         <infoLink id="c672-e771-1734-7a0c" hidden="false" targetId="a2da2b98-1a14-9a16-f860-077c1544545d" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>

@@ -2433,7 +2433,7 @@
       <selectionEntries>
         <selectionEntry id="569fe3ff-9274-6836-7026-86bc9336d50b" name="Camo Netting" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="points" value="20">
+            <modifier type="increment" field="points" value="15">
               <repeats>
                 <repeat field="selections" scope="11f4f008-7cb5-5b8a-8029-7097b99f152f" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20b7b0b6-86ad-6d88-1bb3-21fceeb650aa" repeats="1" roundUp="false"/>
               </repeats>
@@ -2480,7 +2480,7 @@
       <selectionEntries>
         <selectionEntry id="7eb79d81-050e-c1ac-5ebc-8c65e1367a5b" name="Camo Netting" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="points" value="20">
+            <modifier type="increment" field="points" value="15">
               <repeats>
                 <repeat field="selections" scope="c7b6f9bf-ff24-cb49-9f62-655221004afa" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30fefd0b-d9c7-f77b-1586-e1b8e8e603a7" repeats="1" roundUp="false"/>
               </repeats>
@@ -2761,7 +2761,7 @@
       <selectionEntries>
         <selectionEntry id="010cb82d-c3d7-eab7-fbcf-25599b8f200e" name="Camo Netting" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="points" value="20">
+            <modifier type="increment" field="points" value="15">
               <repeats>
                 <repeat field="selections" scope="58451ae8-00b8-0ced-30e7-68099dd618b3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c22d8bb-2c07-d6c2-ffd3-eb76080ec996" repeats="1" roundUp="false"/>
               </repeats>
@@ -2829,7 +2829,7 @@
       <selectionEntries>
         <selectionEntry id="a7916e82-8c10-691b-1c46-cc9900679068" name="1-3x Camo Netting" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="points" value="20">
+            <modifier type="increment" field="points" value="15">
               <repeats>
                 <repeat field="selections" scope="7ec850cc-1995-9c26-aed0-cff9638554f2" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8a3d917-3170-36c7-f679-efcf9a6aeadf" repeats="1" roundUp="false"/>
               </repeats>
@@ -2943,7 +2943,7 @@
                 <entryLink id="54b7-239d-aff3-62ef" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150"/>
+                <cost name="pts" typeId="points" value="130"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9fc4-263f-36e4-9335" name="Battle Tank" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3019,7 +3019,7 @@
                 <entryLink id="7cda-8e0a-ba37-354c" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150"/>
+                <cost name="pts" typeId="points" value="120"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="088e-d3a3-5aed-1668" name="Demolisher" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3050,7 +3050,7 @@
                 <entryLink id="31e8-4db5-122a-b2d1" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="165"/>
+                <cost name="pts" typeId="points" value="170"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d418-7bb5-2bdd-f6e3" name="Eradicator" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3081,7 +3081,7 @@
                 <entryLink id="caf7-b01e-d550-95e2" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="160"/>
+                <cost name="pts" typeId="points" value="120"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb57-1fc2-0e4e-d842" name="Executioner" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3112,7 +3112,7 @@
                 <entryLink id="7f29-3e52-4608-f61f" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="190"/>
+                <cost name="pts" typeId="points" value="155"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="648a-f06f-0d70-08c9" name="Exterminator" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3143,7 +3143,7 @@
                 <entryLink id="f6da-e424-d9d2-ca44" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150"/>
+                <cost name="pts" typeId="points" value="130"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e086-7315-df97-73d8" name="Punisher" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3174,7 +3174,7 @@
                 <entryLink id="879a-a8cb-bcaf-4480" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="180"/>
+                <cost name="pts" typeId="points" value="140"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dfa3-d5dc-7ea9-e733" name="Vanquisher" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -3212,7 +3212,7 @@
                         <infoLink id="f1db-1eca-2f91-0f67" hidden="false" targetId="9abb0348-67fc-4a0f-8dc8-1ee53fcc83e4" type="profile" name="Heavy Stubber"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15"/>
+                        <cost name="pts" typeId="points" value="10"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fbe8-3821-25a1-f9fd" name="Storm Bolter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3223,7 +3223,7 @@
                         <infoLink id="f0a4-9dbf-7490-a46f" hidden="false" targetId="a2da2b98-1a14-9a16-f860-077c1544545d" type="profile" name="Storm Bolter"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="15"/>
+                        <cost name="pts" typeId="points" value="10"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3236,7 +3236,7 @@
                 <entryLink id="b466-605f-1ca3-f499" hidden="false" collective="false" import="true" targetId="392ca3d5-430d-bb98-f63b-e4e43cbcbc4c" type="selectionEntry" name="Forward Command Tank"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="155"/>
+                <cost name="pts" typeId="points" value="145"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4208,7 +4208,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="1f199c91-076c-2f1e-3bd8-29ad3098f7ab" hidden="false" collective="false" import="true" targetId="c23dbe20-6e87-1b1e-462e-4bd050161057" type="selectionEntry" name="Smoke Launchers"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="416fab10-7f48-d112-8a5d-3dc29e75c7d1" name="Armoured Cockpit" publicationId="a03f3b3e--pubN90191" page="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -4471,7 +4471,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink id="8bbc01d7-fbef-a577-35bc-ccd5016303ed" hidden="false" targetId="3404475d-279a-ae86-19e8-2147831e7a7d" type="profile" name="Camo Netting"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20"/>
+        <cost name="pts" typeId="points" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f7d34be-d990-3b3f-3157-9b94f89ba974" name="Carapace Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -4622,7 +4622,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="5880c44c-74b5-fa70-3510-d80815e8aefd" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0939bd34-a9ac-e031-3efa-fa4d08a792ce" name="Crassus" publicationId="a03f3b3e--pubN92710" page="28" hidden="false" collective="false" import="true" type="model">
@@ -5284,7 +5284,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="1c5a5673-d91d-7cb7-bb4f-0c70f9ab9eab" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="165"/>
+        <cost name="pts" typeId="points" value="170"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ef319cb-0fbe-4612-336a-89e06b91831a" name="Demolition Charge" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -5378,7 +5378,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="710af5f5-7bde-2d77-0057-bbdfac038ece" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="160"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7174fcc7-9c2b-bca3-e9a4-5053d1172ff1" name="Executioner" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -5408,7 +5408,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="6aad231e-d6a7-f631-de33-e63c92c4ca95" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="190"/>
+        <cost name="pts" typeId="points" value="155"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3cbefd6-5555-793e-d12b-0e27cb6cff8f" name="Exterminator" publicationId="a03f3b3e--pubN67511" page="203" hidden="false" collective="false" import="true" type="model">
@@ -5438,7 +5438,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="d90be430-7de9-5a16-f984-febb30756824" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="00d30d58-3447-7f84-9a99-a101c106c3e0" name="Extra Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -7421,7 +7421,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="a283fee7-7d1b-eb06-1c7a-afb6ef33b4fe" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="180"/>
+        <cost name="pts" typeId="points" value="140"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c367e01-2163-8ce5-0da6-430eacc71a96" name="Reaver Battle Titan" publicationId="a03f3b3e--pubN109935" page="0" hidden="false" collective="false" import="true" type="model">
@@ -8527,7 +8527,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <infoLink id="8c242b26-7356-debe-12b7-1f0a55ecc2ba" hidden="false" targetId="9abb0348-67fc-4a0f-8dc8-1ee53fcc83e4" type="profile" name="Heavy Stubber"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a2ac3a2b-9f31-d37c-c01f-da5f0e134e7e" name="Storm Bolter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -8538,7 +8538,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <infoLink id="745f9834-0e4e-4ecd-3024-45b9bebe246f" hidden="false" targetId="a2da2b98-1a14-9a16-f860-077c1544545d" type="profile" name="Storm Bolter"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8550,7 +8550,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink id="f043d622-cc59-e8f1-0572-6f80f1629ae5" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="155"/>
+        <cost name="pts" typeId="points" value="145"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a92df87-45d3-df85-751a-5af138476a79" name="Vox Caster" page="0" hidden="false" collective="false" import="true" type="upgrade">

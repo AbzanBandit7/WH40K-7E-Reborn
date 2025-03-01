@@ -2,7 +2,7 @@
 <catalogue id="ca4c-9142-d515-0745" name="Renegades &amp; Heretics: IA13 / IA:SoV" revision="2012" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ca4c-9142-pubN70953" name="Shield of Baal: Leviathan"/>
-    <publication id="ca4c-9142-pubN71990" name="Imperial Armour 13"/>
+    <publication id="ca4c-9142-pubN7f1990" name="Imperial Armour 13"/>
     <publication id="ca4c-9142-pubN73886" name="Imperial Armour: Siege of Vraks"/>
     <publication id="ca4c-9142-pubN81820" name="Warhammer 40k rulebook"/>
     <publication id="ca4c-9142-pubN86224" name="IA: Volume 6"/>
@@ -8455,7 +8455,7 @@
                     <entryLink id="d1059813-3167-121b-8d09-a76578df58c0" hidden="false" collective="false" import="true" targetId="b602e5ab-3ae1-dff0-acce-d1ebd3a0735a" type="selectionEntry"/>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="20.0"/>
+                    <cost name="pts" typeId="points" value="25.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -9818,7 +9818,7 @@
                         <entryLink id="5fb9a5e4-8878-c802-2559-00dcaceaa142" hidden="false" collective="false" import="true" targetId="b602e5ab-3ae1-dff0-acce-d1ebd3a0735a" type="selectionEntry"/>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="8.0"/>
+                        <cost name="pts" typeId="points" value="13.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="07bac0df-5c28-cb17-0345-67bdc7c60954" name="Renegade w/ Flamer" page="0" hidden="false" collective="false" import="true" type="model">
@@ -10619,7 +10619,7 @@
                         <entryLink id="8a435aa2-8e98-2375-d45d-6ea7381f3570" hidden="false" collective="false" import="true" targetId="b602e5ab-3ae1-dff0-acce-d1ebd3a0735a" type="selectionEntry"/>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="8.0"/>
+                        <cost name="pts" typeId="points" value="13.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="670797e2-f90f-57cf-b8ff-c1d96c6acc66" name="Renegade w/ Flamer" page="0" hidden="false" collective="false" import="true" type="model">
@@ -11369,7 +11369,7 @@
                     <entryLink id="b0fa64cb-6577-56cc-b903-a01132db365e" hidden="false" collective="false" import="true" targetId="e2beb4ff-2117-ad18-eb26-91a10181fc36" type="selectionEntry"/>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="947f0b0e-c91f-2c1c-dc5b-ad8843e6b66c" name="Veteran w/ Flamer" page="0" hidden="false" collective="false" import="true" type="model">
@@ -15064,7 +15064,7 @@
                     <entryLink id="b596-222e-db94-1a2f" hidden="false" collective="false" import="true" targetId="e2beb4ff-2117-ad18-eb26-91a10181fc36" type="selectionEntry"/>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1094-3feb-ed6d-6578" name="Veteran w/ Flamer" page="0" hidden="false" collective="false" import="true" type="model">
@@ -16617,41 +16617,6 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1974-e4a8-4674-abdc" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="48fe-857d-cc27-9dfe" name="Disciple w/ Banner of Hate" page="0" hidden="false" collective="false" import="true" type="model">
-                  <infoLinks>
-                    <infoLink id="07f1-5f8f-5e1b-b47c" hidden="false" targetId="50b95705-6db6-1752-bb02-fefa7b8b743b" type="profile">
-                      <modifiers>
-                        <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+">
-                          <conditions>
-                            <condition field="selections" scope="fe3f-2c14-eb63-b50f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1aa14cd-78da-bc10-b01a-fbd8d5257e21" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="30f3-fcdd-e818-513a" name="Banner of Hate" page="0" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c998-6fb7-d81a-6a49" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d33-86fe-e7ae-8e2e" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="7b57-d6e5-750f-8670" hidden="false" targetId="ec53580e-820d-05be-b588-688c256f99b4" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="3b16-7545-6d33-246c" hidden="false" collective="false" import="true" targetId="f2c773dd-0705-81de-d50f-03d3564e6b41" type="selectionEntry"/>
-                    <entryLink id="8229-fe54-1136-2ee7" hidden="false" collective="false" import="true" targetId="0b415c15-81b4-5a3f-b0ae-1e460d13a958" type="selectionEntry"/>
-                    <entryLink id="8d60-8fab-1a33-245c" hidden="false" collective="false" import="true" targetId="d7715b00-8fa1-3d1f-0353-0d5d3620249f" type="selectionEntryGroup"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="35.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="8860-0076-9693-1f94" name="Disciple w/ Banner of the Apostate" page="0" hidden="false" collective="false" import="true" type="model">
                   <infoLinks>
                     <infoLink id="b96f-587b-f51c-0b1a" hidden="false" targetId="50b95705-6db6-1752-bb02-fefa7b8b743b" type="profile">
@@ -17300,8 +17265,12 @@
     <rule id="b811c855-3286-16fa-d95a-e3f0ae417da2" name="Co-axial Weapon" publicationId="ca4c-9142-pubN73886" page="257" hidden="false"/>
     <rule id="6d1b-064f-e834-7d13" name="Collar of Khorne" publicationId="ca4c-9142-pubN73886" page="281" hidden="false"/>
     <rule id="7bfb0330-2af6-68ec-7fda-47f41f5e3e5a" name="Contagion" publicationId="ca4c-9142-pubN71990" page="197" hidden="false"/>
-    <rule id="4ebc63df-4a7c-2425-85a8-353ba7067a4c" name="Covenant of Khorne" publicationId="ca4c-9142-pubN73886" page="237" hidden="false"/>
-    <rule id="a58b39b9-c3ab-eb26-3b11-aa7ce0abd38e" name="Covenant of Nurgle" publicationId="ca4c-9142-pubN73886" page="237" hidden="false"/>
+    <rule id="4ebc63df-4a7c-2425-85a8-353ba7067a4c" name="Covenant of Khorne" publicationId="ca4c-9142-pubN73886" page="237" hidden="false">
+    <description>Any unit which contains atleast one model with this special rule may re-roll all failed To Wound rolls on the first turn of any close combat.</description>
+    </rule>
+    <rule id="a58b39b9-c3ab-eb26-3b11-aa7ce0abd38e" name="Covenant of Nurgle" publicationId="ca4c-9142-pubN73886" page="237" hidden="false">
+    <description>Any unit that contains atleast one model with this special rule also gainst the Feel No Pain (6+) special rule.</description>
+    </rule>
     <rule id="993ba417-9cd4-4667-99a4-46e4b2c79748" name="Covenant of Slaanesh" publicationId="ca4c-9142-pubN71990" page="151" hidden="false"/>
     <rule id="5f096744-e856-e2c3-f361-53434ead0025" name="Covenant of Tzeentch" publicationId="ca4c-9142-pubN71990" page="151" hidden="false"/>
     <rule id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" name="Crushing Weight" publicationId="ca4c-9142-pubN71990" page="193" hidden="false"/>
@@ -17580,7 +17549,7 @@
     </profile>
     <profile id="ec53580e-820d-05be-b588-688c256f99b4" name="Banner of Hate" publicationId="ca4c-9142-pubN73886" page="236" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All infantry units from same Primary detachment with one or more models within 12&quot; of the unit with the Banner of Hate roll 3D6 for Pinning and Morale, choosing the two lowest results.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All infantry units from same Primary detachment with one or more models within 12&quot; of the unit with the Banner of Hate may re-roll Pinning and Morale checks, but must keep the second value.</characteristic>
       </characteristics>
     </profile>
     <profile id="ef03a2a3-287f-96e9-f9b6-570fb184cd1f" name="Banner of the Apostate" publicationId="ca4c-9142-pubN73886" page="236" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -17785,7 +17754,7 @@
     </profile>
     <profile id="62b05a60-5697-6361-b779-c51aea02d7e9" name="Chaos Sigil" publicationId="ca4c-9142-pubN73886" page="236" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unit may re-roll first Morale or Pinning test  it fails each game turn. Grants Stubborn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unit gains the Rage special rule.</characteristic>
       </characteristics>
     </profile>
     <profile id="28cc451f-e27b-99dd-59bd-a7a163fb43fd" name="Chaos Spawn" publicationId="ca4c-9142-pubN73886" page="244" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -17898,7 +17867,7 @@
     </profile>
     <profile id="a5b4a6f8-284b-02c2-2337-c93751d7b3a5" name="Command Net Vox" publicationId="ca4c-9142-pubN73886" page="236" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If the unit is equipped with a vox-caster, may re-roll to determine their Ld value. The second result must be used. Any other friendly unit within 12&quot; may use the Ld of this unit when taking a Morale check.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If the unit is equipped with a Command Net Vox, all other friendly unit with a Vox-caster may use this units Ld value instead of its own.</characteristic>
       </characteristics>
     </profile>
     <profile id="8c3dc96e-50d3-a284-24f9-88419d4c7bd0" name="Conqueror Battle Cannon" publicationId="ca4c-9142-pubN73886" page="272" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -19663,7 +19632,7 @@
     </profile>
     <profile id="377a8897-4cc8-ad27-0279-122ad8892ab1" name="Vox-caster" publicationId="ca4c-9142-pubN73886" page="236" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If the unit is equipped with a vox-caster, may re-roll to determine their Ld value. The second result must be used.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If the unit is equipped with a vox-caster, it may use the Ld value of a unit with a Command Net Vox instead of its own.</characteristic>
       </characteristics>
     </profile>
     <profile id="6ca2-2dc2-6db2-ac5d" name="Warbound Uraka" publicationId="ca4c-9142-pubN73886" page="281" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -19720,7 +19689,7 @@
     </profile>
     <profile id="61bc-7ec5-780c-371d" name="Chaos Sigil" publicationId="ca4c-9142-pubN71990" page="150" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unit may ignore first Morale or Pinning test it fails each game turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unit gains the Rage special rule.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

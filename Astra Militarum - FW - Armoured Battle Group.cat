@@ -2593,7 +2593,7 @@
                 <entryLink id="ec360b49-3f5d-9f82-dafa-2efd717cc12c" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150"/>
+                <cost name="pts" typeId="points" value="130"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="56c68901-1859-a8e5-6030-793c96c075d5" name="Conqueror" publicationId="b5703e9d--pubN65858" page="0" hidden="false" collective="false" import="true" type="model">
@@ -2636,7 +2636,7 @@
                 <entryLink id="63662fec-10c9-5573-f117-113d47cc7ca7" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150"/>
+                <cost name="pts" typeId="points" value="120"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7c0526cc-8a94-36b2-38b0-c1cbb76687b5" name="Annihilator" publicationId="b5703e9d--pubN65858" page="0" hidden="false" collective="false" import="true" type="model">
@@ -2667,7 +2667,7 @@
                 <entryLink id="a508c06d-bcae-ca39-f165-6e2ace28d879" hidden="false" collective="false" import="true" targetId="c23dbe20-6e87-1b1e-462e-4bd050161057" type="selectionEntry" name="Smoke Launchers"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="150"/>
+                <cost name="pts" typeId="points" value="130"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4cefc345-8ad1-065e-06f3-d9774a3020bb" name="Vanquisher" publicationId="b5703e9d--pubN65858" page="0" hidden="false" collective="false" import="true" type="model">
@@ -2731,7 +2731,7 @@
                 <entryLink id="30a1630e-2b67-f361-a961-aaa4f3cf26f0" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="155"/>
+                <cost name="pts" typeId="points" value="145"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e05e2bd6-c5a0-1b25-93b5-a4aa5955b5f1" name="Eradicator" publicationId="b5703e9d--pubN65858" page="0" hidden="false" collective="false" import="true" type="model">
@@ -2762,7 +2762,7 @@
                 <entryLink id="3138302b-bd8d-b167-6038-9cd0c48d20f9" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="160"/>
+                <cost name="pts" typeId="points" value="120"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5980,7 +5980,7 @@
                 <entryLink id="a146673d-92d6-58ad-f617-14346bc616f7" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="165"/>
+                <cost name="pts" typeId="points" value="170"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e743a4ed-975a-90d2-0d6b-36094daf7015" name="Punisher" publicationId="b5703e9d--pubN65858" page="0" hidden="false" collective="false" import="true" type="model">
@@ -6011,7 +6011,7 @@
                 <entryLink id="e60417ba-cba3-5d9b-8923-001ae4ca993d" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="180"/>
+                <cost name="pts" typeId="points" value="140"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a5e019f5-4b38-b7e3-74fb-5966243f7681" name="Executioner" publicationId="b5703e9d--pubN65858" page="0" hidden="false" collective="false" import="true" type="model">
@@ -6042,7 +6042,7 @@
                 <entryLink id="414d0254-e5c5-40d8-b895-2951fa4e90e7" hidden="false" collective="false" import="true" targetId="7aeea2dc-d28f-94d7-deea-ba921a968e2a" type="selectionEntry" name="Searchlight"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="190"/>
+                <cost name="pts" typeId="points" value="155"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
