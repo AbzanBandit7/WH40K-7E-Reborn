@@ -9158,13 +9158,50 @@
             </selectionEntry>
             <selectionEntry id="d048-a153-6320-7901" name="Sub-flak Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="642e-2ba8-3958-3ca6" hidden="false" targetId="f004088c-54e7-45c1-a013-c055ad1f56db" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7eb79d81-050e-c1ac-5ebc-8c65e1367a5b" name="Flak Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="90b88dcd-5e19-c8e8-4fc8-5bd820df73af" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bb-45d8-3606-edb8" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6f42bcdb-409f-2461-484e-627a51a1c978" hidden="false" targetId="f76238a6-eacb-a9cf-ddbb-8e37d171e1bd" type="profile" name="Flak Armour"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1157hab6-1c0b-8027-5620-201dsh2fc53" name="Militia Training" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="906bbdrcd-5e19-c8e8-4fc8-5bd820df73af" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bb-45d8-3606-edb8" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="225b6096-dd6a-6ac5-bde5-b4491be3bd0b" hidden="false" targetId="304513bb-c5d8-08f0-3efe-0086a0fd919f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10026,7 +10063,6 @@
           <entryLinks>
             <entryLink id="2d68e52a-5357-e17e-9325-3d1dddb528e3" hidden="false" collective="false" import="true" targetId="c38ab16e-45a2-6ce0-085a-20430af8ac73" type="selectionEntry"/>
             <entryLink id="5d63bba9-74f6-ca45-5bf8-035353e4d6ae" hidden="false" collective="false" import="true" targetId="9ba8d6b8-8700-5d3a-72ec-7f85f484028e" type="selectionEntry"/>
-            <entryLink id="3c04c7f8-f508-83e4-5a83-45c6b214591a" hidden="false" collective="false" import="true" targetId="1c406ab6-1c0b-8027-5620-2013d022fc53" type="selectionEntry"/>
             <entryLink id="2ba7-f049-4207-c7ca" hidden="false" collective="false" import="true" targetId="ae1e-7355-17bb-c92c" type="selectionEntry"/>
             <entryLink id="1680-f27a-c479-e361" hidden="false" collective="false" import="true" targetId="2486-d34a-4790-b628" type="selectionEntry"/>
           </entryLinks>
@@ -10066,13 +10102,50 @@
             </selectionEntry>
             <selectionEntry id="e8c1-2670-2a1f-7a98" name="Sub-flak Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="1830-2f77-9dc7-3105" hidden="false" targetId="f004088c-54e7-45c1-a013-c055ad1f56db" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7eb79d81-050e-c1ac-5ebc-8c6z3br467a5b" name="Flak Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="a66e0b4d-2cf6-b6ce-11ed-82a4bd4dd07a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a01-8c2d-818b-0f5f" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6fz3br4db-409f-2461-484e-627a51a1c978" hidden="false" targetId="f76238a6-eacb-a9cf-ddbb-8e37d171e1bd" type="profile" name="Flak Armour"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1157hab6-1c0b-8027-5620-20z3br42fc53" name="Militia Training" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="a66e0b4d-2cf6-b6ce-11ed-82a4bd4dd07a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a01-8c2d-818b-0f5f" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2z3br496-dd6a-6ac5-bde5-b4491be3bd0b" hidden="false" targetId="304513bb-c5d8-08f0-3efe-0086a0fd919f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -12683,14 +12756,21 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8ce4-238d-cf93-6f1b" name="Sub-flak Armour for Squad" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="points" value="1">
+              <repeats>
+                <repeat field="selections" scope="7eb27edd-aeca-702b-f37a-8dd9ea89e222" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="207ceeb9-a1dc-6925-f7e6-8cd8d0bb8300" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="7f3b-7845-de3b-4a2e" hidden="false" targetId="f004088c-54e7-45c1-a013-c055ad1f56db" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13384,15 +13464,52 @@
         </selectionEntry>
         <selectionEntry id="f149-b2d2-99e2-c8fe" name="Sub-flak Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="74d0-ecb3-d9af-55df" hidden="false" targetId="f004088c-54e7-45c1-a013-c055ad1f56db" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7mutmut1-050e-c1ac-5ebc-8c6z54627a5b" name="Flak Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="40c0d60b-1ce6-6663-d451-f5ff82f09db4" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="79d20aaa-0d4d-b810-a1c8-c77e5ca540a9" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6m7m3nru4db-409f-2461-484e-627a51a1c978" hidden="false" targetId="f76238a6-eacb-a9cf-ddbb-8e37d171e1bd" type="profile" name="Flak Armour"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="115m63beb6-1c0b-8027-5620-20z3br42fc53" name="Militia Training" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="40c0d60b-1ce6-6663-d451-f5ff82f09db4" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="79d20aaa-0d4d-b810-a1c8-c77e5ca540a9" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2z3br496-dd6a-6ac5-bde5-b443n3trgi3bd0b" hidden="false" targetId="304513bb-c5d8-08f0-3efe-0086a0fd919f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="79d20aaa-0d4d-b810-a1c8-c77e5ca540a9" name="Weapons Teams" hidden="false" collective="false" import="true" defaultSelectionEntryId="38f6edff-4f04-47a3-cd98-69df58f61fcf">
