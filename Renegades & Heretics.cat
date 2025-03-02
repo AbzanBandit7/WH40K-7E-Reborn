@@ -9186,7 +9186,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1157hab6-1c0b-8027-5620-201dsh2fc53" name="Militia Training" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1vo98hab6-1c0b-8027-5620-2m32saa2fc53" name="Militia Training" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -9198,7 +9198,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="225b6096-dd6a-6ac5-bde5-b4491be3bd0b" hidden="false" targetId="304513bb-c5d8-08f0-3efe-0086a0fd919f" type="profile"/>
+                <infoLink id="22zzki35b96-dd6a-6ac5-bde5-b4491e7p3bd0b" hidden="false" targetId="304513bb-c5d8-08f0-3efe-0086a0fd919f" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -11154,7 +11154,6 @@
           <entryLinks>
             <entryLink id="2c6d58d1-759a-204f-f3ed-25dd5ee1ea93" hidden="false" collective="false" import="true" targetId="c38ab16e-45a2-6ce0-085a-20430af8ac73" type="selectionEntry"/>
             <entryLink id="0f8048da-6ea9-f949-7910-c6b8f3067286" hidden="false" collective="false" import="true" targetId="9ba8d6b8-8700-5d3a-72ec-7f85f484028e" type="selectionEntry"/>
-            <entryLink id="0c3d40b3-c0c8-b1b7-a784-a0a75690e85a" hidden="false" collective="false" import="true" targetId="1c406ab6-1c0b-8027-5620-2013d022fc53" type="selectionEntry"/>
             <entryLink id="7902-75b6-418d-27c1" hidden="false" collective="false" import="true" targetId="ae1e-7355-17bb-c92c" type="selectionEntry"/>
             <entryLink id="257d-abc5-81bd-3e1d" hidden="false" collective="false" import="true" targetId="2486-d34a-4790-b628" type="selectionEntry"/>
           </entryLinks>
