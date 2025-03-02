@@ -9190,7 +9190,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="906bbdrcd-5e19-c8e8-4fc8-5bd820df73af" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bb-45d8-3606-edb8" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="90b88dcd-5e19-c8e8-4fc8-5bd820df73af" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bb-45d8-3606-edb8" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
