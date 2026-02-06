@@ -1455,7 +1455,7 @@
                 <infoLink id="608a-dcf3-2dc8-e6d2" hidden="false" targetId="25ee3540-40f3-3ab9-da59-4e249297cddf" type="rule"/>
                 <infoLink id="a185-afd4-ef37-2301" hidden="false" targetId="93152e90-4e6e-849b-64a9-8a00921ad937" type="rule"/>
                 <infoLink id="8e75-dba3-f4f1-456a" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
-                <infoLink id="d580-c928-b008-9696" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+                <infoLink id="d580-c928-b008-9696" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
                 <infoLink id="7758-1184-954a-bf52" hidden="false" targetId="21048d89-ad8e-5b03-e2b7-e15cf60a8aa0" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -1518,7 +1518,7 @@
                 <infoLink id="fa35-0887-3d45-2b6b" hidden="false" targetId="25ee3540-40f3-3ab9-da59-4e249297cddf" type="rule"/>
                 <infoLink id="933e-40a3-0783-c905" hidden="false" targetId="93152e90-4e6e-849b-64a9-8a00921ad937" type="rule"/>
                 <infoLink id="c349-5dc8-fbb2-cffb" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
-                <infoLink id="1971-a97b-d5c9-71ce" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+                <infoLink id="1971-a97b-d5c9-71ce" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
                 <infoLink id="7ae0-aff0-6762-4586" hidden="false" targetId="21048d89-ad8e-5b03-e2b7-e15cf60a8aa0" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -1587,7 +1587,7 @@
     </selectionEntry>
     <selectionEntry id="18bec4ba-3aa3-640e-b32b-30cb095be41f" name="Haemonculus" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="6a9e4364-34de-e5fb-9a77-7971f42233b3" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+        <infoLink id="6a9e4364-34de-e5fb-9a77-7971f42233b3" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
         <infoLink id="54a7183d-44cf-7cf0-89a6-d0643fdf97f3" hidden="false" targetId="9dbb88f6-6d44-508b-507f-abb397a69ae2" type="rule"/>
         <infoLink id="1816e1d3-dbcc-9685-9e60-72bd4f1b26c3" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
         <infoLink id="c29c05e4-7024-5be0-cbe0-e57952cce7ae" hidden="false" targetId="25ee3540-40f3-3ab9-da59-4e249297cddf" type="rule"/>
@@ -4185,7 +4185,7 @@
       <infoLinks>
         <infoLink id="2077a9ba-b885-a047-28a2-6048ddcad5ce" hidden="false" targetId="9dbb88f6-6d44-508b-507f-abb397a69ae2" type="rule"/>
         <infoLink id="6ffb1865-bfdf-0cc0-47f3-fdf2973fd4a5" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
-        <infoLink id="98c62923-f3fa-0ffd-9a7e-682f737cd5fb" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+        <infoLink id="98c62923-f3fa-0ffd-9a7e-682f737cd5fb" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
         <infoLink id="50b5157f-cc6b-1d59-7028-4b7f7e8eb1af" hidden="false" targetId="b367beab-9501-f026-3fca-db6dfad8f757" type="rule"/>
         <infoLink id="746a64ae-c1a0-e9cb-7f4e-919ec16fc773" hidden="false" targetId="1e4062e8-833e-90e6-e087-d68357d73cd7" type="rule"/>
         <infoLink id="5abc0a99-6f3c-49f3-8833-a1587cd61a8a" hidden="false" targetId="373e4ffb-7253-440d-883a-ceceb3edfa66" type="profile"/>
@@ -4474,7 +4474,7 @@
                 <infoLink id="606b6a27-a262-10f6-cb8c-2a5817fa4213" hidden="false" targetId="ef933765-2bed-ea19-38c1-4f6929f671b0" type="profile"/>
                 <infoLink id="edb2-48a2-3ba1-1eb2" hidden="false" targetId="25ee3540-40f3-3ab9-da59-4e249297cddf" type="rule"/>
                 <infoLink id="8c4a-7eaa-ebe9-92c1" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
-                <infoLink id="e98a-e2f7-0278-2fdc" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+                <infoLink id="e98a-e2f7-0278-2fdc" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="6754d133-5046-b37c-8c7e-d2056e1d347c" name="2 Wrack tools" hidden="false" collective="true" import="true" type="upgrade">
@@ -4505,7 +4505,7 @@
                 <infoLink id="8b06ab9d-e409-8c85-ba22-e7081f7ce149" hidden="false" targetId="2abf2dd0-dd31-819c-ce13-497806b38fb7" type="profile"/>
                 <infoLink id="1641-89a5-0e1a-effd" hidden="false" targetId="25ee3540-40f3-3ab9-da59-4e249297cddf" type="rule"/>
                 <infoLink id="e279-d7f1-3364-dd5c" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
-                <infoLink id="af4d-9c97-1a39-e144" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+                <infoLink id="af4d-9c97-1a39-e144" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="0c153e90-7c29-4fbe-6ad8-37a18e4e4c22" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="b8c176e4-0d8b-af24-b935-1b602fee5c9a">
@@ -4630,7 +4630,7 @@
                 <infoLink id="519a-0f95-8555-a094" hidden="false" targetId="ef933765-2bed-ea19-38c1-4f6929f671b0" type="profile"/>
                 <infoLink id="93d1-6219-9b21-5b8e" hidden="false" targetId="25ee3540-40f3-3ab9-da59-4e249297cddf" type="rule"/>
                 <infoLink id="334f-756c-5a21-b2a1" hidden="false" targetId="1e968bef-1a90-c7ef-5327-10bc60c6a1b6" type="rule"/>
-                <infoLink id="5e8e-c1c1-9f6e-ab61" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f101c" type="rule"/>
+                <infoLink id="5e8e-c1c1-9f6e-ab61" hidden="false" targetId="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="62a923ca-8f7f-9d87-8fce-b747027bbab3" name="Wrack tool" hidden="false" collective="false" import="true" type="upgrade">
@@ -5991,6 +5991,15 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
 5	Feel No Pain, Furious Charge, Fearless
 6+	Feel No Pain, Furious Charge, Fearless, Rage
 </description>
+    </rule>
+    <rule id="9c2e58b1-1f61-8664-c24a-9c30cc7f1bbb" name="Power from Pain" hidden="false">
+      <description>Turn 
+1	None
+2 	Fearless
+3	Fear, Fearless
+4	Fear, Fearless, It Will Not Die
+5	Fear, It Will Not Die, Zealot
+6+	Eternal Warrior, Fear, It Will Not Die, Zealot</description>
     </rule>
     <rule id="89cfcc98-d081-3eb6-dc72-66c9c3364f2b" name="Rage" publicationId="635e04e0--pubN100024" page="170" hidden="false">
       <description>In a turn in which a model with this special rule charges into combat, it gains +2 Attacks for charging, rather than +1. A model that has made a disordered charge that turn receives no benefit from Rage.</description>
