@@ -696,6 +696,17 @@ D6 Result
       </categoryLinks>
     </entryLink>
     <entryLink id="459a-1e19-55aa-6666" hidden="false" collective="false" import="true" targetId="bc01-daa0-b610-0666" type="selectionEntry" name="Myphic Blight Haulers">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="459a-1e19-55aa-6666-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true" name="Fast Attack"/>
       </categoryLinks>
