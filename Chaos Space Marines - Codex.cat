@@ -695,6 +695,22 @@ D6 Result
         <categoryLink id="459a-1e19-55aa-8bf7-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="459a-1e19-55aa-6666" hidden="false" collective="false" import="true" targetId="bc01-daa0-b610-0666" type="selectionEntry" name="Myphic Blight Haulers">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="459a-1e19-55aa-6666-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="9460-ad24-d729-03f1" hidden="false" collective="false" import="true" targetId="c987-ebac-8d44-8c2e" type="selectionEntry" name="[FW] Greater Brass Scorpion of Khorne">
       <categoryLinks>
         <categoryLink id="9460-ad24-d729-03f1-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true" name="Lord of War"/>
@@ -14546,6 +14562,83 @@ Hellflame, Las-Destructor, Shellstorm</description>
         <cost name="pts" typeId="points" value="195"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bc01-daa0-b610-0666" name="Myphic Bligh Haulers" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f41b-3684-2d6b-9666" name="Members - 1 to 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="67df-ff04-b483-6666">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="67df-ff04-b483-6666" name="Myphic Blight Hauler" page="0" hidden="false" collective="false" import="true" type="model">
+              <profiles>
+                <profile id="25b0-fa6b-e0af-6666" name="Myphic Blight Hauler" page="0" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+                  <characteristics>
+                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+                    <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+                    <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">12</characteristic>
+                    <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+                    <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">2</characteristic>
+                    <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                    <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bc52-cd44-b9eb-d666" hidden="false" targetId="41d92af2-6429-c745-dbae-fef1ccbe7878" type="profile" name="Daemonic Possession"/>
+                <infoLink id="2c2a-5390-3dd9-9666" hidden="false" targetId="e417ae65-6c55-9cc2-b9e9-3485e8c4f67b" type="rule" name="Daemon of Nurgle"/>
+                <infoLink id="e18d-524a-0681-3666" hidden="false" targetId="b3ad-2a40-c969-6666" type="rule" name="Explosion of Pus"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="a763-f21f-6c35-6676" name="Bile Spurt" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6e2f-d56a-50dc-643650" hidden="false" targetId="e732-4767-21ab-c663" type="profile" name="Bile Spurt"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="70c2-5c68-1f48-5666" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="b3c1-71e2-f666-2d8e" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile" name="Multi-Melta"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7bde-1469-b601-6961" name="Missile launcher (with frag and krak)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="623e-678c-6fb3-bcvw5" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile" name="Frag Missiles"/>
+                    <infoLink id="f75f-9d78-82bb-adkw3" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile" name="Krak Missiles"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="80"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="ec5d28a5-45ee-3773-9ddb-3dfc4a77b0d7" name="Dimensional Key" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -26921,6 +27014,10 @@ Codex: Grey Knights</description>
     <rule id="b3ad-2a40-c969-66d9" name="Crimson Slaughter" hidden="false">
       <description>If you wish, you can say that any Chaos Space Marines Detachment or Formation is also a Black legion Detachment or Formation. Detachments and Formations drawn from the Crimson Slaughter may use the Warlord Traits and Tactical Objectives from the Crimson Slaughter supplement in addition to those in C:CSM and BRB.</description>
     </rule>
+    </rule>
+    <rule id="b3ad-2a40-c969-6666" name="Explosion of Pus" hidden="false">
+      <description>Always explodes when it would be wrecked.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="b3b46233-86c7-6f7b-f11e-d08fc7b2a83d" name="Abaddon the Despoiler: Warmaster of Chaos" page="0" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -27163,6 +27260,14 @@ Codex: Grey Knights</description>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e732-4767-21ab-c663" name="Bile Spurt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Poisoned (4+)</characteristic>
       </characteristics>
     </profile>
     <profile id="df5936c5-d5e0-a3dc-0887-0924a725312f" name="Frag Assault Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">

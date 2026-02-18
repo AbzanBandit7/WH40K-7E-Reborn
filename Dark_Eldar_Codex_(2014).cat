@@ -874,16 +874,6 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="9702e32d-b795-8aa4-7f1e-331f1c96f7d9" name="Bloodbride with Wych Weapon" page="0" hidden="false" collective="false" import="true" type="model">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="3.0">
-                  <conditions>
-                    <condition field="selections" scope="cf2b35c4-d0d7-a558-a6c8-51bf3f43a5db" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdc89bb3-7ae1-6927-6db4-df7542748808" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
               <infoLinks>
                 <infoLink id="8b5d0d2c-dbe5-b0b0-05c6-5182f7298ee7" hidden="false" targetId="b3f3537a-fd56-1321-9aff-69aa775b2bf2" type="profile"/>
               </infoLinks>
@@ -5876,13 +5866,13 @@ from. This is cumulative with the Agonising and/or Master of Pain special rules.
       <description>If a non-vehicle model is removed as a casualty due to an unsaved wound caused by this weapon, that model&apos;s unit immediately sufers D6 additional hits. These hits are Randomly Allocated and have the Ignores Cover special rule. The Strength of these hits is equal to the Toughness characteristic of the model removed as a casualty, and they are resolved at AP-.</description>
     </rule>
     <rule id="15f93ba6-0292-9789-c7f2-221d0ce7e6e2" name="Combat Drugs" publicationId="635e04e0--pubN99934" hidden="false">
-      <description>D6	Bonus
+      <description>At the beginning of the game, before deployment, Dark Eldar player can decide between choosing one combat drug, or rolling a D6 twice on the table below, rerolling any duplicate results:
 1	Adrenalight: + 1 Attack
 2	Grave Lotus: + 1 Strength
-3	Hypex: + 1 initiative
+3	Hypex: + 1 Initiative and + 2" Charge/Run Movements
 4	Painbringer: + 1 Toughness
 5	Serpentin: + 1 Weapon Skill
-6	Splintermind: + 1 Leadership
+6	Splintermind: + 1 Leadership and Ballistic Skill
 </description>
     </rule>
     <rule id="3466ecfb-a75e-5225-16d2-4eae9ef88b75" name="Daemon" publicationId="635e04e0--pubN100024" page="163" hidden="false">
