@@ -1771,7 +1771,11 @@
                 <infoLink id="346d-4ff6-4c8e-3ed4" name="" hidden="false" targetId="20e0-3f6c-f3ac-fda2" type="rule"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="5ppow-0628-a477-317ca" name="2x Hyperphase Blades" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5ppow-0628-a477-317ca" name="Hyperphase Blades" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
                   <profiles>
                     <profile id="b70a4df0-519e-ooow7-e209-191c0d89" name="Hyperphase Blade" publicationId="026a-37f6-pubN68514" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
@@ -1840,6 +1844,10 @@
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="aknocsd-0628-a477-12348" name="Hyperphase Reaper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
                   <profiles>
                     <profile id="b2910s-519e-oacw7-e209-11pa89" name="Hyperphase Reaper" publicationId="026a-37f6-pubN68514" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
