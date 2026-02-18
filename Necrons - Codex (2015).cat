@@ -1770,10 +1770,23 @@
                 <infoLink id="8115-c393-4cf3-4529" name="" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule"/>
                 <infoLink id="346d-4ff6-4c8e-3ed4" name="" hidden="false" targetId="20e0-3f6c-f3ac-fda2" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="5ppow-0628-a477-317ca" name="2x Hyperphase Blades" hidden="false" collective="false" import="true" targetId="b70a4df0-519e-ooow7-e209-191c0d89" type="selectionEntry">
-                </entryLink>
-              </entryLinks>
+              <selectionEntries>
+                <selectionEntry id="5ppow-0628-a477-317ca" name="2x Hyperphase Blades" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="b70a4df0-519e-ooow7-e209-191c0d89" name="Hyperphase Blade" publicationId="026a-37f6-pubN68514" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
               </costs>
@@ -1825,10 +1838,23 @@
                 <infoLink id="8115-c393-4cf3-4529" name="" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule"/>
                 <infoLink id="346d-4ff6-4c8e-3ed4" name="" hidden="false" targetId="20e0-3f6c-f3ac-fda2" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="aknocsd-0628-a477-12348" name="Hyperphase Reaper" hidden="false" collective="false" import="true" targetId="b2910s-519e-oacw7-e209-11pa89" type="selectionEntry">
-                </entryLink>
-              </entryLinks>
+              <selectionEntries>
+                <selectionEntry id="aknocsd-0628-a477-12348" name="Hyperphase Reaper" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="b2910s-519e-oacw7-e209-11pa89" name="Hyperphase Reaper" publicationId="026a-37f6-pubN68514" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-Handed</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
               </costs>
