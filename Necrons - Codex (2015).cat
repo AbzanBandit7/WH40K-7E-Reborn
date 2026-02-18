@@ -1771,11 +1771,7 @@
                 <infoLink id="346d-4ff6-4c8e-3ed4" name="" hidden="false" targetId="20e0-3f6c-f3ac-fda2" type="rule"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="5ppow-0628-a477-317ca" name="Hyperphase Blades" hidden="false" collective="false" import="true" targetId="b70a4df0-519e-ooow7-e209-191c0d89" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a97d-33c5-2391-80b3" type="max"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ac8-e6ff-ce7b-5d7a" type="min"/>
-                  </constraints>
+                <entryLink id="5ppow-0628-a477-317ca" name="2x Hyperphase Blades" hidden="false" collective="false" import="true" targetId="b70a4df0-519e-ooow7-e209-191c0d89" type="selectionEntry">
                 </entryLink>
               </entryLinks>
               <costs>
@@ -1788,7 +1784,7 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="d8f0chgl8-c616-46bd-79ea-344d194du6cd" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bllc-f878-4fc1-7375" type="lessThan"/>
+                        <condition field="selections" scope="d8f0chgl8-c616-46bd-79ea-344d194du6cd" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bllc-f878-4fc1-7375" type="lessThan"/>
                         <condition field="selections" scope="d8f0chgl8-c616-46bd-79ea-344d194du6cd" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bllc-f878-4fc1-7375" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
@@ -1799,7 +1795,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="d8f0chgl8-c616-46bd-79ea-344d194du6cd" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bllc-f878-4fc1-7375" type="lessThan"/>
-                        <condition field="selections" scope="d8f0chgl8-c616-46bd-79ea-344d194du6cd" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bllc-f878-4fc1-7375" type="greaterThan"/>
+                        <condition field="selections" scope="d8f0chgl8-c616-46bd-79ea-344d194du6cd" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bllc-f878-4fc1-7375" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1831,10 +1827,6 @@
               </infoLinks>
               <entryLinks>
                 <entryLink id="aknocsd-0628-a477-12348" name="Hyperphase Reaper" hidden="false" collective="false" import="true" targetId="b2910s-519e-oacw7-e209-11pa89" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a97d-33c5-2391-80b3" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ac8-e6ff-ce7b-5d7a" type="min"/>
-                  </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
