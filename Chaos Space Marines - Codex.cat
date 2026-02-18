@@ -14618,6 +14618,10 @@ Hellflame, Las-Destructor, Shellstorm</description>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7bde-1469-b601-6961" name="Missile launcher (with frag and krak)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
                   <infoLinks>
                     <infoLink id="623e-678c-6fb3-bcvw5" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile" name="Frag Missiles"/>
                     <infoLink id="f75f-9d78-82bb-adkw3" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile" name="Krak Missiles"/>
