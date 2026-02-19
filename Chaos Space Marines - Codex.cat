@@ -14587,19 +14587,21 @@ Hellflame, Las-Destructor, Shellstorm</description>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="bc52-cd44-b9eb-d666" hidden="false" targetId="41d92af2-6429-c745-dbae-fef1ccbe7878" type="profile" name="Daemonic Possession"/>
-                <infoLink id="2c2a-5390-3dd9-9666" hidden="false" targetId="e417ae65-6c55-9cc2-b9e9-3485e8c4f67b" type="rule" name="Daemon of Nurgle"/>
-                <infoLink id="e18d-524a-0681-3666" hidden="false" targetId="b3ad-2a40-c969-6666" type="rule" name="Explosion of Pus"/>
-              </infoLinks>
+              <rules>
+                <infoLinks>
+                  <infoLink id="d815-fa49-b40c-1d65" hidden="false" targetId="41d92af2-6429-c745-dbae-fef1ccbe7878" type="profile" name="Daemonic Possession"/>
+                  <infoLink id="2c2a-5390-3dd9-9666" hidden="false" targetId="e417ae65-6c55-9cc2-b9e9-3485e8c4f67b" type="rule" name="Daemon of Nurgle"/>
+                  <infoLink id="e18d-524a-0681-3666" hidden="false" targetId="b3ad-2a40-c969-6666" type="rule" name="Explosion of Pus"/>
+                </infoLinks>
+              </rules>
               <selectionEntries>
-                <selectionEntry id="a763-f21f-6c35-6676" name="Bile Spurt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="a763-fijqdcoom21f-6c35-6676" name="Bile Spurt" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="6e2f-d56a-50dc-643650" hidden="false" targetId="e732-4767-21ab-c663" type="profile" name="Bile Spurt"/>
+                    <infoLink id="6e2f-d56a-50dc-643650" hidden="false" targetId="e732-476mmsla7-21ab-c66wkco3" type="profile" name="Bile Spurt"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
@@ -27265,7 +27267,7 @@ Codex: Grey Knights</description>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="e732-4767-21ab-c663" name="Bile Spurt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e732-476mmsla7-21ab-c66wkco3" name="Bile Spurt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
