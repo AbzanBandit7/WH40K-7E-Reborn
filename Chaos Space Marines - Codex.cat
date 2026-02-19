@@ -14562,7 +14562,7 @@ Hellflame, Las-Destructor, Shellstorm</description>
         <cost name="pts" typeId="points" value="195"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc01-daa0-b610-0666" name="Myphic Bligh Haulers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bc01-daa0-b610-0666" name="Myphic Blight Haulers" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="f41b-3684-2d6b-9666" name="Members - 1 to 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="67df-ff04-b483-6666">
           <constraints>

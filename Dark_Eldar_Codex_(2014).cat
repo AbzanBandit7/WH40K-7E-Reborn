@@ -387,8 +387,37 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="ef43012a-8924-b4f4-f99d-aa2deea83009" hidden="false" collective="false" import="true" targetId="dd7557e4-07da-0796-4d73-44cc898531dc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="18bec4ba-3aa3-640e-b32b-30cb095be41f" type="equalTo"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ada884-f1b2-6fb5-a31c-4d5e0b328977" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
-        <categoryLink id="ef43012a-8924-b4f4-f99d-aa2deea83009-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="ef43012a-8924-b4f4-f99d-aa2deea83009-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ef43012a-8924-b4f4-f99d-aa2deea8298ck" hidden="false" collective="false" import="true" targetId="dd7557e4-07da-0796-4d73-44cc898531dc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="18bec4ba-3aa3-640e-b32b-30cb095be41f" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ada884-f1b2-6fb5-a31c-4d5e0b328977" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="ef43012a-8924-b4f4-f99d-aa2deea8298ck-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7fd35c60-b78a-27b2-6c65-ec2ebbfd7647" hidden="false" collective="false" import="true" targetId="5fe16e24-3b9c-2c66-fcd1-0d9f086691a4" type="selectionEntry">
@@ -5869,10 +5898,10 @@ from. This is cumulative with the Agonising and/or Master of Pain special rules.
       <description>At the beginning of the game, before deployment, Dark Eldar player can decide between choosing one combat drug, or rolling a D6 twice on the table below, rerolling any duplicate results:
 1	Adrenalight: + 1 Attack
 2	Grave Lotus: + 1 Strength
-3	Hypex: + 1 Initiative and + 2" Charge/Run Movements
+3	Hypex: + 1 Initiative and gain Move Through Cover
 4	Painbringer: + 1 Toughness
 5	Serpentin: + 1 Weapon Skill
-6	Splintermind: + 1 Leadership and Ballistic Skill
+6	Splintermind: + 1 turn on Power from Pain Chart
 </description>
     </rule>
     <rule id="3466ecfb-a75e-5225-16d2-4eae9ef88b75" name="Daemon" publicationId="635e04e0--pubN100024" page="163" hidden="false">
