@@ -14595,14 +14595,19 @@ Hellflame, Las-Destructor, Shellstorm</description>
                 </infoLinks>
               </rules>
               <selectionEntries>
-                <selectionEntry id="a763-fijqdcoom21f-6c35-6676" name="Bile Spurt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="a763-98ujnoom21f-6c35-nzm76" name="Bile Spurt" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="6e2f-d56a-50dc-643650" hidden="false" targetId="e732-476mmsla7-21ab-c66wkco3" type="profile" name="Bile Spurt"/>
-                  </infoLinks>
+                  <profile id="e732-coblera7-21ab-c66wkco3" name="Bile Spurt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <characteristics>
+                      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
+                      <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
+                      <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Poisoned (4+)</characteristic>
+                    </characteristics>
+                  </profile>
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
@@ -14612,14 +14617,9 @@ Hellflame, Las-Destructor, Shellstorm</description>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
-                  <profile id="e732-476mmsla7-21ab-c66wkco3" name="Bile Spurt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                    <characteristics>
-                      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
-                      <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
-                      <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
-                      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Poisoned (4+)</characteristic>
-                    </characteristics>
-                  </profile>
+                  <infoLinks>
+                    <infoLink id="b3c1-71e2-f666-2d8e" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile" name="Multi-Melta"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
