@@ -14640,6 +14640,8 @@ Hellflame, Las-Destructor, Shellstorm</description>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="80"/>
               </costs>
