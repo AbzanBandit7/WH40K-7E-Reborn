@@ -12082,6 +12082,22 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry id="abee-429f-503a-074f" name="Chaos Spawn" page="0" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a29b139e-6d67-8464-7266-814ce16c1205" name="Chaos Spawn" page="0" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Beast</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">0</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">D6</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="036a-d0ed-adee-621d" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule" name="Fearless"/>
         <infoLink id="a13a-c410-2a4b-4b6e" hidden="false" targetId="280d-1a0c-5916-3012" type="rule" name="Fear"/>
@@ -12089,25 +12105,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink id="257b-8569-906d-1467" hidden="false" targetId="b3feb676-c1d4-3d48-a8b7-3aa4a87188ef" type="rule" name="Mutated Beyond Reason"/>
         <infoLink id="c5b5-fdab-1bdd-5d25" hidden="false" targetId="c36b4aae-d2ae-5058-2d3e-80d114a6043a" type="rule" name="Random Attacks"/>
         <infoLink id="0b84-19fe-f941-1f34" hidden="false" targetId="20e0-3f6c-f3ac-fda2" type="rule" name="Very Bulky"/>
-        <infoLink id="1066-e2a7-0f57-0055" hidden="false" targetId="a29b139e-6d67-8464-7266-814ce16c1205" type="profile" name="Chaos Spawn">
-          <modifiers>
-            <modifier type="increment" field="a558b3ef-04d0-440e-a312-bac3255bf592" value="1">
-              <conditions>
-                <condition field="selections" scope="abee-429f-503a-074f" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e89-0e5b-1a42-10de" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="1">
-              <conditions>
-                <condition field="selections" scope="abee-429f-503a-074f" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b08-bf7e-e965-b411" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="/6++">
-              <conditions>
-                <condition field="selections" scope="abee-429f-503a-074f" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f1c-963a-cbaf-ee95" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="094d-1e41-d9e9-8d75" name="Spawn" page="0" hidden="false" collective="false" import="true" type="model">
@@ -15294,9 +15291,24 @@ The nominated unit has Fearless and +1 Strength for the entire game.</descriptio
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="bf5dcee5-af6b-47cf-82b6-b6attttttttt2" name="Helbrute" page="0" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+          <characteristics>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">6</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">12</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">4</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Walker)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="89c2-59d3-95bd-7c81" hidden="false" targetId="98ede496-d460-0ae5-eae4-0dbd527a748b" type="rule" name="Crazed"/>
-        <infoLink id="b17b-e0eb-7bf8-e29e" hidden="false" targetId="bf5dcee5-af6b-47cf-82b6-b6aef6876d7d" type="profile" name="Helbrute"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7bae-86a1-5380-6339" name="Range Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e26f-6d58-6baf-f508">
@@ -21365,9 +21377,24 @@ Witchfire Power.</description>
 The unit must immediately disembark their transport before turning into the spawn.</description>
         </rule>
       </rules>
+      <profiles>
+        <profile id="a29b139e-6d67-8464-7266-814ce16c1205" name="Chaos Spawn" page="0" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Beast</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">0</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">D6</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="cf8d-e138-0d3e-8b0e" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule" name="Fearless"/>
-        <infoLink id="80c3-d333-f5ab-a592" hidden="false" targetId="a29b139e-6d67-8464-7266-814ce16c1205" type="profile" name="Chaos Spawn"/>
         <infoLink id="7cdb-4d39-b744-973a" hidden="false" targetId="280d-1a0c-5916-3012" type="rule" name="Fear"/>
         <infoLink id="fdae-6668-5629-4075" hidden="false" targetId="3ac5-a550-39f8-f28a" type="rule" name="Rage"/>
         <infoLink id="1892-54fe-0920-fee6" hidden="false" targetId="b3feb676-c1d4-3d48-a8b7-3aa4a87188ef" type="rule" name="Mutated Beyond Reason"/>
