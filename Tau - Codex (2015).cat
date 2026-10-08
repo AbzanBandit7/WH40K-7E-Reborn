@@ -8253,7 +8253,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                 <entryLink id="d0f1-9073-fe57-3430" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8a050abe-7e61-ce5d-3820-20e530aac6fa" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="19.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bc3e-e259-524b-7276" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
@@ -8288,7 +8288,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="11.0"/>
+                <cost name="pts" typeId="points" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8330,7 +8330,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="11.0"/>
+                    <cost name="pts" typeId="points" value="9.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ee88-dbb3-1232-3334" name="Pathfinder with Rail Rifle" hidden="false" collective="false" import="true" type="model">
@@ -8364,7 +8364,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="11.0"/>
+                    <cost name="pts" typeId="points" value="9.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>

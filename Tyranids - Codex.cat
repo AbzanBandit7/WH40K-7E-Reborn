@@ -18182,12 +18182,12 @@ Formation&apos;s Tyranid Warrior Brood can re-roll failed To Wound rolls of 1 in
             <entryLink id="246c-cfdb-10bd-e6d6" hidden="false" collective="false" import="true" targetId="f7e7a6e8-3838-f8db-3380-ad8b10c489ec" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="120.0"/>
+            <cost name="pts" typeId="points" value="100.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="deba-7637-0180-2772" name="Deathleaper" publicationId="f2f40acf--pubN65999" page="88" hidden="false" collective="false" import="true" type="model">

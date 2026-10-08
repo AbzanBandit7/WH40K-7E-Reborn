@@ -210,6 +210,11 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <categoryLink id="9b04-2967-1624-4d52-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9b0ewbrewnr4-2967-1624-4d52" hidden="false" collective="false" import="true" targetId="dsds-dsds-4df1-b213" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b0ewbrewnr4-2967-1624-4d52-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="97d7-0344-8f50-929a" hidden="false" collective="false" import="true" targetId="2263-17cd-ed6d-5462" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="97d7-0344-8f50-929a-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
@@ -2398,7 +2403,6 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <infoLink id="6d35-4729-1f82-eb2e" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
         <infoLink id="ddb4-53a8-0b53-94c1" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
         <infoLink id="60ce-8b90-9e3e-79c3" hidden="false" targetId="ed92-4bd2-7f00-1801" type="rule"/>
-        <infoLink id="365h-b2v5-5459-sg45" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="accf-846a-33c4-a3ee" name="Ghosthelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3924,7 +3928,6 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <infoLink id="bb25-4b6e-cc06-73ee" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="9493-03f0-b37d-9f47" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
         <infoLink id="dec4-95c0-0e0f-f54f" hidden="false" targetId="ed92-4bd2-7f00-1801" type="rule"/>
-        <infoLink id="462x-14sm-4511-6428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="bb22-d511-fa83-f1fe" name="Ghosthelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -4282,7 +4285,6 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
         <infoLink id="5757-0f72-2c57-2995" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="1fb6-8a4c-afdd-7b8a" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
         <infoLink id="319d-17a6-4568-6478" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
-        <infoLink id="426x-15sm-4511-6428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
         <infoLink>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5722,7 +5724,7 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
                             <infoLink id="ef0e-ed18-0a32-a3be" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="points" value="5.0"/>
+                            <cost name="pts" typeId="points" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -9673,13 +9675,22 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <profile id="f165-43e2-91da-66bb" name="Spiritseer" publicationId="555e-9663-pubN65910" page="111" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">2</characteristic>
-            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Daemonology (Sanctic), Runes of Battle, Telepathy</characteristic>
+            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Daemonology (Sanctic), Runes of Battle, Telepathy, Wraith Guide</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="975a-baea-5801-905f" name="Spirit Mark" publicationId="555e-9663-pubN65910" page="111" hidden="false">
           <description>Wraithguard, Wraithblades, Wraithlords, Wraithknights, and Hemlock Wraithfighters can re-roll To-Hit rolls of 1 against enemy units that are within 12&quot; of a model with this special rule.</description>
+        </rule>
+        <rule id="c6c8-78c4-9b70-61c2" name="Wraithseer Guide" publicationId="555e-9663-pubN70264" page="213" hidden="false">
+          <description>Enliven (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Fleet special rule.
+
+Foreboding (1 warp charge): Foreboding is a Witchfire power with the following profile: Range 18&quot; Str 3 AP5 Assault D6, Aether Shock
+
+Aether Shock: If this attack hits then the targeted unit must take a Pinning test with a -2 Ld penalty.
+
+Deliverance (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Feel No Pain (5+) special rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9688,7 +9699,6 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <infoLink id="a9e2-23b8-c4ad-1cfb" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="0be0-d73a-d7c1-5ab7" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
         <infoLink id="42ed-54ed-3779-ebcf" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
-        <infoLink id="642x-14sm-4251-6828" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="5bce-a531-35a1-5f06" name="Rune Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -9735,6 +9745,68 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dsds-dsds-4df1-b213" name="Bonesinger" publicationId="555e-9663-pubN65910" page="111" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="dsad-dsas-3b88-a908" name="Bonesinger" publicationId="555e-9663-pubN65910" page="111" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="rrdar-rqwrer-dddsfa-905f" name="Bonesinging" publicationId="555e-9663-pubN65910" page="111" hidden="false">
+          <description>This model and the unit it is attached to have the Feel No Pain (5+) rule. During the start of the shooting phase, this unit may repair 1 hull point, weapon destroyed, or immobilized result from a vehicle in base contact. If it does so, any unit its attached to loses the FNP until your next turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7pads0e-51d1-5baqe1-9e26" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
+        <infoLink id="aafe-79waceva21-bdqxc1e-b713" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
+        <infoLink id="a9eqewq2-23b8-c4aqbrd-1cfb" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
+        <infoLink id="0be0-d7enym3a-d7qavrc1-5wwab7" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5bce-a531-35a1-5f06" name="Rune Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6e56-7f55-6eeb-b49e" hidden="false" targetId="5ea3-45bc-4196-f789" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="80qre1-vre022f-d9d9-d5ebb6" name="Psytronome Shaper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d518-8b39-e980-6ef3" hidden="false" targetId="869b-65b0-2efd-de69wewt" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="61f1-a9ce-10c3-bdc8" hidden="false" collective="false" import="true" targetId="eedf-9490-0d7d-483e" type="selectionEntryGroup"/>
+        <entryLink id="cf7a-7f6b-c8f3-f2c9" name="" hidden="false" collective="false" import="true" targetId="efbf-4f34-7421-2a88" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="623f-0a83-272b-d418" name="Storm Guardians" publicationId="555e-9663-pubN65910" page="113" hidden="false" collective="false" import="true" type="unit">
@@ -9875,11 +9947,15 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a542-d944-35ee-ac46" name="Flamer" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
                   <infoLinks>
-                    <infoLink id="b6df-47c0-d2cd-33ed" hidden="false" targetId="acaa-8094-58c1-5117" type="profile"/>
+                    <infoLink id="b6df-47c0-d2cd-33ed" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -12954,12 +13030,12 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <profile id="4d78-a214-fba7-f2c3" name="Wraithseer" publicationId="555e-9663-pubN70264" page="213" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">1</characteristic>
-            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Wraithseers do not generate their psychic powers using the standard rules. Instead, they automatically gain all three Wraithseer powers.</characteristic>
+            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Wraithseers do not generate their psychic powers using the standard rules. Instead, they automatically gain all three Wraithseer Guide powers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="c6c8-78c4-9b70-61c2" name="Wraithseer Powers" publicationId="555e-9663-pubN70264" page="213" hidden="false">
+        <rule id="c6c8-78c4-9b70-61c2" name="Wraithseer Guide" publicationId="555e-9663-pubN70264" page="213" hidden="false">
           <description>Enliven (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Fleet special rule.
 
 Foreboding (1 warp charge): Foreboding is a Witchfire power with the following profile: Range 18&quot; Str 3 AP5 Assault D6, Aether Shock
@@ -12974,7 +13050,6 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
         <infoLink id="8a3b-f3f2-56c1-09da" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
         <infoLink id="239c-29a1-38b3-b0c3" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="ac39-2938-ca4c-12bf" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
-        <infoLink id="586x-45mn-3861-0028" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="7d23-5693-613a-0fda" name="Wraithshield" hidden="false" collective="false" import="true" type="upgrade">
@@ -13220,7 +13295,6 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
       <infoLinks>
         <infoLink id="eae7-cbd5-348d-0594" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
         <infoLink id="ca28-a2e4-b479-0d99" hidden="false" targetId="4df2-e7af-24be-0674" type="rule"/>
-        <infoLink id="986x-45sm-5411-9428" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
         <infoLink id="63ec-4eab-27d3-4b8d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -15072,7 +15146,6 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
         </infoLink>
         <infoLink id="3dc8-591c-7398-c4ed" name="" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
         <infoLink id="a0f2-53ec-eb09-d003" name="" hidden="false" targetId="b979-afe4-ed51-d7a6" type="rule"/>
-        <infoLink id="365h-d3f5-1849-0028" hidden="false" targetId="d8ee-98d6-c1f4-rh63" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="b8f5-8751-5018-4e17" name="Runesuit" publicationId="555e-9663-pubN66004" hidden="false" collective="false" import="true" type="upgrade">
@@ -16988,6 +17061,14 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Fleshbane, Soul Blaze</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="869b-65b0-2efd-de69wewt" name="Psytronome Shaper" publicationId="555e-9663-pubN65910" page="152" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane</characteristic>
       </characteristics>
     </profile>
     <profile id="dd84-700c-ae7d-98b7" name="Wraithcannon" publicationId="555e-9663-pubN65910" page="149" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
