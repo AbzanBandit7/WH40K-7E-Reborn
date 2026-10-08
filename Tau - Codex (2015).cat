@@ -7404,7 +7404,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="19.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="039e387a-cd36-ab28-e29f-b1ef15c25e79" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
@@ -7442,7 +7442,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="11.0"/>
+                <cost name="pts" typeId="points" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7484,7 +7484,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="11.0"/>
+                    <cost name="pts" typeId="points" value="9.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d89e4863-40d4-fb41-88f6-24d276223df0" name="Pathfinder with Rail Rifle" hidden="false" collective="false" import="true" type="model">
@@ -7521,7 +7521,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="11.0"/>
+                    <cost name="pts" typeId="points" value="9.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7934,7 +7934,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="19.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="390e-4647-a4d6-5845" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
@@ -7969,7 +7969,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="11.0"/>
+                <cost name="pts" typeId="points" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8011,7 +8011,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="11.0"/>
+                    <cost name="pts" typeId="points" value="9.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ef74-bad4-6d0e-0fba" name="Pathfinder with Rail Rifle" hidden="false" collective="false" import="true" type="model">
@@ -8045,7 +8045,7 @@ Killing Blade: Rending until the end of the current phase.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="11.0"/>
+                    <cost name="pts" typeId="points" value="9.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
