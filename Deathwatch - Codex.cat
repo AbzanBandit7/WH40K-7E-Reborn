@@ -3729,6 +3729,32 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntry id="8f31-dsc754-52de-9047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-7wq1e2-d840-6fb532" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4bcwq8-e237-5a0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b30er5-68c1-de9246" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-pp3f7-a419-d50b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+              <entryLink id="a714-35odc-f68o2-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+              <entryLink id="6b29-epoa1-74fc-c85062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+              <entryLink id="d553-2fa6-9pb7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+              <entryLink id="49e5-c132-abp5-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="bc25-507d-e941-3afp75" hidden="false" collective="false" import="true" targetId="fa56-41f6-7241-e842" type="selectionEntry" name="Discipline: Librarius"/>
+              <entryLink id="7d95-af43-2c68-e5p934" hidden="false" collective="false" import="true" targetId="a4a8-ec73-9df4-913b" type="selectionEntry" name="Discipline: Geokinesis"/>
+              <entryLink id="ep35-14b9-7fa2-cp0581" hidden="false" collective="false" import="true" targetId="5037-da8a-7eb7-507f" type="selectionEntry" name="Discipline: Fulmination"/>
+              <entryLink id="24a5-d761-9ce8-b530p9" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+              <entryLink id="f15p-6ca0-4pbd-87e256" hidden="false" collective="false" import="true" targetId="a2b7-900b-fd71-721d" type="selectionEntry" name="Discipline: Technomancy"/>
+              <entryLink id="835p-f427-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ee35-f222-d116-6d8b" hidden="false" collective="false" import="true" targetId="b14b-2040-f3e1-f83c" type="selectionEntryGroup"/>

@@ -3579,6 +3579,32 @@
         <infoLink id="dc00-2005-69be-fd10" hidden="false" targetId="7320-3dec-26ec-618a" type="profile" name="Warlord Trait: Storm of Fire"/>
         <infoLink id="660c-373b-368f-0ace" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule" name="Psyker"/>
       </infoLinks>
+      <selectionEntry id="8f31-c754-52de-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-71e2-d840-6fb532" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4bc8-e237-5a0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-68c1-de9246" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d50b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+              <entryLink id="a714-35dc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+              <entryLink id="6b29-e5a1-74fc-c85062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+              <entryLink id="d553-2fa6-91b7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+              <entryLink id="49e5-c132-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="bc25-507d-e941-3af875" hidden="false" collective="false" import="true" targetId="fa56-41f6-7241-e842" type="selectionEntry" name="Discipline: Librarius"/>
+              <entryLink id="7d95-af43-2c68-e51934" hidden="false" collective="false" import="true" targetId="a4a8-ec73-9df4-913b" type="selectionEntry" name="Discipline: Geokinesis"/>
+              <entryLink id="e635-14b9-7fa2-c30581" hidden="false" collective="false" import="true" targetId="5037-da8a-7eb7-507f" type="selectionEntry" name="Discipline: Fulmination"/>
+              <entryLink id="24a5-d761-9ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+              <entryLink id="f155-6ca0-43bd-87e256" hidden="false" collective="false" import="true" targetId="a2b7-900b-fd71-721d" type="selectionEntry" name="Discipline: Technomancy"/>
+              <entryLink id="835e-f427-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <selectionEntries>
         <selectionEntry id="f892-69f4-ca81-868e" name="Chapter Relic: Hood of Hellfire" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6523,6 +6549,32 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c7a4-52de-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3ac9-71e2-d840-6fb532" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e237-5a0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-b305-68c1-de9246" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d60b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+              <entryLink id="a714-39dc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+              <entryLink id="6b29-e5a1-74fc-c83062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+              <entryLink id="d583-2fa6-91b7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+              <entryLink id="49e7-c132-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="bc26-507d-e941-3af875" hidden="false" collective="false" import="true" targetId="fa56-41f6-7241-e842" type="selectionEntry" name="Discipline: Librarius"/>
+              <entryLink id="7d90-af43-2c68-e51934" hidden="false" collective="false" import="true" targetId="a4a8-ec73-9df4-913b" type="selectionEntry" name="Discipline: Geokinesis"/>
+              <entryLink id="e638-14b9-7fa2-c30581" hidden="false" collective="false" import="true" targetId="5037-da8a-7eb7-507f" type="selectionEntry" name="Discipline: Fulmination"/>
+              <entryLink id="24af-d761-9ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+              <entryLink id="f195-6ca0-43bd-87e256" hidden="false" collective="false" import="true" targetId="a2b7-900b-fd71-721d" type="selectionEntry" name="Discipline: Technomancy"/>
+              <entryLink id="83be-f427-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="ac1d-f8c6-e1a7-1980" hidden="false" collective="false" import="true" targetId="0a58-9390-319c-cfc9" type="selectionEntry" name="Psychic Hood"/>
         <entryLink id="18f5-a554-7a4d-70f3" name="HQ" hidden="false" collective="false" import="true" targetId="29e5-eb99-563b-681b" type="selectionEntry">

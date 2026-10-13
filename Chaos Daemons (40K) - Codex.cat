@@ -3367,6 +3367,23 @@ Furthermore, Screamers from a Burning Skyhost cause D3+1 S4 AP- hits when making
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c5t4-52de-b1mt4" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-7e2t-d840-6m32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9t16-4bc8-e37-5tm74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-6m8c1-ety6" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5cgg2-83f7-a419-d50mt5" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="a714-35dc-fm82-0te5t" hidden="false" collective="false" import="true" targetId="c4f1-8a72-3d95-e6b0" type="selectionEntry" name="Discipline: Change"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="37eb-8c10-cc1a-ad9e" hidden="false" collective="false" import="true" targetId="3ea18292-e8be-46a0-77c2-4a3b7e8aa16b" type="selectionEntry"/>
         <entryLink id="b2d7-712f-4720-f438" hidden="false" collective="false" import="true" targetId="6ece2600-dc3e-467f-8971-57f48ae89a58" type="selectionEntry"/>
@@ -4247,6 +4264,22 @@ Wounds / Effect
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c7yy-52dye-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-71e2-d840-6fy32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4byy-e237-5a0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-68y1-de9y46" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d50y5" hidden="false" collective="false" import="true" targetId="d502-9b83-4ea6-f7c1" type="selectionEntry" name="Discipline: Plague"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="59a3-850c-fadc-aab1" hidden="false" collective="false" import="true" targetId="bc47ebb1-051d-12f5-85f9-a2520a661c51" type="selectionEntry"/>
         <entryLink id="bec1-43e7-6da4-4d58" hidden="false" collective="false" import="true" targetId="ab06-4df6-b427-4e06" type="selectionEntry"/>
@@ -4626,6 +4659,22 @@ Wounds / Effect
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c7yb-52dye-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-71eb-d840-6fy32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4byy-e23b-5a0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b3b5-68y1-de9y46" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d5bx5" hidden="false" collective="false" import="true" targetId="d502-9b83-4ea6-f7c1" type="selectionEntry" name="Discipline: Plague"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="3b7a-ce28-209e-d8c5" hidden="false" collective="false" import="true" targetId="bc47ebb1-051d-12f5-85f9-a2520a661c51" type="selectionEntry"/>
         <entryLink id="a0d3-0135-bfad-a021" hidden="false" collective="false" import="true" targetId="ab06-4df6-b427-4e06" type="selectionEntry"/>
@@ -4802,6 +4851,22 @@ Wounds / Effect
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c7hy-52dye-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3ah59-71e2-d840-6fy32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4byy-e237-5h0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-68y1-de9yh6" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d5vh5" hidden="false" collective="false" import="true" targetId="e613-ac94-5fb7-a8d2" type="selectionEntry" name="Discipline: Excess"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="0e9d-d437-3b36-6e4f" hidden="false" collective="false" import="true" targetId="0c1bfed3-f6ff-c810-fa80-9494794a1bdd" type="selectionEntry"/>
         <entryLink id="4b98-76ff-cda9-42b6" hidden="false" collective="false" import="true" targetId="ab06-4df6-b427-4e06" type="selectionEntry"/>
@@ -4964,6 +5029,23 @@ Wounds / Effect
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c75t4-52de-b1mt47" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-71e2t-d840-6mt32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9t156-4bc8-e237-5tmf74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-6m8c1-detty6" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d50mt5" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="a714-35dc-fm82-0te59t" hidden="false" collective="false" import="true" targetId="c4f1-8a72-3d95-e6b0" type="selectionEntry" name="Discipline: Change"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="42ce-e587-5870-baf1" hidden="false" collective="false" import="true" targetId="a567e325-4907-1e0f-0a93-b2e3f562a1f8" type="selectionEntry"/>
         <entryLink id="cfc5-5350-b94b-1259" hidden="false" collective="false" import="true" targetId="ab06-4df6-b427-4e06" type="selectionEntry"/>
@@ -5286,6 +5368,22 @@ No. of Models	Benefit(s)
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="lf31-c7hy-52dye-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3ah59-71e2-d8l0-6fy32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4bly-e237-5h0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-68y1-de9l6" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="lce2-83f7-a419-d5vh5" hidden="false" collective="false" import="true" targetId="e613-ac94-5fb7-a8d2" type="selectionEntry" name="Discipline: Excess"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="8d27-4da2-5667-53c3" hidden="false" collective="false" import="true" targetId="0c1bfed3-f6ff-c810-fa80-9494794a1bdd" type="selectionEntry"/>
         <entryLink id="6042-ed5d-2aad-b121" hidden="false" collective="false" import="true" targetId="ab06-4df6-b427-4e06" type="selectionEntry"/>
@@ -5673,6 +5771,23 @@ Super-heavy vehicle, but it may not make Stomp attacks.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntry id="8f31-c754-52de-b1m047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-71e2-d840-6mm32" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4bc8-e237-5mf74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305-6m8c1-de9246" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a419-d50m35" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="a714-35dc-fm82-0be591" hidden="false" collective="false" import="true" targetId="c4f1-8a72-3d95-e6b0" type="selectionEntry" name="Discipline: Change"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <entryLinks>
         <entryLink id="40e5-6e36-407d-1d29" hidden="false" collective="false" import="true" targetId="a567e325-4907-1e0f-0a93-b2e3f562a1f8" type="selectionEntry"/>
         <entryLink id="8c9e-056d-a5cb-1128" hidden="false" collective="false" import="true" targetId="ab06-4df6-b427-4e06" type="selectionEntry"/>
@@ -7239,6 +7354,32 @@ All models inside the Tetragon gets shrouded.</description>
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntry id="8qfq31-c754-52de-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroups>
+          <selectionEntryGroup id="3a59-71eq2-d840-6fb532" name="Discipline" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9156-4bc8-e23q7-5a0f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b30q5-68c1-de9246" type="min"/>
+            </constraints>
+            <entryLinks>
+              <entryLink id="5ce2-83f7-a4q19-d50b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+              <entryLink id="a714-35qdc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+              <entryLink id="6bq29-e5qa1-74fc-c85062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+              <entryLink id="d553-2fa6-91qb7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+              <entryLink id="4q9e5-c132-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="bc25-507d-e9q41-3af875" hidden="false" collective="false" import="true" targetId="fa56-41f6-7241-e842" type="selectionEntry" name="Discipline: Librarius"/>
+              <entryLink id="7d95-af43-2cq68-e51934" hidden="false" collective="false" import="true" targetId="a4a8-ec73-9df4-913b" type="selectionEntry" name="Discipline: Geokinesis"/>
+              <entryLink id="e63q5-14b9-7fa2-c30581" hidden="false" collective="false" import="true" targetId="5037-da8a-7eb7-507f" type="selectionEntry" name="Discipline: Fulmination"/>
+              <entryLink id="24a5-d761-9cqe8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+              <entryLink id="f155-6ca0-43bdq-87e256" hidden="false" collective="false" import="true" targetId="a2b7-900b-fd71-721d" type="selectionEntry" name="Discipline: Technomancy"/>
+              <entryLink id="835e-f4q27-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+            </entryLinks>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+        <costs>
+          <cost name="pts" typeId="points" value="0"/>
+        </costs>
+      </selectionEntry>
       <rules>
         <rule id="b2b4-937b-28dd-09a2" name="Spell Syphon" page="0" hidden="false">
           <description>Each time an enemy Psyker successfully manifests a psychic power, place a syphon token next to the Blue Scribes. At the start of each of your turns, roll a D6 for each syphon token next to the Blue Scribes; for each 6 rolled, one friendly psyker within 12&quot; of the Blue Scribes immediately gains a Warp Charge point. Then remove all syphon tokens from the board.</description>

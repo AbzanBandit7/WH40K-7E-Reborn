@@ -2388,70 +2388,123 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </costs>
     </selectionEntry>
     <selectionEntry id="7b9c-cc71-5fb2-f287" name="Discipline: Biomancy" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1c43-781d-eb48-6745" name="2 - Enfeeble" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit suffers a -1 penalty to both Strength and Toughness, and treats all terrain (even open ground) as difficult terrain.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c754-648b-8a40-643d" name="1 - Iron Arm" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has +3 to his Strength and Toughness and he gains the Smash special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="37f6-b18d-a4d2-532a" name="3 - Life Leech" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd">If Life Leech causes at least one unsaved Wound, the Psyker, or one friendly model within 6&quot; of the Psyker, immediately regains a Wound lost earlier in the battle.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2914-b123-8e58-6846" name="4 - Warp Speed" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has +3 to his Initiative and Attacks and he gains the Fleet special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5175-2366-13ba-0ebe" name="5 - Endurance" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit gain the Eternal Warrior, Feel No Pain (4+) and Relentless special rules.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2651-844e-6be1-79db" name="6 - Haemorrhage" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target must pass two separate Toughness tests or suffer a Wound with no armour or cover saves allowed for each test that was failed.  If the target is removed as a casualty, randomly select another model (friend or foe) within 2&quot; of him.  That model must pass a single Toughness test or suffer a Wound with no armour or cover saves allowed.  If that model is removed as a casualty, continue the process of selecting another model and taking a single Toughness test until either a model survives or there are no more suitable targets within range.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2f6a-2920-62e2-42b1" name="(Primaris) Smite" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 4</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="32ad-8f71-c945-a6e283" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a617-4d92-e38c-51fb72" name="(Primaris) Smite" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2f6a-2920-62e2-42b1" name="(Primaris) Smite" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 4</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b742-91e6-3acf-d50814" name="1 - Iron Arm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c754-648b-8a40-643d" name="1 - Iron Arm" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has +3 to his Strength and Toughness and he gains the Smash special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c853-27ba-6e14-f39065" name="2 - Enfeeble" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1c43-781d-eb48-6745" name="2 - Enfeeble" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit suffers a -1 penalty to both Strength and Toughness, and treats all terrain (even open ground) as difficult terrain.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d964-53fc-a821-47be39" name="3 - Life Leech" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="37f6-b18d-a4d2-532a" name="3 - Life Leech" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">If Life Leech causes at least one unsaved Wound, the Psyker, or one friendly model within 6" of the Psyker, immediately regains a Wound lost earlier in the battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e075-68ad-2cb9-951f47" name="4 - Warp Speed" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2914-b123-8e58-6846" name="4 - Warp Speed" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has +3 to his Initiative and Attacks and he gains the Fleet special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f186-74be-5d30-a96258" name="5 - Endurance" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5175-2366-13ba-0ebe" name="5 - Endurance" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit gain the Eternal Warrior, Feel No Pain (4+) and Relentless special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a297-85cf-6e41-b07369" name="6 - Haemorrhage" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2651-844e-6be1-79db" name="6 - Haemorrhage" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target must pass two separate Toughness tests or suffer a Wound with no armour or cover saves allowed for each test that was failed.  If the target is removed as a casualty, randomly select another model (friend or foe) within 2" of him.  That model must pass a single Toughness test or suffer a Wound with no armour or cover saves allowed.  If that model is removed as a casualty, continue the process of selecting another model and taking a single Toughness test until either a model survives or there are no more suitable targets within range.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="9d39-9010-43eb-ebfc" name="New InfoLink" hidden="false" targetId="1bb3-2856-abde-cd6d" type="rule"/>
         <infoLink id="7ad5-272d-b129-af54" name="New InfoLink" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
@@ -2464,70 +2517,109 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </costs>
     </selectionEntry>
     <selectionEntry id="2e19-c945-9ee7-338f" name="Discipline: Daemonology (Sanctic)" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="b98d-1f5a-3130-77ce" name="2 - Hammerhand" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit have +2 Strength</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b1fe-12c2-6f44-b9ff" name="(Primaris) Banishment" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, all models in the target Daemon unit suffer a -1 penalty to their invulnerable save (normally reducing it to a 6+). This is cumulative with any other modifiers to a Daemon&apos;s invulnerable save, but cannot make it worse than 6+.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="625f-df3f-5476-6a1d" name="1 - Gate of Infinity" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming or Swooping, remove the target and his unit from the board. It then immediately arrives anywhere on the board using the rules for Deep Strike.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="096a-1034-2338-7dba" name="3 - Sanctuary" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect the Psyker and all models in his unit receive a +1 bonus to their invulnerable save (models that do not have an invulnerable save gain a 6+ invulnerable save whilst this power is in effect instead). In addition, all units with the Daemon special rule (friend or foe) treat allterrain, including open ground, within 12&quot; of the Psyker as dangerous terrain.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="cbc0-3749-e487-0223" name="4 - Purge Soul" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Both the Psyker and thetarget model roll a D6 and add their respective Leadership values. If the target&apos;s total isgreater than the Psyker&apos;s total, nothing happens. If the Psyker&apos;s total is greater than orequal to the target&apos;s total, the target model suffers an automatic Wound with no armouror cover saves allowed. Purge Soul has no effect on vehicles.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c1cc-0e41-1c5f-940e" name="5 - Cleansing Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Ignores Cover, Soul Blaze</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="651d-7ee7-bed9-c874" name="6 - Vortex of Doom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast, Vortex</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd">If the Psyker fails his Psychic test when using this power, he automatically suffers Perils of the Warp</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb48-2ae7-f591-640d83" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="18cf-63a5-d920-4be741" name="(Primaris) Banishment" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b1fe-12c2-6f44-b9ff" name="(Primaris) Banishment" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, all models in the target Daemon unit suffer a -1 penalty to their invulnerable save (normally reducing it to a 6+). This is cumulative with any other modifiers to a Daemon&apos;s invulnerable save, but cannot make it worse than 6+.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="29da-74b6-e031-5cf852" name="1 - Gate of Infinity" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="625f-df3f-5476-6a1d" name="1 - Gate of Infinity" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming or Swooping, remove the target and his unit from the board. It then immediately arrives anywhere on the board using the rules for Deep Strike.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="3aeb-85c7-f142-6da963" name="2 - Hammerhand" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b98d-1f5a-3130-77ce" name="2 - Hammerhand" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit have +2 Strength</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="4bfc-96d8-a253-7eb074" name="3 - Sanctuary" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="096a-1034-2338-7dba" name="3 - Sanctuary" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect the Psyker and all models in his unit receive a +1 bonus to their invulnerable save (models that do not have an invulnerable save gain a 6+ invulnerable save whilst this power is in effect instead). In addition, all units with the Daemon special rule (friend or foe) treat allterrain, including open ground, within 12" of the Psyker as dangerous terrain.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="5cad-a7e9-b364-8fc185" name="4 - Purge Soul" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cbc0-3749-e487-0223" name="4 - Purge Soul" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Both the Psyker and thetarget model roll a D6 and add their respective Leadership values. If the target&apos;s total isgreater than the Psyker&apos;s total, nothing happens. If the Psyker&apos;s total is greater than orequal to the target&apos;s total, the target model suffers an automatic Wound with no armouror cover saves allowed. Purge Soul has no effect on vehicles.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="6dbe-b8fa-c475-90d296" name="5 - Cleansing Flame" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c1cc-0e41-1c5f-940e" name="5 - Cleansing Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Ignores Cover, Soul Blaze</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="7ecf-c90b-d586-a1e307" name="6 - Vortex of Doom" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="651d-7ee7-bed9-c874" name="6 - Vortex of Doom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast, Vortex</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">If the Psyker fails his Psychic test when using this power, he automatically suffers Perils of the Warp</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="e6a7-2a5a-a6a8-76c1" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
         <infoLink id="7c92-cc8e-78af-2a2f" name="New InfoLink" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
@@ -2538,64 +2630,103 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </costs>
     </selectionEntry>
     <selectionEntry id="aec7-f89f-3f7c-596b" name="Discipline: Divination" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a981-3964-345e-e4ff" name="3 - Perfect Timing" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker and his unit&apos;s weapons have the Ignores Cover special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7f98-1c08-8501-1cbf" name="4 - Precognition" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker re-rolls all failed To Hit and To Wound rolls. In addition, while the power is in effect, the Psyker re-rolls failed saving throws.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0620-1710-32d7-8ba2" name="5 - Misfortune" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all attacks that hit the target unit have the Rending special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e90a-a38a-8241-3d31" name="6 - Scrier&apos;s Gaze" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, you can re-roll the dice when rolling for Reserves, Outflank, and when any of your units identifies a Mysterious Objective.  In addition, if the mission has the Tactical Objectives special rule, you can immediately choose to discard one of your active Tactical Objectives and generate a new one.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0567-1afe-e856-cbef" name="1 - Foreboding" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker and his unit have the Counter-attack special rule and fire Overwatch using their full Ballistic Skill, rather than Ballistic Skill 1.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2339-7cdf-3379-2801" name="2 - Forewarning" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit has a 4+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e4bd-8715-41ea-597f" name="(Primaris) Prescience" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target unit can re-roll all failed To Hit rolls.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8fd0-da1c-e697-b2f418" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="91ae-25dc-f730-c46829" name="(Primaris) Prescience" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e4bd-8715-41ea-597f" name="(Primaris) Prescience" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target unit can re-roll all failed To Hit rolls.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a2bf-36ed-0841-d57930" name="1 - Foreboding" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0567-1afe-e856-cbef" name="1 - Foreboding" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker and his unit have the Counter-attack special rule and fire Overwatch using their full Ballistic Skill, rather than Ballistic Skill 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="b3c0-47fe-1952-e68041" name="2 - Forewarning" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2339-7cdf-3379-2801" name="2 - Forewarning" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit has a 4+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c4d1-580f-2a63-f79152" name="3 - Perfect Timing" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a981-3964-345e-e4ff" name="3 - Perfect Timing" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker and his unit&apos;s weapons have the Ignores Cover special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="d5e2-691a-3b74-a80263" name="4 - Precognition" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7f98-1c08-8501-1cbf" name="4 - Precognition" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker re-rolls all failed To Hit and To Wound rolls. In addition, while the power is in effect, the Psyker re-rolls failed saving throws.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="e6f3-7a2b-4c85-b91374" name="5 - Misfortune" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0620-1710-32d7-8ba2" name="5 - Misfortune" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all attacks that hit the target unit have the Rending special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="f704-8b3c-5d96-ca2485" name="6 - Scrier&apos;s Gaze" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e90a-a38a-8241-3d31" name="6 - Scrier&apos;s Gaze" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, you can re-roll the dice when rolling for Reserves, Outflank, and when any of your units identifies a Mysterious Objective.  In addition, if the mission has the Tactical Objectives special rule, you can immediately choose to discard one of your active Tactical Objectives and generate a new one.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="c550-972c-aebb-c81d" name="New InfoLink" hidden="false" targetId="6a76-59d1-822c-59c9" type="rule"/>
         <infoLink id="d843-07d0-b09f-55bd" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
@@ -2605,64 +2736,117 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </costs>
     </selectionEntry>
     <selectionEntry id="a4a8-ec73-9df4-913b" name="Discipline: Geokinesis" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1818-6bde-01b3-4cb4" name="(Primaris) Chasm" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">N/A</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">All models in the enemy unit must immediately take a Dangerous Terrain test with no armour saves allowed (invulnerable saves can be taken normally). This psychic power has no effect on Swooping or Zooming units.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="84a6-8dfa-345a-34d7" name="1 - Earth Blood" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target immediately regains D3 wounds lost earlier during the battle. In addition, whilst the power is in effect, the target and all models in their unit have the It Will Not Die special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f714-21b7-067a-87bf" name="4 - Phase Form" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the unit has the Move Through Cover special rule and all of its weapons have the Ignores Cover special rule. In addition, the unit does not need line of sight in order to attack an enemy unit in the Shooting phase; as long as the target is in range, it can be shot at.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="bef7-b9d0-2e9d-7fa4" name="6 - Shifting Worldscape" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">N/A</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The targetted terrain feature must be one that can be physically picked up and placed in a different location on battlefield. Move the terrain to an area of open ground anywhere on the battlefield within 24&quot; of its starting position, so long as it is more than 1&quot; away from any other models or other terrain features after the relocation is complete. Any units that have all of their models on the piece of terrain are moved with it. If a unit has only a portion of its models on the terrain feature, then the models that occupy the terrain piece are immediately moved off it by their player, in the same manner as a model disembarking from a vehicle (treating the edge of the terrain as an Access Point and ending this move wholly within 6&quot; of the terrain and in coherency). Models moved in this way must then take a Dangerous Terrain test.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ac30-7294-05da-5ac3" name="5 - Warp Quake" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If you targeted a building, roll a dice; on a roll of 1-3, the building suffers a glancing hit, and on a roll of 4-6, it suffers a penetrating hit. If you targeted a piece of Ruins terrain, roll a dice for each unit that is even partially within those ruins: on a 4 or more, that unit suffers D6 Strength 6 AP-hits as they are struck by falling debris. These hits are Randomly Allocated.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8938-d3f2-4c57-6c20" name="2 - Scorched Earth" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Choose the point on the battlefield when the power is manifested. Each unit within 6&quot; of that point immediately suffers a single Strength 5 AP4 hit with the Ignores Cover special rule (hits are Randomly Allocated). In addition, whilst the power is in effect, all terrain (including open ground) within 6&quot; of the point chosen is treated as being dangerous terrain.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8954-4a45-8483-42cc" name="3 - Landquake" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power in effect, the targets move as though they were in difficult terrain. Furthermore, whilst this power is in effect, the targets cannot Run, Turbo-boost, or move Flat Out. This psychic power has no effect on Swooping or Zooming units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e7b-91c2-a638-d5f042" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7c31-a942-e5b8-16df24" name="(Primaris) Chasm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1818-6bde-01b3-4cb4" name="(Primaris) Chasm" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">N/A</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">All models in the enemy unit must immediately take a Dangerous Terrain test with no armour saves allowed (invulnerable saves can be taken normally). This psychic power has no effect on Swooping or Zooming units.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b582-0fd7-34ac-c96185" name="1 - Earth Blood" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="84a6-8dfa-345a-34d7" name="1 - Earth Blood" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target immediately regains D3 wounds lost earlier during the battle. In addition, whilst the power is in effect, the target and all models in their unit have the It Will Not Die special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="29e6-d413-8ab5-f70236" name="2 - Scorched Earth" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8938-d3f2-4c57-6c20" name="2 - Scorched Earth" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Choose the point on the battlefield when the power is manifested. Each unit within 6" of that point immediately suffers a single Strength 5 AP4 hit with the Ignores Cover special rule (hits are Randomly Allocated). In addition, whilst the power is in effect, all terrain (including open ground) within 6" of the point chosen is treated as being dangerous terrain.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d047-65b2-1ce9-843af1" name="3 - Landquake" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8954-4a45-8483-42cc" name="3 - Landquake" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power in effect, the targets move as though they were in difficult terrain. Furthermore, whilst this power is in effect, the targets cannot Run, Turbo-boost, or move Flat Out. This psychic power has no effect on Swooping or Zooming units.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6fa3-c821-49de-b07562" name="4 - Phase Form" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f714-21b7-067a-87bf" name="4 - Phase Form" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the unit has the Move Through Cover special rule and all of its weapons have the Ignores Cover special rule. In addition, the unit does not need line of sight in order to attack an enemy unit in the Shooting phase; as long as the target is in range, it can be shot at.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="93bd-271a-e640-5fc814" name="5 - Warp Quake" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ac30-7294-05da-5ac3" name="5 - Warp Quake" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If you targeted a building, roll a dice; on a roll of 1-3, the building suffers a glancing hit, and on a roll of 4-6, it suffers a penetrating hit. If you targeted a piece of Ruins terrain, roll a dice for each unit that is even partially within those ruins: on a 4 or more, that unit suffers D6 Strength 6 AP-hits as they are struck by falling debris. These hits are Randomly Allocated.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e715-8ca4-3f29-a60d73" name="6 - Shifting Worldscape" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="bef7-b9d0-2e9d-7fa4" name="6 - Shifting Worldscape" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">N/A</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The targetted terrain feature must be one that can be physically picked up and placed in a different location on battlefield. Move the terrain to an area of open ground anywhere on the battlefield within 24" of its starting position, so long as it is more than 1" away from any other models or other terrain features after the relocation is complete. Any units that have all of their models on the piece of terrain are moved with it. If a unit has only a portion of its models on the terrain feature, then the models that occupy the terrain piece are immediately moved off it by their player, in the same manner as a model disembarking from a vehicle (treating the edge of the terrain as an Access Point and ending this move wholly within 6" of the terrain and in coherency). Models moved in this way must then take a Dangerous Terrain test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="623c-39ac-388f-8d5e" name="New InfoLink" hidden="false" targetId="8de3-9e93-da02-b9dd" type="rule"/>
         <infoLink id="5354-fbc3-ac5a-e728" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
@@ -2673,522 +2857,1496 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </costs>
     </selectionEntry>
     <selectionEntry id="5037-da8a-7eb7-507f" name="Discipline: Fulmination" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="bfcf-abdf-3dac-cf99" name="(Primaris) Electrosurge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 6</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="6a2b-b11a-0864-f363" name="1 - Electroshield" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has a 3+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e458-c8bf-f49b-5217" name="2 - Electropulse" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">1</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">Assault 1</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Haywire</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="76b8-1518-0181-7e59" name="3 - Lightning Arc" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault D6</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd">After this attack has been resolved against the target, roll a dice for every other enemy unit within 6&quot; of the target. On the roll of a 4 or more, that unit suffers D6 Strength 5 AP4 hits that are Randomly Allocated</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="1892-bb69-96a6-66d2" name="6 - Electrodisplacement" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Remove all models in the target unit except one, then swap the position of the Psyker with that model. Then, set up all models from the Psyker&apos;s unit (if any) within 6&quot; and unit coherency of the Psyker, and set up all remaining models from the swapped model&apos;s unit within 6&quot; and unit coherency of that model. If either unit was locked in combat, the displaced unit is now locked in combat with that enemy; models cannot otherwise be placed within 1&quot; of an enemy model. Unless locked in close combat, these units can charge in the same turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4b0c-59fd-9ec5-b571" name="4 - Fists of Lightning" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker adds I to both his Strength and Attacks. In addition, each time the Psyker hits an enemy unit in close combat, that unit suffers two additional Strength 5 AP- Hits.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0c4e-66cf-cd43-01da" name="5 - Magnetokinesis" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming, Swooping or is locked in combat, it can immediately make a move of up to 18&quot;. The unit can move over all other models and terrain as if they were open ground, but it cannot end its move on top of other models or impassable terrain. Any model that starts or ends this move in difficult terrain must take a Dangerous Terrain test. The unit cannot charge in the same turn that it was moved using this power, and all models in the unit count as having moved in the Movement phase for the purposes of shooting weapons in the Shooting phase.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="31af-82c4-d605-e91742" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="42b0-93d5-e716-fa2853" name="(Primaris) Electrosurge" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="bfcf-abdf-3dac-cf99" name="(Primaris) Electrosurge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 6</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="53c1-a4e6-f827-0b3964" name="1 - Electroshield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="6a2b-b11a-0864-f363" name="1 - Electroshield" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has a 3+ invulnerable save.</characteristic>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="64d2-b5f7-a938-1c4075" name="2 - Electropulse" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="e458-c8bf-f49b-5217" name="2 - Electropulse" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">1</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">Assault 1</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Haywire</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="75e3-c608-ba49-2d5186" name="3 - Lightning Arc" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="76b8-1518-0181-7e59" name="3 - Lightning Arc" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault D6</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd">After this attack has been resolved against the target, roll a dice for every other enemy unit within 6" of the target. On the roll of a 4 or more, that unit suffers D6 Strength 5 AP4 hits that are Randomly Allocated</characteristic>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="86f4-d719-cb50-3e6297" name="4 - Fists of Lightning" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="4b0c-59fd-9ec5-b571" name="4 - Fists of Lightning" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker adds I to both his Strength and Attacks. In addition, each time the Psyker hits an enemy unit in close combat, that unit suffers two additional Strength 5 AP- Hits.</characteristic>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9705-e82a-dc61-4f7308" name="5 - Magnetokinesis" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="0c4e-66cf-cd43-01da" name="5 - Magnetokinesis" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming, Swooping or is locked in combat, it can immediately make a move of up to 18". The unit can move over all other models and terrain as if they were open ground, but it cannot end its move on top of other models or impassable terrain. Any model that starts or ends this move in difficult terrain must take a Dangerous Terrain test. The unit cannot charge in the same turn that it was moved using this power, and all models in the unit count as having moved in the Movement phase for the purposes of shooting weapons in the Shooting phase.</characteristic>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a816-f93b-ed72-508419" name="6 - Electrodisplacement" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="1892-bb69-96a6-66d2" name="6 - Electrodisplacement" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Remove all models in the target unit except one, then swap the position of the Psyker with that model. Then, set up all models from the Psyker&apos;s unit (if any) within 6" and unit coherency of the Psyker, and set up all remaining models from the swapped model&apos;s unit within 6" and unit coherency of that model. If either unit was locked in combat, the displaced unit is now locked in combat with that enemy; models cannot otherwise be placed within 1" of an enemy model. Unless locked in close combat, these units can charge in the same turn.</characteristic>
+                </characteristics>
+              </profile></profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="c781-6b51-dcb2-07c9" name="New InfoLink" hidden="false" targetId="719f-69cb-c032-d0ef" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="fa56-41f6-7241-e842" name="Discipline: Librarius" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6dae-27cd-38b8-f5a9" name="(Primaris) The Emporer&apos;s Wrath" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">3</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="d259-73d0-94c9-3564" name="1 - Veil of Time" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit can re-roll all failed saving throws.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="65a4-eef8-9f6a-d013" name="2 - Fury of the Ancients" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">20&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Pinning</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="d950-37e8-60c0-3164" name="5 - Psychic Scourge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The Psyker manifesting this power rolls two dice and adds their Mastery Level to the highest result. The target Psykerrolls a single dice and adds their Mastery Level to the result. If the enemy Psyker&apos;s result is higher, there is no effect. If the scores are drawn, or your result is higher than the enemy Psyker&apos;s, the target suffers a Wound with no saves of any kind allowed and, whilst this power is in effect, can only successfully manifest Warp Charge points on the roll of a 6. Finally, if your result is at least 3 points higher than that of the enemy Psyker&apos;s, then they also lose a randomly chosen psychic power; they cannot use it for the rest of the battle.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="102b-f301-522a-d4ef" name="3 - Psychic Fortress" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Psychic Fortress is a blessing that targets the Psyker. Whilst the power is in effect, all friendly units within 12&quot; of the Psyker have the Fearless and Adamantium Will special rules. ln addition, whilst this power is in effect, all friendly units within 12&quot; of the Psyker have a 4+ invulnerable save against any Wounds caused by witchfire powers.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a1bf-28e0-278b-4c37" name="6 - Null Zone" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit suffer a -2 penalty to any invulnerable saves they have. This is cumulative with any other modifiers to a model&apos;s invulnerable save, but cannot make it worse than 6+.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6524-8906-aa00-2d25" name="4 - Might of Heroes" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, add 2 to the Psyker&apos;s Strength, Toughness, Initiative and Attacks. </characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b927-0a4c-fe83-619520" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ca38-1b5d-af94-72a631" name="(Primaris) The Emporer&apos;s Wrath" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="6dae-27cd-38b8-f5a9" name="(Primaris) The Emporer&apos;s Wrath" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">3</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="db49-2c6e-b0a5-83b742" name="1 - Veil of Time" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="d259-73d0-94c9-3564" name="1 - Veil of Time" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit can re-roll all failed saving throws.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="ec50-3d7f-c1b6-94c853" name="2 - Fury of the Ancients" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="65a4-eef8-9f6a-d013" name="2 - Fury of the Ancients" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic><characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic><characteristic name="Range" typeId="5bf6-378a-0cb7-b079">20"</characteristic><characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic><characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic><characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Pinning</characteristic><characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="fd61-4e80-d2c7-a5d964" name="3 - Psychic Fortress" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="102b-f301-522a-d4ef" name="3 - Psychic Fortress" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Psychic Fortress is a blessing that targets the Psyker. Whilst the power is in effect, all friendly units within 12" of the Psyker have the Fearless and Adamantium Will special rules. ln addition, whilst this power is in effect, all friendly units within 12" of the Psyker have a 4+ invulnerable save against any Wounds caused by witchfire powers.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0e72-5f91-e3d8-b6ea75" name="4 - Might of Heroes" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="6524-8906-aa00-2d25" name="4 - Might of Heroes" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, add 2 to the Psyker&apos;s Strength, Toughness, Initiative and Attacks. </characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="1f83-60a2-f4e9-c7fb86" name="5 - Psychic Scourge" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="d950-37e8-60c0-3164" name="5 - Psychic Scourge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The Psyker manifesting this power rolls two dice and adds their Mastery Level to the highest result. The target Psykerrolls a single dice and adds their Mastery Level to the result. If the enemy Psyker&apos;s result is higher, there is no effect. If the scores are drawn, or your result is higher than the enemy Psyker&apos;s, the target suffers a Wound with no saves of any kind allowed and, whilst this power is in effect, can only successfully manifest Warp Charge points on the roll of a 6. Finally, if your result is at least 3 points higher than that of the enemy Psyker&apos;s, then they also lose a randomly chosen psychic power; they cannot use it for the rest of the battle.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="2094-71b3-a5fa-d80c97" name="6 - Null Zone" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="a1bf-28e0-278b-4c37" name="6 - Null Zone" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit suffer a -2 penalty to any invulnerable saves they have. This is cumulative with any other modifiers to a model&apos;s invulnerable save, but cannot make it worse than 6+.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="32a4-f9e2-e08e-76a7" name="New InfoLink" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
         <infoLink id="6657-21f7-e87a-dc60" name="New InfoLink" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
         <infoLink id="90f4-5c89-36e4-0121" name="New InfoLink" hidden="false" targetId="8714-46ad-62c0-ce35" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="e05c-cec2-bad0-4445" name="Discipline: Telekinesis" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a501-4cdf-a11a-9e44" name="6 - Psychic Maelstrom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">10</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Barrage, Large Blast</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="8c6b-328f-aea3-774f" name="3 - Shockwave" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Pinning</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="a21c-c177-0f04-257f" name="(Primaris) Assail" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Strikedown</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="672f-8e1d-9b0c-39aa" name="1 - Crush" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Roll 2D6. The target model suffers a hit with a Strength equal to the result (a result of an 11 or 12 wounds automatically or, in the case of a vehicle, causes an automatic penetrating hit) with APD6.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ac53-c9c2-70e3-3833" name="5 - Telekine Dome" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker, and all friendly models within 12&quot; of the Psyker, have a 5+ invulnerable save against any shooting attack.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ba00-1f90-ebe5-38b2" name="2 - Objuration Mechanicum" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all of the target&apos;s ranged weapons have the Gets Hot special rule. In addition, if the target is a vehicle (or vehicle squadron), each vehicle in the unit suffers a single Strength 1 hit with the Haywire special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7529-7927-ba76-fa28" name="4 - Levitation" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming, Swooping or is locked in close combat, the Psyker and his unit immediately make a move of up to 12&quot;. This move cannot end up on top of another unit or impassable terrain, but ignores intervening units, terrain etc. Any model that starts or ends this move in difficult terrainmust take a Dangerous Terrain test. The Psyker and his unit cannot charge in the sameturn that they use this power, and all models count as having moved in the Movement phase for the purposes of shooting weapons in the Shooting phase.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="31c8-a407-f6d2-8be519" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="42d9-b518-a7e3-9cf620" name="(Primaris) Assail" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a21c-c177-0f04-257f" name="(Primaris) Assail" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Strikedown</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="53ea-c629-b8f4-ad0731" name="1 - Crush" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="672f-8e1d-9b0c-39aa" name="1 - Crush" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Roll 2D6. The target model suffers a hit with a Strength equal to the result (a result of an 11 or 12 wounds automatically or, in the case of a vehicle, causes an automatic penetrating hit) with APD6.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="64fb-d73a-c905-be1842" name="2 - Objuration Mechanicum" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ba00-1f90-ebe5-38b2" name="2 - Objuration Mechanicum" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all of the target&apos;s ranged weapons have the Gets Hot special rule. In addition, if the target is a vehicle (or vehicle squadron), each vehicle in the unit suffers a single Strength 1 hit with the Haywire special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="750c-e84b-da16-cf2953" name="3 - Shockwave" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8c6b-328f-aea3-774f" name="3 - Shockwave" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Pinning</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="861d-f95c-eb27-d03a64" name="4 - Levitation" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7529-7927-ba76-fa28" name="4 - Levitation" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming, Swooping or is locked in close combat, the Psyker and his unit immediately make a move of up to 12". This move cannot end up on top of another unit or impassable terrain, but ignores intervening units, terrain etc. Any model that starts or ends this move in difficult terrainmust take a Dangerous Terrain test. The Psyker and his unit cannot charge in the sameturn that they use this power, and all models count as having moved in the Movement phase for the purposes of shooting weapons in the Shooting phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="972e-a06d-fc38-e14b75" name="5 - Telekine Dome" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ac53-c9c2-70e3-3833" name="5 - Telekine Dome" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker, and all friendly models within 12" of the Psyker, have a 5+ invulnerable save against any shooting attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a83f-b17e-ad49-f25c86" name="6 - Psychic Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a501-4cdf-a11a-9e44" name="6 - Psychic Maelstrom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">10</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Barrage, Large Blast</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="e50f-6a52-d072-b3f9" name="New InfoLink" hidden="false" targetId="b500-e499-9f9b-43f4" type="rule"/>
         <infoLink id="ed8d-9972-0bb9-a44a" name="New InfoLink" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
         <infoLink id="7269-1ac1-89d7-8cf0" name="New InfoLink" hidden="false" targetId="719f-69cb-c032-d0ef" type="rule"/>
         <infoLink id="f88d-03ad-585b-d6fc" name="New InfoLink" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="5ae3-21ce-7903-74a1" name="Discipline: Daemonology (Malefic)" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3f7a-aa78-3e38-377b" name="6 - Possession" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units (your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the Psyker is immediately removed as a casualty (if the Psyker was part of a unit with the Brotherhood of Psykers/Sorcerers special rule, remove the entire unit as casualties). If, when using this power, the Psyker fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="af54-54d8-16f9-b90d" name="3 - Infernal Gaze" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35"/>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Armourbane, Fleshbane</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="e579-d56c-ba5e-1215" name="1 - Cursed Earth" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models with the Daemon special rule (friend or foe) within 12&quot; of the Psyker have a +1 bonus to their invulnerable save (normally increasing it to 4+). This is cumulative withany other modifiers to a Daemon&apos;s invulnerable save. In addition, whilst the power is in effect, friendly units with the Daemon special rule will not scatter when arriving from Deep Strike Reserve so long as the first model is placed within 12&quot; of the Psyker.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="09ad-5655-b5a6-061f" name="(Primaris) Summoning" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Summoning creates one of the following units (your choice): 10 Bloodletters of Khorne, 10 Pink Horrors of Tzeentch, 10 Plaguebearers of Nurgle, 10 Daemonettes of Slaanesh, 5 Flesh Hounds of Khorne, 3 Flamers ofTzeentch, 3 Nurgling swarms or 5 Seekers of Slaanesh.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ddb5-c920-136d-7138" name="2 - Dark Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">Template</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">5</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Soul Blaze, Torrent</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="42c7-cc1f-c2aa-4845" name="4 - Sacrifice" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Sacrifice creates one of the following units (your choice): 1 Herald of Khorne, 1 Herald of Tzeentch, 1 Herald of Nurgle or 1 Herald of Slaanesh, with up to 30 points&apos; worth of options. If this power is successfully manifested, one friendly model within 6&quot; of the Psyker (or the Psyker himself) immediately suffers a single Wound with no saves of any kind allowed.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="14b9-1bdd-9f54-579b" name="5 - Incursion" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Incursion creates one of the following units (your choice): 3 Bloodcrushers of Khorne, 3 Screamers of Tzeentch, 3 Plague Drones of Nurgle, or 3 Fiends of Slaanesh.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b940-c28f-be5a-036d97" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ca51-d390-cf6b-147ea8" name="(Primaris) Summoning" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="09ad-5655-b5a6-061f" name="(Primaris) Summoning" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Summoning creates one of the following units (your choice): 10 Bloodletters of Khorne, 10 Pink Horrors of Tzeentch, 10 Plaguebearers of Nurgle, 10 Daemonettes of Slaanesh, 5 Flesh Hounds of Khorne, 3 Flamers ofTzeentch, 3 Nurgling swarms or 5 Seekers of Slaanesh.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="db62-e4a1-da7c-258fb9" name="1 - Cursed Earth" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e579-d56c-ba5e-1215" name="1 - Cursed Earth" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models with the Daemon special rule (friend or foe) within 12" of the Psyker have a +1 bonus to their invulnerable save (normally increasing it to 4+). This is cumulative withany other modifiers to a Daemon&apos;s invulnerable save. In addition, whilst the power is in effect, friendly units with the Daemon special rule will not scatter when arriving from Deep Strike Reserve so long as the first model is placed within 12" of the Psyker.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="ec73-f5b2-eb8d-3690ca" name="2 - Dark Flame" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ddb5-c920-136d-7138" name="2 - Dark Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">Template</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">5</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Soul Blaze, Torrent</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="fd84-a6c3-fc9e-4701db" name="3 - Infernal Gaze" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="af54-54d8-16f9-b90d" name="3 - Infernal Gaze" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35"/>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Armourbane, Fleshbane</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0e95-b7d4-ad0f-5812ec" name="4 - Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="42c7-cc1f-c2aa-4845" name="4 - Sacrifice" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Sacrifice creates one of the following units (your choice): 1 Herald of Khorne, 1 Herald of Tzeentch, 1 Herald of Nurgle or 1 Herald of Slaanesh, with up to 30 points&apos; worth of options. If this power is successfully manifested, one friendly model within 6" of the Psyker (or the Psyker himself) immediately suffers a single Wound with no saves of any kind allowed.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="1fa6-c8e5-be10-6923fd" name="5 - Incursion" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="14b9-1bdd-9f54-579b" name="5 - Incursion" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Incursion creates one of the following units (your choice): 3 Bloodcrushers of Khorne, 3 Screamers of Tzeentch, 3 Plague Drones of Nurgle, or 3 Fiends of Slaanesh.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="20b7-d9f6-cf21-7a340e" name="6 - Possession" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3f7a-aa78-3e38-377b" name="6 - Possession" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">3</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units (your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the Psyker is immediately removed as a casualty (if the Psyker was part of a unit with the Brotherhood of Psykers/Sorcerers special rule, remove the entire unit as casualties). If, when using this power, the Psyker fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="eb15-f070-48bf-c126" name="New InfoLink" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
         <infoLink id="72a2-431d-01b9-91fd" name="New InfoLink" hidden="false" targetId="3897-5e71-1b57-57ba" type="rule"/>
         <infoLink id="ed6f-5ae5-97a5-4901" name="New InfoLink" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
         <infoLink id="f91f-7a56-1f98-e343" name="New InfoLink" hidden="false" targetId="5039-18f0-a9ed-0938" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="94c0-771b-4dc2-a9a9" name="Discipline: Pyromancy" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e58b-ffb7-4bdf-23f9" name="(Primaris) Flame Breath" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">Template</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd">Soul Blaze</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e642-7eb0-79e1-fa36" name="1 - Fiery Form" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker gains a 4+ invulnerable save and his close combat attacks have the Soul Blaze special rule. Whilst the power is in effect, the Psyker re-rolls failed To Wound rolls inflicted by any further Pyromancy powers he manifests.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="cc81-c7d5-2015-4c6a" name="2 - Fire Shield" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit has a 4+ cover save and all enemy units treat all terrain within 6&quot; of the target as Dangerous Terrain.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e380-f4c0-2eaf-e4cc" name="4 - Sunburst" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">5</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Ignores Cover, Soul Blaze</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="19c4-3573-0b4f-46e2" name="5 - Inferno" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">5</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Ignores Cover, Large Blast, Soul Blaze</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-        <profile id="d074-9134-acf0-ca25" name="3 - Spontaneous Combustion" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target model suffers a Strength 6 AP3 hit with the Soul Blaze special rule. If the model is slainby this hit in the Psychic phase, centre the small blast marker over the target before removing him as a casualty. All other models under the marker suffer a Strength 5 AP4 hit with the Ignores Cover and Soul Blaze special rules.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="3c4e-16d1-e107-d5d5" name="6 - Molten Beam" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">8</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Melta</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="31c8-ea07-d142-8b951f" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="42d9-fb18-e253-9ca620" name="(Primaris) Flame Breath" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e58b-ffb7-4bdf-23f9" name="(Primaris) Flame Breath" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">Template</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Soul Blaze</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="53ea-ac29-f364-adb731" name="1 - Fiery Form" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e642-7eb0-79e1-fa36" name="1 - Fiery Form" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker gains a 4+ invulnerable save and his close combat attacks have the Soul Blaze special rule. Whilst the power is in effect, the Psyker re-rolls failed To Wound rolls inflicted by any further Pyromancy powers he manifests.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="64fb-bd3a-a475-bec842" name="2 - Fire Shield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cc81-c7d5-2015-4c6a" name="2 - Fire Shield" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit has a 4+ cover save and all enemy units treat all terrain within 6" of the target as Dangerous Terrain.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="750c-ce4b-b586-cfd953" name="3 - Spontaneous Combustion" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d074-9134-acf0-ca25" name="3 - Spontaneous Combustion" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target model suffers a Strength 6 AP3 hit with the Soul Blaze special rule. If the model is slainby this hit in the Psychic phase, centre the small blast marker over the target before removing him as a casualty. All other models under the marker suffer a Strength 5 AP4 hit with the Ignores Cover and Soul Blaze special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="861d-df5c-c697-d0ea64" name="4 - Sunburst" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e380-f4c0-2eaf-e4cc" name="4 - Sunburst" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">5</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Ignores Cover, Soul Blaze</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="972e-e06d-d7a8-e1fb75" name="5 - Inferno" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="19c4-3573-0b4f-46e2" name="5 - Inferno" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">5</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Ignores Cover, Large Blast, Soul Blaze</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a83f-f17e-e8b9-f20c86" name="6 - Molten Beam" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3c4e-16d1-e107-d5d5" name="6 - Molten Beam" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">8</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Melta</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="0b4e-4269-3c89-c8b2" name="New InfoLink" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
         <infoLink id="0bec-2648-989a-cfe6" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
         <infoLink id="5cc8-6c0e-e7ce-c781" name="New InfoLink" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="a2b7-900b-fd71-721d" name="Discipline: Technomancy" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e925-d23f-8fc0-c73c" name="(Primaris) Subvert Machine" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If this power is successfully manifested, randomly select one of the vehicle&apos;s weapons (do not include Bombs, weapons with the One Use Only/One Shot Only special rule that have already fired, and weapons that have been destroyed). Then, you and your opponent each roll a dice and look up the result below: If your opponent rolls higher, nothing happens. If the results are drawn, then that weapon can only fire Snap Shots whilst this power is in effect. If you roll higher, you can immediately shoot with that weapon at another enemy unit; the weapon fires using the vehicle&apos;s Ballistic Skill, unless the vehicle is Crew Stunned or Shaken, in which case the weapon can only fire Snap Shts. </characteristic>
-          </characteristics>
-        </profile>
-        <profile id="fa40-8b54-4728-8ec3" name="1 - Blessing of the Machine" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target vehicle ignores the effects of Crew Shaken and/or Crew Stunned damage results and has the Power of the Machine Spirit special rule. If the vehicle already has this special rule, it instead increases its Ballistic Skill by 1 whilst this power is in effect. </characteristic>
-          </characteristics>
-        </profile>
-        <profile id="1328-b03f-3b23-e5f7" name="2 - Machine Curse" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Machine Curse is a focussed witchfire power that targets a single enemy vehicle unit within 18&quot;. The target model immediately surfers D3 Strength 1 AP- hits with the Haywire special rule. </characteristic>
-          </characteristics>
-        </profile>
-        <profile id="1967-e966-7041-edb2" name="3 - Reforge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The controlling player can choose for the target vehicle either to immediately recover one Hull Point lost earlier in the battle, or repair a Weapon Destroyed or Immobilised result suffered earlier in the battle. In addition, the target vehicle has the It Will Not Die special rule whilst this power is in effect. If the Psyker is embarked on a Transport vehicle, he may still attempt to manifest this psychic power, but may only target the vehicle he is embarked upon.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b3a8-524b-158f-b49c" name="4 - Warpmetal Armour" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessin</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If this power targets a vehicle unit, then whilst it is in effect add 1 to all the Armour Values (Front, Sides and Rear) of models in that unit. If this power targets a non-vehicle unit, then whilst it is in effect add 1 to the Toughness of all models in the target unit. If the Psyker is embarked on a Transport vehicle, he may still attempt to manifest this psychic power, but may only target the vehicle he is embarked upon.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="84fd-9915-a915-4907" name="6 - Machine Flense" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target immediately loses D3 Hull Points. For each Hull Point that the vehicle loses, the Psyker inflicts D6 Strength 4 AP6 hits with the Rending special rule on a single enemy unit within 12&quot; of the target vehicle. You can choose a different target for each Hull Point lost in this way if you wish.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="019a-2a74-4efb-b71e" name="5 - Fury of Mars" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
-            <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
-            <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18&quot;</characteristic>
-            <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">1</characteristic>
-            <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
-            <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Haywire</characteristic>
-            <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b94a-21cf-d650-378e16" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ca5b-32d0-e761-489f27" name="(Primaris) Subvert Machine" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="e925-d23f-8fc0-c73c" name="(Primaris) Subvert Machine" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If this power is successfully manifested, randomly select one of the vehicle&apos;s weapons (do not include Bombs, weapons with the One Use Only/One Shot Only special rule that have already fired, and weapons that have been destroyed). Then, you and your opponent each roll a dice and look up the result below: If your opponent rolls higher, nothing happens. If the results are drawn, then that weapon can only fire Snap Shots whilst this power is in effect. If you roll higher, you can immediately shoot with that weapon at another enemy unit; the weapon fires using the vehicle&apos;s Ballistic Skill, unless the vehicle is Crew Stunned or Shaken, in which case the weapon can only fire Snap Shts. </characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="db6c-43e1-f872-590a38" name="1 - Blessing of the Machine" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="fa40-8b54-4728-8ec3" name="1 - Blessing of the Machine" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target vehicle ignores the effects of Crew Shaken and/or Crew Stunned damage results and has the Power of the Machine Spirit special rule. If the vehicle already has this special rule, it instead increases its Ballistic Skill by 1 whilst this power is in effect. </characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="ec7d-54f2-a983-601b49" name="2 - Machine Curse" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="1328-b03f-3b23-e5f7" name="2 - Machine Curse" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Machine Curse is a focussed witchfire power that targets a single enemy vehicle unit within 18". The target model immediately surfers D3 Strength 1 AP- hits with the Haywire special rule. </characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="fd8e-65a3-ba94-712c50" name="3 - Reforge" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="1967-e966-7041-edb2" name="3 - Reforge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The controlling player can choose for the target vehicle either to immediately recover one Hull Point lost earlier in the battle, or repair a Weapon Destroyed or Immobilised result suffered earlier in the battle. In addition, the target vehicle has the It Will Not Die special rule whilst this power is in effect. If the Psyker is embarked on a Transport vehicle, he may still attempt to manifest this psychic power, but may only target the vehicle he is embarked upon.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0e9f-76b4-cba5-823d61" name="4 - Warpmetal Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="b3a8-524b-158f-b49c" name="4 - Warpmetal Armour" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessin</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If this power targets a vehicle unit, then whilst it is in effect add 1 to all the Armour Values (Front, Sides and Rear) of models in that unit. If this power targets a non-vehicle unit, then whilst it is in effect add 1 to the Toughness of all models in the target unit. If the Psyker is embarked on a Transport vehicle, he may still attempt to manifest this psychic power, but may only target the vehicle he is embarked upon.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="1fa0-87c5-dcb6-934e72" name="5 - Fury of Mars" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="019a-2a74-4efb-b71e" name="5 - Fury of Mars" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic><characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic><characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic><characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">1</characteristic><characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic><characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Haywire</characteristic><characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="20b1-98d6-edc7-a45f83" name="6 - Machine Flense" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="84fd-9915-a915-4907" name="6 - Machine Flense" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target immediately loses D3 Hull Points. For each Hull Point that the vehicle loses, the Psyker inflicts D6 Strength 4 AP6 hits with the Rending special rule on a single enemy unit within 12" of the target vehicle. You can choose a different target for each Hull Point lost in this way if you wish.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="f2d7-81c8-7431-ef90" name="New InfoLink" hidden="false" targetId="719f-69cb-c032-d0ef" type="rule"/>
         <infoLink id="67a1-c07a-ef4c-2ada" name="New InfoLink" hidden="false" targetId="8de3-9e93-da02-b9dd" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="f3dd-c529-d047-3c68" name="Discipline: Telepathy" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="4d8b-0d09-bcf2-78c2" name="6 - Hallucination" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from (roll once for the whole unit).  1-2: The unit must take a Pinning Test. 3-4: Whilst the power is in effect, all models in the unit suffer a -1 penalty to their Weapon Skill, Ballistic Skill, Initiative and Attacks (to a minimum of 1). 5-6: Randomly select one character in the target unit. That model suffers a single Strength 3 hit for every other model in the target unit. Cover saves cannot be taken against these hits, and they can never be allocated to another model. If there are no character models in the target unit, or if there are no other modelsapart from the character model, treat this result as 3-4 instead.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6732-6af1-5355-c18a" name="1 - Dominate" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge - if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire Overwatch does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8d4f-c8e5-88ab-0b34" name="3 - Terrify" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target has a -1 penalty to their Leadership and treats all enemy units ashaving the Fear special rule. Furthermore, the target must take a Morale check at the end of the Psychic phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0da2-b689-41bd-3953" name="(Primaris) Psychic Shriek" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Witchfire</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Roll 3D6 and subtract the target&apos;s Leadership - the target unit suffers a number of Wounds equal to the result. Armour and cover saves cannot be taken against Wounds caused by Psychic Shriek.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e462-f8d5-8bd3-99a0" name="2 - Mental Fortitude" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If the target is falling back, it immediately Regroups. In addition, whilst the power is in effect, the target gains the Fearless special rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="81c8-ea64-7b60-1147" name="5 - Invisibility" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, enemy units can only fire Snap Shots at the target unit and in close combat will only hit models in it on To Hit rolls of a 6.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="338a-8761-09fd-5e65" name="4 - Shrouding" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
-            <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
-            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker,and all friendly models within 6&quot; of the Psyker, have the Shrouded special rule.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="31a2-bc73-de94-f80516" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="42b3-cd84-efa5-a91627" name="(Primaris) Psychic Shriek" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="0da2-b689-41bd-3953" name="(Primaris) Psychic Shriek" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Witchfire</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Roll 3D6 and subtract the target&apos;s Leadership - the target unit suffers a number of Wounds equal to the result. Armour and cover saves cannot be taken against Wounds caused by Psychic Shriek.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="53c4-de95-f0b6-ba2738" name="1 - Dominate" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="6732-6af1-5355-c18a" name="1 - Dominate" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge - if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire Overwatch does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="64d5-efa6-a1c7-cb3849" name="2 - Mental Fortitude" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="e462-f8d5-8bd3-99a0" name="2 - Mental Fortitude" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If the target is falling back, it immediately Regroups. In addition, whilst the power is in effect, the target gains the Fearless special rule.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="75e6-f0b7-b2d8-dc4950" name="3 - Terrify" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="8d4f-c8e5-88ab-0b34" name="3 - Terrify" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target has a -1 penalty to their Leadership and treats all enemy units ashaving the Fear special rule. Furthermore, the target must take a Morale check at the end of the Psychic phase.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="86f7-a1c8-c3e9-ed5061" name="4 - Shrouding" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="338a-8761-09fd-5e65" name="4 - Shrouding" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the Psyker,and all friendly models within 6" of the Psyker, have the Shrouded special rule.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9708-b2d9-d4fa-fe6172" name="5 - Invisibility" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="81c8-ea64-7b60-1147" name="5 - Invisibility" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, enemy units can only fire Snap Shots at the target unit and in close combat will only hit models in it on To Hit rolls of a 6.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a819-c3ea-e50b-af7283" name="6 - Hallucination" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="4d8b-0d09-bcf2-78c2" name="6 - Hallucination" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic><characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic><characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic><characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from (roll once for the whole unit).  1-2: The unit must take a Pinning Test. 3-4: Whilst the power is in effect, all models in the unit suffer a -1 penalty to their Weapon Skill, Ballistic Skill, Initiative and Attacks (to a minimum of 1). 5-6: Randomly select one character in the target unit. That model suffers a single Strength 3 hit for every other model in the target unit. Cover saves cannot be taken against these hits, and they can never be allocated to another model. If there are no character models in the target unit, or if there are no other modelsapart from the character model, treat this result as 3-4 instead.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <infoLinks>
         <infoLink id="2eba-0957-9006-a68b" name="New InfoLink" hidden="false" targetId="7182-6dce-dc98-9f7c" type="rule"/>
         <infoLink id="c876-0db7-11aa-157a" name="New InfoLink" hidden="false" targetId="280d-1a0c-5916-3012" type="rule"/>
         <infoLink id="9c1f-3a4e-6b9a-1ad8" name="New InfoLink" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
         <infoLink id="3dc3-0548-0b59-14d3" name="New InfoLink" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
       </infoLinks>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="963a-e8df-3eaf-3aad" name="Discipline: Revenant" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="72c4-a951-e38f-16bd42" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="83d5-ba62-f490-27ce53" name="(Primaris) Spirit Hook" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="94e6-cb73-a501-38df64" name="(Primaris) Spirit Hook" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If the Psyker has a higher Leadership than the target, the target suffers a Strength 6 hit, otherwise it suffers a Strength 3 hit. No armour or cover saves are allowed against hits caused by this power. Spirit Hook has no effect on vehicles.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a5f7-dc84-b612-49e075" name="1 - Shield of Ynnead" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b608-ed95-c723-5af186" name="1 - Shield of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, all friendly units within 7" of the Psyker have a 6+ Invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c719-fea6-d834-6b0297" name="2 - Storm of Whispers" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d82a-afb7-e945-7c1308" name="2 - Storm of Whispers" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">3</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Pinning, Ignores Cover</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="e93b-b0c8-fa56-8d2419" name="3 - Word of the Phoenix" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="fa4c-c1d9-ab67-9e3520" name="3 - Word of the Phoenix" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">N/A</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">This psychic power targets a friendly unit with the Strength from Death special rule within 24". That unit can immediately make a Soulburst action.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0b5d-d2ea-bc78-af4631" name="4 - Ancestor&apos;s Grace" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1c6e-e3fb-cd89-b05742" name="4 - Ancestor&apos;s Grace" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">14"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target unit adds 1 to its Weapon Skill, Ballistic Skill, Initiative, Attacks, and Leadership characteristics, and gains the Adamantium Will special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="2d7f-f40c-de90-c16853" name="5 - Unbind Souls" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3e80-a51d-efa1-d27964" name="5 - Unbind Souls" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault *, Soulreap</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Unbind Souls makes a number of shots equal to the number of models in the enemy unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="4f24-8155-92f3-6a40" name="Discipline: Broodmind" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4f91-b62e-fa13-e38075" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="50a2-c73f-ab24-f49186" name="(Primaris) Mass Hypnosis" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="61b3-d840-bc35-a50297" name="(Primaris) Mass Hypnosis" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">A single enemy unit has its Weapon Skill, Balistic Skill, Initiative and Attacks reduced by 1, to a minimum of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="72c4-e951-cd46-b61308" name="1 - Psychic Stimulus" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="83d5-fa62-de57-c72419" name="1 - Psychic Stimulus" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">A single friendly unit gains the Relentless and Fleet special rules. In addition, the target can charge even if it Ran its preceding Shooting phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="94e6-ab73-ef68-d83520" name="2 - Might From Beyond" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a5f7-bc84-fa79-e94631" name="2 - Might From Beyond" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">A single friendly unit adds 1 to their Strength characteristic and gains the Rage special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="b608-cd95-ab80-fa5742" name="3 - Mental Onslaught" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c719-dea6-bc91-ab6853" name="3 - Mental Onslaught" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Both the Psyker and the target model roll a dice and add their Leadership value. If the scores are drawn, the target model suffers a -3 penalty to its Initiative until the end of the following turn. If the Pskyer&apos;s score is higher, the target also suffers a number of Wounds equal to the difference between the scores. No armour or cover saves are allowed against these Wounds.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="d82a-efb7-cda2-bc7964" name="4 - Mind Control" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e93b-fa08-deb3-cd8075" name="4 - Mind Control" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">A single non-vehicle model that is not locked in combat immediately makes a shooting attack exactly as if it were one of your own models. The model cannot make an attack that would cause it to hit itself or its own unit in any way. After resolving the shooting attack, the mind-controlled model immediately reverts to the owning player&apos;s control.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="fa4c-ab19-efc4-de9186" name="5 - Telepathic Summons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0b5d-bc2a-a0d5-efa297" name="5 - Telepathic Summons" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2 or 3</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc"></characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Each time this psychic power is used, choose whether it will have Warp Charge 2 or 3. The choice must be made before the Psychic test is taken. Warp Charge 2: A single unit of 5 Acolyte Hybrids, 5 Hybrid Metamorphs, or 10 Neophyte Hybrids (your choice). Warp Charge 3: A single unit of 10 Acolyte Hybrids, 10 Hybrid Metamorphs, 4 Abberants, 8 Purestrain Genestealers, or 20 Neophyte Hybrids (your choice). In any case, these unit can be equipped with any upgrades listed on their datasheet, but they cannot take any extra models or take a Dedicated Transport. These units always arrive using the Cult Ambush special rule instead of arriving via Deep Strike.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="c4f1-8a72-3d95-e6b0" name="Discipline: Change" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7e2a-b941-5c83-d0f6" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="91d5-4b28-a7e3-c062" name="(Primaris) Flickering Fire of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e307-6c91-b542-8afd" name="(Primaris) Flickering Fire of Tzeentch" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1-3</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Soul Blaze, Warpflame</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this psychic power is used, choose whether it will have a Warp Charge cost of 1, 2 or 3. Flickering Fire of Tzeentch fires an additional D6 shots for each point of Warp Charge after the first that it cost to manifest. Warpflame: At the end of each phase, any unit that suffered one or more unsaved Wounds during the phase from an attack with this special rule (or from an attack made by a model with this special rule), must take a Toughness test. If the test is failed, the unit immediately suffers D3 Wounds with no armour or cover saves allowed. If the test is passed, all models in that unit gain the Feel No Pain (6+) special rule for the rest of the game. Any models in the unit that already have the Feel No Pain special rule instead gain +1 to all Feel No Pain rolls for the rest of the game. Chaos is fickle!</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a2e6-5c39-b8f4-d173" name="1 - Tzeentch&apos;s Firestorm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f418-7da2-c653-9b0e" name="1 - Tzeentch&apos;s Firestorm" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D6+1</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast, Warpflame</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Warpflame: At the end of each phase, any unit that suffered one or more unsaved Wounds during the phase from an attack with this special rule (or from an attack made by a model with this special rule), must take a Toughness test. If the test is failed, the unit immediately suffers D3 Wounds with no armour or cover saves allowed. If the test is passed, all models in that unit gain the Feel No Pain (6+) special rule for the rest of the game. Any models in the unit that already have the Feel No Pain special rule instead gain +1 to all Feel No Pain rolls for the rest of the game. Chaos is fickle!</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="b3f7-6d4a-c905-e284" name="2 - Bolt of Change" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0529-8eb3-d764-ac1f" name="2 - Bolt of Change" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D6+4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Warpflame</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Warpflame: At the end of each phase, any unit that suffered one or more unsaved Wounds during the phase from an attack with this special rule (or from an attack made by a model with this special rule), must take a Toughness test. If the test is failed, the unit immediately suffers D3 Wounds with no armour or cover saves allowed. If the test is passed, all models in that unit gain the Feel No Pain (6+) special rule for the rest of the game. Any models in the unit that already have the Feel No Pain special rule instead gain +1 to all Feel No Pain rolls for the rest of the game. Chaos is fickle!</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c408-7e5b-da16-f395" name="3 - Tzeentch&apos;s Warpflare" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="163a-9fc4-e875-bd20" name="3 - Tzeentch&apos;s Warpflare" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">9"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D6</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 2D6, Ignores Cover, Warpflame</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Warpflame: At the end of each phase, any unit that suffered one or more unsaved Wounds during the phase from an attack with this special rule (or from an attack made by a model with this special rule), must take a Toughness test. If the test is failed, the unit immediately suffers D3 Wounds with no armour or cover saves allowed. If the test is passed, all models in that unit gain the Feel No Pain (6+) special rule for the rest of the game. Any models in the unit that already have the Feel No Pain special rule instead gain +1 to all Feel No Pain rolls for the rest of the game. Chaos is fickle!</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="d519-8f6c-eb27-a406" name="4 - Boon of Flame" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="274b-a0d5-f986-ce31" name="4 - Boon of Flame" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2-3</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If you manifest this power at Warp Charge 2, it creates 1 Exalted Flamer of Tzeentch. Alternatively, you can attempt to manifest this power at Warp Charge 3 (decide before rolling). If you do so, you can instead choose to create one of the following units: 3 Flamers of Tzeentch or 1 Burning Chariot of Tzeentch.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="e62a-907d-fc38-b517" name="5 - Infernal Gateway" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="385c-b1e6-aa97-df42" name="5 - Infernal Gateway" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D6+4</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast, Warpflame</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Warpflame: At the end of each phase, any unit that suffered one or more unsaved Wounds during the phase from an attack with this special rule (or from an attack made by a model with this special rule), must take a Toughness test. If the test is failed, the unit immediately suffers D3 Wounds with no armour or cover saves allowed. If the test is passed, all models in that unit gain the Feel No Pain (6+) special rule for the rest of the game. Any models in the unit that already have the Feel No Pain special rule instead gain +1 to all Feel No Pain rolls for the rest of the game. Chaos is fickle!</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="f73b-a18e-ad49-c628" name="6 - Prismatic Gaze" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="496d-c2f7-bba8-e053" name="6 - Prismatic Gaze" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">D</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">1</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="d502-9b83-4ea6-f7c1" name="Discipline: Plague" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8f3b-ca52-6d94-e107" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="12a4-b7d9-e053-6c81" name="(Primaris) Stream of Corruption" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3e71-a486-d9b2-f605" name="(Primaris) Stream of Corruption" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">Template</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">-</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">3</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Poisoned (4+)</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+              </profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="23b5-c8ea-f164-7d92" name="1 - Debilitating Distention" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="4f82-b597-eac3-a716" name="1 - Debilitating Distention" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit cannot Run, perform Sweeping Advances or fire Overwatch.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="34c6-d9fb-a275-8ea3" name="2 - Plague Wind" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="5093-c6a8-fbd4-b827" name="2 - Plague Wind" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">1</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Large Blast, Poisoned (4+)</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd">This power has no effect on vehicles.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="45d7-ea0c-b386-9fb4" name="3 - Miasma of Pestilence" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="61a4-d7b9-ace5-c938" name="3 - Miasma of Pestilence" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">At the start of each Fight sub-phase whilst this power is in effect, roll a D3. Until the end of the phase, all enemy units locked in close combat with the target or his unit suffer a penalty to their Weapon Skill and Initiative characteristics equal to the result.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="56e8-fb1d-c497-a0c5" name="4 - Rancid Visitations" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="72b5-e8ca-bdf6-da49" name="4 - Rancid Visitations" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Nova</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Each target unit must pass a Toughness test or suffer a Wound with no armour or cover saves allowed. If a model is slain, its unit must pass another Toughness test or suffer an additional Wound with no armour or cover saves allowed. Repeat this process until a Toughness test is passed or the unit is destroyed.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="67f9-ac2e-d5a8-b1d6" name="5 - Final Decomposition" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="83c6-f9db-ce07-eb50" name="5 - Final Decomposition" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Focussed Witchfire</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">12"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">*</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Ignores Cover, Instant Death, Internal Liquefaction</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd">This power has no effect on vehicles. Internal Liquefaction: Instead of rolling To Wound normally for a model hit by this attack, its controlling player must roll a D6. If the result is higher than the number of Wounds the target has remaining, it suffers 1 Wound resolved using the profile above.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="780a-bd3f-e6b9-c2e7" name="6 - Putrescent Vitality" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="94d7-a0ec-df18-fc61" name="6 - Putrescent Vitality" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1-3</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Targets a single friendly unit with the Daemon of Nurgle special rule within 24". Each time this psychic power is used, choose whether it will have a Warp Charge cost of 1, 2 or 3. Whilst this power is in effect, add 1 to the Toughness characteristic of all models in the target unit for each point of Warp charge that it cost to manifest.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="e613-ac94-5fb7-a8d2" name="Discipline: Excess" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="904c-db63-7ea5-f218" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="89b1-ce40-f7a2-3d65" name="(Primaris) Lash of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="a5e8-b1fd-e029-7c43" name="(Primaris) Lash of Slaanesh" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Rending</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9ac2-df51-a8b3-4e76" name="1 - Acquiescence" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="b6f9-c20e-f13a-8d54" name="1 - Acquiescence" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target unit suffers a -5 penalty to its Initiative (to a minimum of 1) and can neither make use of the Counter-attack special rule nor fire Overwatch whilst this power is in effect.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="abd3-e062-b9c4-5f87" name="2 - Pavane of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="c70a-d31f-a24b-9e65" name="2 - Pavane of Slaanesh" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target must pass a Leadership test or suffer a Wound with no armour or cover saves allowed. If the target is slain, randomly select another model in the unit. That model must also pass a Leadership test or suffer a Wound with no armour or cover saves allowed. If that model is also slain, randomly select another model in the unit and repeat the process until a model passes a Leadership test or the unit is destroyed.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="bce4-f173-cad5-6098" name="3 - Maniacal Fervour" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="d81b-e420-b35c-af76" name="3 - Maniacal Fervour" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">That unit immediately suffers D6 Strength 3 AP- hits. However, whilst the power is in effect, the target unit has the Furious Charge, Rage and Zealot special rules.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="cdf5-a284-dbe6-71a9" name="4 - Phantasmagoria" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="e92c-f531-c46d-b087" name="4 - Phantasmagoria" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, each time the unit wishes to make one of the following actions - move, manifest psychic powers, Run, shoot, charge, make attacks in the Fight sub-phase, make a Sweeping Advance, Consolidate or fire Overwatch - it must first pass a Leadership test or be unable to do so. If the test is failed, the unit can still attempt to perform an alternative action in the same phase.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="de06-b395-ecf7-82ba" name="5 - Slicing Shards" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="fa3d-a642-d57e-c198" name="5 - Slicing Shards" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                  <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                  <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                  <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">4</characteristic>
+                  <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                  <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Large Blast, Soul Flay</characteristic>
+                  <characteristic name="Details" typeId="a812-390d-dff6-dabd">Soul Flay: After resolving this attack, any units that were fully or partially beneath the blast marker must pass a Leadership test or immediately suffer a further D6 Strength 4 AP4 hits.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="ef17-c4a6-fd08-93cb" name="6 - Cacophonic Choir" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="0b4e-b753-e68f-d2a9" name="6 - Cacophonic Choir" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Nova</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">For each target unit, roll 2D6 and subtract their Leadership. The unit suffers a number of Wounds equal to the result, with no armour or cover saves allowed. After resolving any Wounds, each target unit must take a Pinning test.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b17c-4e92-a638-d05f" name="Discipline: Runes of Battle" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c28d-5fa3-b749-e160" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d39e-60b4-c85a-f271" name="(Primaris) Conceal/Reveal" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e4af-71c5-d96b-a382" name="Conceal" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker has the Shrouded special rule.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f5b0-82d6-ea7c-b493" name="Reveal" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit lose the Stealth and Shrouded special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="06c1-93e7-fb8d-c5a4" name="1 - Destructor/Renewer" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="17d2-a4f8-ac9e-d6b5" name="Destructor" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">Template</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Soul Blaze</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
+                  </characteristics>
+                </profile>
+                <profile id="28e3-b509-bdaf-e7c6" name="Renewer" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">One model (of your choice) in the target unit immediately regains a Wound lost earlier in the battle. A slain model cannot be returned to play by this power.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="39f4-c61a-ceb0-f8d7" name="2 - Embolden/Horrify" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4a05-d72b-dfc1-a9e8" name="Embolden" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit have the Fearless special rule.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5b16-e83c-e0d2-baf9" name="Horrify" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit suffer a -3 penalty to their Leadership.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="6c27-f94d-f1e3-cb0a" name="3 - Enhance/Drain" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7d38-a05e-a2f4-dc1b" name="Enhance" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit receive a +1 bonus to their Weapon Skill and Initiative.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8e49-b16f-b305-ed2c" name="Drain" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit suffer a -1 penalty to their Weapon Skill and Initiative.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9f5a-c270-c416-fe3d" name="4 - Protect/Jinx" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a06b-d381-d527-af4e" name="Protect" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit receive a +1 bonus to their Armour Save (to a maximum of 2+).</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="b17c-e492-e638-b05f" name="Jinx" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit suffer a -1 penalty to their Armour Save (a model with a 6+ armour save would therefore have no Armour Save).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c28d-f5a3-f749-c160" name="5 - Quicken/Restrain" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d39e-a6b4-a85a-d271" name="Quicken" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit Run an additional 3" (this will normally be D6+3").</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e4af-b7c5-b96b-e382" name="Restrain" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, models in the target unit cannot Run.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="f5b0-c8d6-ca7c-f493" name="6 - Empower/Enervate" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="06c1-d9e7-db8d-a5a4" name="Empower" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and his unit receive a +1 bonus to their Strength.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="17d2-eaf8-ec9e-b6b5" name="Enervate" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit suffer a -1 penalty to their Strength.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="2a73-f18c-46bd-9e05" name="Discipline: Runes of Fate" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3b84-a29d-57ce-af16" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="4c95-b3ae-68df-b027" name="(Primaris) Guide" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5da6-c4bf-79e0-c138" name="(Primaris) Guide" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit can re-roll all failed To Hit rolls when shooting.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="6eb7-d5c0-8af1-d249" name="1 - Executioner" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7fc8-e6d1-9b02-e35a" name="1 - Executioner" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target suffers 3 hits, resolved at the Psyker&apos;s Strength with the Fleshbane special rule and AP-. If the target is removed from play as a result, another model in the same unit suffers 2 hits as described above. If the second target is slain, a third and final model in the same unit suffers 1 hit as described above. If the Psyker chose the first target model, he can choose the second and third target models. If the first target model was chosen randomly, then the second and third target models must also be chosen randomly. If at any point a target survives, or there are no models left in the target&apos;s unit, the power&apos;s effects end.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="80d9-f7e2-ac13-f46b" name="2 - Doom" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="91ea-a8f3-bd24-a57c" name="2 - Doom" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If the target is a non-vehicle unit, all failed To Wound rolls made against the target can be re-rolled whilst this power is in effect. If the target is a vehicle, all failed Armour Penetration rolls made against it can be re-rolled whilst this power is in effect.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="a2fb-b904-ce35-b68d" name="3 - Will of Asuryan" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b30c-ca15-df46-c79e" name="3 - Will of Asuryan" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the Psyker and all friendly units within 12" of the Psyker have the Fearless and Adamantium Will special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c41d-db26-e057-d8af" name="4 - Fortune" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d52e-ec37-f168-e9b0" name="4 - Fortune" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target can re-roll all failed saving throws and Deny the Witch rolls.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="e63f-fd48-a279-fac1" name="5 - Mind War" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f740-ae59-b38a-abd2" name="5 - Mind War" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Both the Psyker and the target model roll a D6 and add their respective Leadership values. If the scores are drawn, the target model suffers a -1 penalty to its Weapon Skill and Ballistic Skill until the end of the following turn. If the Psyker&apos;s score is higher, the target also suffers a number of Wounds equal to the difference between the two scores. No armour or cover saves are allowed against Wounds caused by Mind War.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0851-bf6a-c49b-bce3" name="6 - Eldritch Storm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1962-c07b-d5ac-cdf4" name="6 - Eldritch Storm (Warp Charge 3)" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">3</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">3</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Fleshbane, Haywire, Large Blast, Pinning</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this psychic power is used, choose whether it will have a Warp Charge cost of 3 or 4. This choice must be made before the Psychic test is taken.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2a73-d18c-e6bd-def5" name="6 - Eldritch Storm (Warp Charge 4)" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">4</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">3</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">3</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Apocalyptic Blast, Fleshbane, Haywire, Pinning</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this psychic power is used, choose whether it will have a Warp Charge cost of 3 or 4. This choice must be made before the Psychic test is taken.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="fba1-ce9d-ee22-1ec2" name="Discipline: Powers of the Hive Mind" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="61e4-a83c-d725-9fb2" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="72f5-b94d-e836-a0c3" name="(Primaris) Dominion" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="83a6-ca5e-f947-b1d4" name="(Primaris) Dominion" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect the Psyker adds 6" to its synapse range. If the Psyker does not have the Synapse Creature special rule, it gains it for the duration of this power and has a synapse range of 6".</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="94b7-db6f-a058-c2e5" name="1 - Catalyst" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a5c8-ec70-b169-d3f6" name="1 - Catalyst" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Targets the Psyker&apos;s unit and up to one other friendly unit with the Tyranids Faction that is within 12". Whilst this power is in effect, the targets gain the Feel No Pain special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="b6d9-fd81-c27a-e407" name="2 - The Horror" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c7ea-ae92-d38b-f518" name="2 - The Horror" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The target must immediately take a Pinning test with a -2 modifier to their Leadership.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="d8fb-bfa3-e49c-a629" name="3 - Onslaught" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e90c-c0b4-f5ad-b73a" name="3 - Onslaught" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target unit can both Run and then shoot in its Shooting phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="fa1d-d1c5-a6be-c84b" name="4 - Paroxysm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0b2e-e2d6-b7cf-d95c" name="4 - Paroxysm" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Malediction</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target unit&apos;s Weapon Skill and Ballistic Skill are both reduced by D3 (roll once and apply the result to both characteristics).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="1c3f-f3e7-c8d0-ea6d" name="5 - Psychic Scream" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2d40-a4f8-d9e1-fb7e" name="5 - Psychic Scream" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                    <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Nova</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6"</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">For each target unit, roll 2D6+2 and subtract their Leadership. That unit suffers a number of Wounds equal to the result. Armour and cover saves cannot be taken against Wounds caused by Psychic Scream.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="3e51-b509-eaf2-ac8f" name="6 - Warp Blast" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4f62-c61a-fb03-bd90" name="Warp Blast - Burst" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">24"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">5</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">3</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Blast</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this power is manifested, the controlling player must choose which profile is being used before the target is chosen.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5073-d72b-ac14-ce01" name="Warp Blast - Lance" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
+                    <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
+                    <characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic>
+                    <characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">10</characteristic>
+                    <characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">2</characteristic>
+                    <characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Lance</characteristic>
+                    <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this power is manifested, the controlling player must choose which profile is being used before the target is chosen.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
