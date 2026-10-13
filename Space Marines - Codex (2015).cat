@@ -6548,10 +6548,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <selectionEntry id="8f31-c7a4-52de-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
-        <selectionEntryGroups>
-          <selectionEntryGroup id="3ac9-71e2-d840-6fb532" name="Discipline" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3ac9-71e2-d840-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
             <constraints>
               <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e237-5a0f74" type="max"/>
               <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-b305-68c1-de9246" type="min"/>
@@ -6570,11 +6567,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               <entryLink id="83be-f427-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
             </entryLinks>
           </selectionEntryGroup>
-        </selectionEntryGroups>
-        <costs>
-          <cost name="pts" typeId="points" value="0"/>
-        </costs>
-      </selectionEntry>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ac1d-f8c6-e1a7-1980" hidden="false" collective="false" import="true" targetId="0a58-9390-319c-cfc9" type="selectionEntry" name="Psychic Hood"/>
         <entryLink id="18f5-a554-7a4d-70f3" name="HQ" hidden="false" collective="false" import="true" targetId="29e5-eb99-563b-681b" type="selectionEntry">
