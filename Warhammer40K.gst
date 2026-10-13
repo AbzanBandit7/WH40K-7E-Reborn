@@ -121,7 +121,7 @@
         <characteristicType id="ad96-dfa4-b4ed-656d" name="Details"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="9c33-b0c8-74bd-e5a7" name="Psychic Power (Attack)">
+    <profileType id="ae70-4738-0161-bec0" name="Psychic Power (Attack)">
       <characteristicTypes>
         <characteristicType id="c1b6-4261-dee4-923a" name="Warp Charge"/>
         <characteristicType id="668e-d504-8244-7422" name="Power Category"/>
@@ -2393,7 +2393,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           <selectionEntries>
             <selectionEntry id="a617-4d92-e38c-51fb72" name="(Primaris) Smite" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="2f6a-2920-62e2-42b1" name="(Primaris) Smite" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="2f6a-2920-62e2-42b1" name="(Primaris) Smite" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -2441,7 +2441,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="d964-53fc-a821-47be39" name="3 - Life Leech" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="37f6-b18d-a4d2-532a" name="3 - Life Leech" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="37f6-b18d-a4d2-532a" name="3 - Life Leech" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -2505,13 +2505,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="9d39-9010-43eb-ebfc" name="New InfoLink" hidden="false" targetId="1bb3-2856-abde-cd6d" type="rule"/>
-        <infoLink id="7ad5-272d-b129-af54" name="New InfoLink" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
-        <infoLink id="6748-4cb9-0af2-6e3c" name="New InfoLink" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
-        <infoLink id="75fc-426c-3bc9-8138" name="New InfoLink" hidden="false" targetId="f172-03fe-1e9f-c363" type="rule"/>
-        <infoLink id="3947-e352-249a-44df" name="New InfoLink" hidden="false" targetId="3c7d-11d6-e265-abb4" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -2587,7 +2580,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="6dbe-b8fa-c475-90d296" name="5 - Cleansing Flame" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c1cc-0e41-1c5f-940e" name="5 - Cleansing Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="c1cc-0e41-1c5f-940e" name="5 - Cleansing Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
@@ -2603,7 +2596,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="7ecf-c90b-d586-a1e307" name="6 - Vortex of Doom" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="651d-7ee7-bed9-c874" name="6 - Vortex of Doom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="651d-7ee7-bed9-c874" name="6 - Vortex of Doom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -2620,11 +2613,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="e6a7-2a5a-a6a8-76c1" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
-        <infoLink id="7c92-cc8e-78af-2a2f" name="New InfoLink" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
-        <infoLink id="24dc-d203-eca8-70e5" name="New InfoLink" hidden="false" targetId="3d3c-398b-775d-72ff" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -2727,10 +2715,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="c550-972c-aebb-c81d" name="New InfoLink" hidden="false" targetId="6a76-59d1-822c-59c9" type="rule"/>
-        <infoLink id="d843-07d0-b09f-55bd" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -2847,11 +2831,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="623c-39ac-388f-8d5e" name="New InfoLink" hidden="false" targetId="8de3-9e93-da02-b9dd" type="rule"/>
-        <infoLink id="5354-fbc3-ac5a-e728" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
-        <infoLink id="7e64-4a3b-0651-933f" name="" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -2861,7 +2840,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
         <selectionEntryGroup id="31af-82c4-d605-e91742" name="Psychic Powers" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="42b0-93d5-e716-fa2853" name="(Primaris) Electrosurge" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="bfcf-abdf-3dac-cf99" name="(Primaris) Electrosurge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="bfcf-abdf-3dac-cf99" name="(Primaris) Electrosurge" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -2886,7 +2865,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               <costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="64d2-b5f7-a938-1c4075" name="2 - Electropulse" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="e458-c8bf-f49b-5217" name="2 - Electropulse" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="e458-c8bf-f49b-5217" name="2 - Electropulse" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
@@ -2900,7 +2879,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               <costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="75e3-c608-ba49-2d5186" name="3 - Lightning Arc" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="76b8-1518-0181-7e59" name="3 - Lightning Arc" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="76b8-1518-0181-7e59" name="3 - Lightning Arc" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -2949,9 +2928,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="c781-6b51-dcb2-07c9" name="New InfoLink" hidden="false" targetId="719f-69cb-c032-d0ef" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="fa56-41f6-7241-e842" name="Discipline: Librarius" hidden="false" collective="false" import="true" type="upgrade">
@@ -2959,7 +2935,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
         <selectionEntryGroup id="b927-0a4c-fe83-619520" name="Psychic Powers" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="ca38-1b5d-af94-72a631" name="(Primaris) The Emporer&apos;s Wrath" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="6dae-27cd-38b8-f5a9" name="(Primaris) The Emporer&apos;s Wrath" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="6dae-27cd-38b8-f5a9" name="(Primaris) The Emporer&apos;s Wrath" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -2979,7 +2955,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="ec50-3d7f-c1b6-94c853" name="2 - Fury of the Ancients" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="65a4-eef8-9f6a-d013" name="2 - Fury of the Ancients" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="65a4-eef8-9f6a-d013" name="2 - Fury of the Ancients" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic><characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic><characteristic name="Range" typeId="5bf6-378a-0cb7-b079">20"</characteristic><characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">6</characteristic><characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">4</characteristic><characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Pinning</characteristic><characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
                 </characteristics>
@@ -3016,11 +2992,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="32a4-f9e2-e08e-76a7" name="New InfoLink" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
-        <infoLink id="6657-21f7-e87a-dc60" name="New InfoLink" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
-        <infoLink id="90f4-5c89-36e4-0121" name="New InfoLink" hidden="false" targetId="8714-46ad-62c0-ce35" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="e05c-cec2-bad0-4445" name="Discipline: Telekinesis" hidden="false" collective="false" import="true" type="upgrade">
@@ -3029,7 +3000,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           <selectionEntries>
             <selectionEntry id="42d9-b518-a7e3-9cf620" name="(Primaris) Assail" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a21c-c177-0f04-257f" name="(Primaris) Assail" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="a21c-c177-0f04-257f" name="(Primaris) Assail" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
@@ -3071,7 +3042,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="750c-e84b-da16-cf2953" name="3 - Shockwave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="8c6b-328f-aea3-774f" name="3 - Shockwave" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="8c6b-328f-aea3-774f" name="3 - Shockwave" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
@@ -3113,7 +3084,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="a83f-b17e-ad49-f25c86" name="6 - Psychic Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a501-4cdf-a11a-9e44" name="6 - Psychic Maelstrom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="a501-4cdf-a11a-9e44" name="6 - Psychic Maelstrom" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3130,12 +3101,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="e50f-6a52-d072-b3f9" name="New InfoLink" hidden="false" targetId="b500-e499-9f9b-43f4" type="rule"/>
-        <infoLink id="ed8d-9972-0bb9-a44a" name="New InfoLink" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
-        <infoLink id="7269-1ac1-89d7-8cf0" name="New InfoLink" hidden="false" targetId="719f-69cb-c032-d0ef" type="rule"/>
-        <infoLink id="f88d-03ad-585b-d6fc" name="New InfoLink" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="5ae3-21ce-7903-74a1" name="Discipline: Daemonology (Malefic)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3170,7 +3135,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="ec73-f5b2-eb8d-3690ca" name="2 - Dark Flame" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="ddb5-c920-136d-7138" name="2 - Dark Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="ddb5-c920-136d-7138" name="2 - Dark Flame" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3186,7 +3151,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="fd84-a6c3-fc9e-4701db" name="3 - Infernal Gaze" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="af54-54d8-16f9-b90d" name="3 - Infernal Gaze" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="af54-54d8-16f9-b90d" name="3 - Infernal Gaze" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
@@ -3242,12 +3207,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="eb15-f070-48bf-c126" name="New InfoLink" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
-        <infoLink id="72a2-431d-01b9-91fd" name="New InfoLink" hidden="false" targetId="3897-5e71-1b57-57ba" type="rule"/>
-        <infoLink id="ed6f-5ae5-97a5-4901" name="New InfoLink" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
-        <infoLink id="f91f-7a56-1f98-e343" name="New InfoLink" hidden="false" targetId="5039-18f0-a9ed-0938" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="94c0-771b-4dc2-a9a9" name="Discipline: Pyromancy" hidden="false" collective="false" import="true" type="upgrade">
@@ -3256,7 +3215,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           <selectionEntries>
             <selectionEntry id="42d9-fb18-e253-9ca620" name="(Primaris) Flame Breath" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e58b-ffb7-4bdf-23f9" name="(Primaris) Flame Breath" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="e58b-ffb7-4bdf-23f9" name="(Primaris) Flame Breath" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3307,7 +3266,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="861d-df5c-c697-d0ea64" name="4 - Sunburst" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e380-f4c0-2eaf-e4cc" name="4 - Sunburst" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="e380-f4c0-2eaf-e4cc" name="4 - Sunburst" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
@@ -3322,7 +3281,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="972e-e06d-d7a8-e1fb75" name="5 - Inferno" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="19c4-3573-0b4f-46e2" name="5 - Inferno" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="19c4-3573-0b4f-46e2" name="5 - Inferno" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3337,7 +3296,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="a83f-f17e-e8b9-f20c86" name="6 - Molten Beam" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3c4e-16d1-e107-d5d5" name="6 - Molten Beam" publicationId="e1ebd931--pubN66380" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="3c4e-16d1-e107-d5d5" name="6 - Molten Beam" publicationId="e1ebd931--pubN66380" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
@@ -3353,11 +3312,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="0b4e-4269-3c89-c8b2" name="New InfoLink" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
-        <infoLink id="0bec-2648-989a-cfe6" name="New InfoLink" hidden="false" targetId="52f9-9dcb-b6ed-0562" type="rule"/>
-        <infoLink id="5cc8-6c0e-e7ce-c781" name="New InfoLink" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="a2b7-900b-fd71-721d" name="Discipline: Technomancy" hidden="false" collective="false" import="true" type="upgrade">
@@ -3403,7 +3357,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="1fa0-87c5-dcb6-934e72" name="5 - Fury of Mars" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="019a-2a74-4efb-b71e" name="5 - Fury of Mars" publicationId="e1ebd931--pubN79789" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="019a-2a74-4efb-b71e" name="5 - Fury of Mars" publicationId="e1ebd931--pubN79789" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic><characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic><characteristic name="Range" typeId="5bf6-378a-0cb7-b079">18"</characteristic><characteristic name="Strength" typeId="12da-9b3e-f37b-bc35">1</characteristic><characteristic name="AP" typeId="10b5-aa5b-ccde-79cc">-</characteristic><characteristic name="Type" typeId="20e7-cbcb-1781-a732">Assault 1, Haywire</characteristic><characteristic name="Details" typeId="a812-390d-dff6-dabd"/>
                 </characteristics>
@@ -3419,10 +3373,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="f2d7-81c8-7431-ef90" name="New InfoLink" hidden="false" targetId="719f-69cb-c032-d0ef" type="rule"/>
-        <infoLink id="67a1-c07a-ef4c-2ada" name="New InfoLink" hidden="false" targetId="8de3-9e93-da02-b9dd" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="f3dd-c529-d047-3c68" name="Discipline: Telepathy" hidden="false" collective="false" import="true" type="upgrade">
@@ -3481,12 +3431,6 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink id="2eba-0957-9006-a68b" name="New InfoLink" hidden="false" targetId="7182-6dce-dc98-9f7c" type="rule"/>
-        <infoLink id="c876-0db7-11aa-157a" name="New InfoLink" hidden="false" targetId="280d-1a0c-5916-3012" type="rule"/>
-        <infoLink id="9c1f-3a4e-6b9a-1ad8" name="New InfoLink" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
-        <infoLink id="3dc3-0548-0b59-14d3" name="New InfoLink" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
-      </infoLinks>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
     <selectionEntry id="963a-e8df-3eaf-3aad" name="Discipline: Revenant" hidden="false" collective="false" import="true" type="upgrade">
@@ -3521,7 +3465,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="c719-fea6-d834-6b0297" name="2 - Storm of Whispers" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="d82a-afb7-e945-7c1308" name="2 - Storm of Whispers" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="d82a-afb7-e945-7c1308" name="2 - Storm of Whispers" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
@@ -3563,7 +3507,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="2d7f-f40c-de90-c16853" name="5 - Unbind Souls" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3e80-a51d-efa1-d27964" name="5 - Unbind Souls" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="3e80-a51d-efa1-d27964" name="5 - Unbind Souls" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3675,7 +3619,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           <selectionEntries>
             <selectionEntry id="91d5-4b28-a7e3-c062" name="(Primaris) Flickering Fire of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e307-6c91-b542-8afd" name="(Primaris) Flickering Fire of Tzeentch" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="e307-6c91-b542-8afd" name="(Primaris) Flickering Fire of Tzeentch" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1-3</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3691,7 +3635,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="a2e6-5c39-b8f4-d173" name="1 - Tzeentch&apos;s Firestorm" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="f418-7da2-c653-9b0e" name="1 - Tzeentch&apos;s Firestorm" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="f418-7da2-c653-9b0e" name="1 - Tzeentch&apos;s Firestorm" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3707,7 +3651,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="b3f7-6d4a-c905-e284" name="2 - Bolt of Change" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0529-8eb3-d764-ac1f" name="2 - Bolt of Change" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="0529-8eb3-d764-ac1f" name="2 - Bolt of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
@@ -3723,7 +3667,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="c408-7e5b-da16-f395" name="3 - Tzeentch&apos;s Warpflare" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="163a-9fc4-e875-bd20" name="3 - Tzeentch&apos;s Warpflare" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="163a-9fc4-e875-bd20" name="3 - Tzeentch&apos;s Warpflare" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Nova</characteristic>
@@ -3752,7 +3696,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="e62a-907d-fc38-b517" name="5 - Infernal Gateway" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="385c-b1e6-aa97-df42" name="5 - Infernal Gateway" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="385c-b1e6-aa97-df42" name="5 - Infernal Gateway" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3768,7 +3712,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="f73b-a18e-ad49-c628" name="6 - Prismatic Gaze" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="496d-c2f7-bba8-e053" name="6 - Prismatic Gaze" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="496d-c2f7-bba8-e053" name="6 - Prismatic Gaze" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3793,7 +3737,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
           <selectionEntries>
             <selectionEntry id="12a4-b7d9-e053-6c81" name="(Primaris) Stream of Corruption" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3e71-a486-d9b2-f605" name="(Primaris) Stream of Corruption" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="3e71-a486-d9b2-f605" name="(Primaris) Stream of Corruption" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3817,7 +3761,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="34c6-d9fb-a275-8ea3" name="2 - Plague Wind" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="5093-c6a8-fbd4-b827" name="2 - Plague Wind" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="5093-c6a8-fbd4-b827" name="2 - Plague Wind" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3850,7 +3794,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="67f9-ac2e-d5a8-b1d6" name="5 - Final Decomposition" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="83c6-f9db-ce07-eb50" name="5 - Final Decomposition" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="83c6-f9db-ce07-eb50" name="5 - Final Decomposition" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Focussed Witchfire</characteristic>
@@ -3882,7 +3826,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
         <selectionEntryGroup id="904c-db63-7ea5-f218" name="Psychic Powers" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="89b1-ce40-f7a2-3d65" name="(Primaris) Lash of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="a5e8-b1fd-e029-7c43" name="(Primaris) Lash of Slaanesh" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="a5e8-b1fd-e029-7c43" name="(Primaris) Lash of Slaanesh" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Beam</characteristic>
@@ -3935,7 +3879,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
               </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
             </selectionEntry>
             <selectionEntry id="de06-b395-ecf7-82ba" name="5 - Slicing Shards" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles><profile id="fa3d-a642-d57e-c198" name="5 - Slicing Shards" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+              <profiles><profile id="fa3d-a642-d57e-c198" name="5 - Slicing Shards" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                 <characteristics>
                   <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                   <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -3989,7 +3933,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="06c1-93e7-fb8d-c5a4" name="1 - Destructor/Renewer" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="17d2-a4f8-ac9e-d6b5" name="Destructor" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="17d2-a4f8-ac9e-d6b5" name="Destructor" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">1</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -4205,7 +4149,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="0851-bf6a-c49b-bce3" name="6 - Eldritch Storm" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1962-c07b-d5ac-cdf4" name="6 - Eldritch Storm (Warp Charge 3)" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="1962-c07b-d5ac-cdf4" name="6 - Eldritch Storm (Warp Charge 3)" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">3</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -4216,7 +4160,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
                     <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this psychic power is used, choose whether it will have a Warp Charge cost of 3 or 4. This choice must be made before the Psychic test is taken.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="2a73-d18c-e6bd-def5" name="6 - Eldritch Storm (Warp Charge 4)" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="2a73-d18c-e6bd-def5" name="6 - Eldritch Storm (Warp Charge 4)" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">4</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -4319,7 +4263,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
             </selectionEntry>
             <selectionEntry id="3e51-b509-eaf2-ac8f" name="6 - Warp Blast" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="4f62-c61a-fb03-bd90" name="Warp Blast - Burst" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="4f62-c61a-fb03-bd90" name="Warp Blast - Burst" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
@@ -4330,7 +4274,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
                     <characteristic name="Details" typeId="a812-390d-dff6-dabd">Each time this power is manifested, the controlling player must choose which profile is being used before the target is chosen.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="5073-d72b-ac14-ce01" name="Warp Blast - Lance" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="Psychic Power (Attack)">
+                <profile id="5073-d72b-ac14-ce01" name="Warp Blast - Lance" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power (Attack)">
                   <characteristics>
                     <characteristic name="Warp Charge" typeId="c1b6-4261-dee4-923a">2</characteristic>
                     <characteristic name="Power Category" typeId="668e-d504-8244-7422">Witchfire</characteristic>
