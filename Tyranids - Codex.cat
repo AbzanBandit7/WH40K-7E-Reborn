@@ -883,7 +883,7 @@ Wound rolls of 1 in the Shooting phase.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b2bewe48-be214b998-0636n7bqeb-b026-c7t81cjfde48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
+                    <infoLink id="b2beqe24v2c453we48-be214b998-0636n7bqeb-b0rm826-c7t81cjfde48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -913,17 +913,6 @@ Wound rolls of 1 in the Shooting phase.</description>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="3a1c9-71e2-d8e0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-4bc8-e2137-5ee4" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa1-e305-68c1-e9126" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="5ce2-813e7-a419-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="753e34e9-d777-c940-1468-02ccf932a692" hidden="false" collective="false" import="true" targetId="f7e7a6e8-3838-f8db-3380-ad8b10c489ec" type="selectionEntryGroup"/>
               </entryLinks>
@@ -3568,15 +3557,6 @@ suffer -5 to their Initiative
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3201-9483-595e-90cb" name="Powers of the Hive Mind" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="f6a0-1808-5dff-bb1e" name="Psyker (Mastery Level 2)" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -4907,15 +4887,6 @@ suffer -5 to their Initiative
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="54f0e24e-86c6-c8fb-dfc4-f425e9e79f95" name="Powers of the Hive Mind" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="4428b17d-4a5e-9438-cc2e-263e6a1b626b" name="Must choose one of the following set of arms:" hidden="false" collective="false" import="true" defaultSelectionEntryId="112c9497-f275-214d-50d2-01710775287b">
@@ -6230,15 +6201,6 @@ suffer -5 to their Initiative
               </rules>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7c7472ac-aaf6-818d-a900-7d7bee279310" name="Powers of the Hive Mind" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="103c3f97-676e-73bc-19aa-f7480b67066b" name="Psyker (Mastery Level 2)" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10229,8 +10191,7 @@ Leviathan II).</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b2b29048-b998-0beb-b026-c7851httfgge48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
-                    <infoLink id="b2be8-beyh-0bqeb-b026-c726e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
+                    <infoLink id="b2be8-bey4141h-0bqeb-b026-c726e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -17146,8 +17107,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b2b29048-b998-0beb-b026-c7851ec26e48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
-                    <infoLink id="b2bewe48-be998-0bqeb-b026-c7t85126e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
+                    <infoLink id="b2bewe48-be998-0bqe23v52b-b026-c7t85126e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -18660,8 +18620,7 @@ during the same turn that it uses this special rule.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b2b298-b998-0beb-b026-c78ec26e48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
-                <infoLink id="b2beweavwa48-be998-0beb-b026-c7t85126e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
+                <infoLink id="b2beweavwa48-be998-0n4m96953beb-b026-c7t85126e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -19341,18 +19300,6 @@ not benefit from this rule.</description>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2e79-6bf4-fc8e-a664" name="Powers of the Hive Mind" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="49c9-f9d8-236a-fdbc" hidden="false" targetId="a2a6-7948-3478-67c5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="14dd-b0df-51ad-be02" name="Psyker (Mastery Level 2)" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -21137,18 +21084,6 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4226-92d3-0d47-5261" name="Powers of the Hive Mind" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0dd1-59cb-2673-339e" hidden="false" targetId="a2a6-7948-3478-67c5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="536a-e7a7-983b-fc04" name="Must choose one of the following set of arms:" hidden="false" collective="false" import="true" defaultSelectionEntryId="b751-f2b9-2572-4a9a">
@@ -21313,10 +21248,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
           <description>The Warlord&apos;s synapse range is 18&quot;.</description>
         </rule>
         <rule id="c76a-ce82-968e-9ffd" name="Swarm Leader" publicationId="f2f40acf--pubN65999" page="59" hidden="false">
-          <description>At the beginning of your turn, choose either the Swarmlord&apos;s unit, or
-one friendly unit from Codex: Tyranids within 18&quot; of the Swarmlord. Then, choose one of
-the following special rules: Furious Charge, Monster Hunter, or Preferred Enemy. The
-chosen unit has that special rule until the end of the turn.</description>
+          <description>At the beginning of your turn, choose either the Swarmlord&apos;s unit, or one friendly unit from Codex: Tyranids within 18&quot; of the Swarmlord. Then, choose one of the following special rules: Furious Charge, Monster Hunter, or Preferred Enemy. The chosen unit has that special rule until the end of the turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -21359,18 +21291,6 @@ chosen unit has that special rule until the end of the turn.</description>
           <rules>
             <rule id="426c-04aa-0d5e-bba4" name="Blade Parry" publicationId="f2f40acf--pubN65999" page="59" hidden="false"/>
           </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fba1-ce9d-ee22-1ec2" name="Powers of the Hive Mind" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ede5-f9e2-fd96-4f0d" hidden="false" targetId="a2a6-7948-3478-67c5" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>

@@ -14843,11 +14843,6 @@
       <infoLinks>
         <infoLink id="70e6-8f3b-5270-48bd" hidden="false" targetId="3a63aad4-b9a1-cdfa-0e6b-4a4a7351b77e" type="rule" name="Independent Character"/>
         <infoLink id="4ee6-ed18-96b0-8b0e" hidden="false" targetId="3dd4132d-b896-3c95-4991-eb7da48869d3" type="rule" name="It&apos;s for Your Own Good"/>
-        <infoLink id="77ff-ee7c-064c-de0b" hidden="false" targetId="a004e025-5589-0768-4593-c70ab258d828" type="rule" name="Psychic Discipline: Daemonology"/>
-        <infoLink id="334d-72e0-da7b-6087" hidden="false" targetId="116a1015-ae2b-c01a-35a8-9106cf0aa0a2" type="rule" name="Psychic Discipline: Divination"/>
-        <infoLink id="b670-716a-efe5-0969" hidden="false" targetId="d9621112-144a-fe7d-98d8-1cd9b723e323" type="rule" name="Psychic Discipline: Telekinesis"/>
-        <infoLink id="cf5a-9e08-9d94-b364" hidden="false" targetId="281e230f-4363-bb46-ff31-2cad750bdbb5" type="rule" name="Psychic Discipline: Biomancy"/>
-        <infoLink id="7052-e268-dc2b-9a04" hidden="false" targetId="5b55b0ce-44dc-1567-1f5c-c9d1c0994fbf" type="rule" name="Psychic Discipline: Pyromancy"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a565-8b3b-f4bc-2707-ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true" name="No Force Org Slot"/>
@@ -14925,24 +14920,19 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="95ac9-71e2-d840-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
-            <constraints>
-              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e28537-5a067f74" type="max"/>
-              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-b595305-68c1-de9246" type="min"/>
-            </constraints>
-            <entryLinks>
-              <entryLink id="5ce2-83123f7-a4245719-d60b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
-              <entryLink id="a71413-359dc-f62182-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
-              <entryLink id="6b229-e546a1-74fc-c83062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
-              <entryLink id="d585343-2f62a6-931b7-4c5e028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
-              <entryLink id="49e227-c132-ab2465-8fd3093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
-              <entryLink id="24a4f-d7161-92ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
-            </entryLinks>
-          </selectionEntryGroup>
-        </selectionEntryGroups>
-        <costs>
-          <cost name="pts" typeId="points" value="0"/>
-        </costs>
-      </selectionEntry>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e28537-5a067f74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-b595305-68c1-de9246" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ce2-83123f7-a4245719-d60b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+            <entryLink id="a71413-359dc-f62182-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+            <entryLink id="6b229-e546a1-74fc-c83062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+            <entryLink id="d585343-2f62a6-931b7-4c5e028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="49e227-c132-ab2465-8fd3093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="24a4f-d7161-92ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b30f-8b71-c8b3-6db2" hidden="false" collective="false" import="true" targetId="a8ed2377-b403-a5ff-8434-78e162b086c5" type="selectionEntry" name="Flak Armour"/>
@@ -18191,11 +18181,6 @@
       <infoLinks>
         <infoLink id="c0d2-9007-1ff0-caff" hidden="false" targetId="d2c5a26e-bba9-1699-76e4-0bea6bcdaeb6" type="rule" name="Brotherhood of Psykers"/>
         <infoLink id="dc18-8359-3469-5430" hidden="false" targetId="7672255a-03d3-3a8b-e7f5-ea6d624175f0" type="rule" name="Psyker (Mastery Level 1)"/>
-        <infoLink id="6c33-e403-02c3-b9b3" hidden="false" targetId="281e230f-4363-bb46-ff31-2cad750bdbb5" type="rule" name="Psychic Discipline: Biomancy"/>
-        <infoLink id="ba0a-8d08-cd36-9af8" hidden="false" targetId="d9621112-144a-fe7d-98d8-1cd9b723e323" type="rule" name="Psychic Discipline: Telekinesis"/>
-        <infoLink id="687c-5e3d-43ff-9105" hidden="false" targetId="116a1015-ae2b-c01a-35a8-9106cf0aa0a2" type="rule" name="Psychic Discipline: Divination"/>
-        <infoLink id="d818-f8a4-9e09-1d74" hidden="false" targetId="5b55b0ce-44dc-1567-1f5c-c9d1c0994fbf" type="rule" name="Psychic Discipline: Pyromancy"/>
-        <infoLink id="4fe6-c075-5cfa-76bb" hidden="false" targetId="a004e025-5589-0768-4593-c70ab258d828" type="rule" name="Psychic Discipline: Daemonology"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="280e-07f2-b5aa-f79b-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true" name="Elites"/>
