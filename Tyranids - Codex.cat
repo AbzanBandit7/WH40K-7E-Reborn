@@ -706,9 +706,9 @@ Wound rolls of 1 in the Shooting phase.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="b45331c4-5f35-0726-00eb-278c43d3d81a" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="38906319-2419-a2fb-2e0c-a8b7f30f7027" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="280f4ce2-f3b0-0aae-04c2-34284c745c13" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="b45331c4-5f35-0726-00eb-278c43d3d81a" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="38906319-2419-a2fb-2e0c-a8b7f30f7027" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="280f4ce2-f3b0-0aae-04c2-34284c745c13" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="7710b6b7-0d5e-7c75-c748-8f113cee20c3" name="Scything Talons" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -794,9 +794,9 @@ Wound rolls of 1 in the Shooting phase.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="d914fde5-9f76-bb6b-33ed-c403268f9b57" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="7411b37d-78af-e6af-cca3-63f45cbb0542" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="7bb1078e-9164-f006-df1f-9a693a471780" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="d914fde5-9f76-bb6b-33ed-c403268f9b57" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="7411b37d-78af-e6af-cca3-63f45cbb0542" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="7bb1078e-9164-f006-df1f-9a693a471780" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="634cba69-006f-288c-d65b-73e8578a3fe1" name="Scything Talons" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -871,9 +871,9 @@ Wound rolls of 1 in the Shooting phase.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="fe556359-2ff1-f113-e2e9-f61265beb401" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="2e55ef5b-9664-0ed7-3dbf-fdcdf4851377" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="9298d9b2-5fe9-318d-99d0-fae17da64b4d" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="fe556359-2ff1-f113-e2e9-f61265beb401" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="2e55ef5b-9664-0ed7-3dbf-fdcdf4851377" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="9298d9b2-5fe9-318d-99d0-fae17da64b4d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="bc799cdb-e3ed-3120-bd85-9d41a9c2694f" hidden="false" targetId="18aaa654-8154-30cf-8813-d8af752f8aea" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -883,7 +883,8 @@ Wound rolls of 1 in the Shooting phase.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b2b29048-b998-0beb-b026-c7851ec26e48" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="b2bxyx29048-b99d8-0beb-b026-c7851ec26e48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
+                    <infoLink id="b2bewe48-be998-0bqeb-b026-c7t851fhjfde48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -913,6 +914,17 @@ Wound rolls of 1 in the Shooting phase.</description>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3a1c9-71e2-d8e0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-4bc8-e2137-5ee4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa1-e305-68c1-e9126" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5ce2-813e7-a419-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="753e34e9-d777-c940-1468-02ccf932a692" hidden="false" collective="false" import="true" targetId="f7e7a6e8-3838-f8db-3380-ad8b10c489ec" type="selectionEntryGroup"/>
               </entryLinks>
@@ -1211,9 +1223,9 @@ Wound rolls of 1 in the Shooting phase.</description>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a1937855-7745-551b-9f5f-fd861edff742" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-            <infoLink id="7644d063-1515-717b-3960-ade1469925f6" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-            <infoLink id="09954699-6f28-1319-cae5-870b07eff515" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="a1937855-7745-551b-9f5f-fd861edff742" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+            <infoLink id="7644d063-1515-717b-3960-ade1469925f6" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+            <infoLink id="09954699-6f28-1319-cae5-870b07eff515" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="b0f3fbfe-104a-6a47-3c1d-32c26c1c4f74" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -1273,9 +1285,9 @@ Wound rolls of 1 in the Shooting phase.</description>
             <rule id="e83283ed-4e62-f6e3-3859-db5f366ad787" name="Warlord Trait: Innate Understanding" publicationId="f2f40acf--pubN71925" page="34" hidden="false"/>
           </rules>
           <infoLinks>
-            <infoLink id="699d9057-2da1-3a83-416e-dec9b269ee19" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-            <infoLink id="11050e5f-cd0c-7aef-fa9b-b3a4278cb8f3" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-            <infoLink id="c27b8422-22b7-c56e-aed4-9dc9efe70288" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="699d9057-2da1-3a83-416e-dec9b269ee19" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+            <infoLink id="11050e5f-cd0c-7aef-fa9b-b3a4278cb8f3" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+            <infoLink id="c27b8422-22b7-c56e-aed4-9dc9efe70288" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="4b2e3cf4-c8dc-2116-47de-d211141f9943" hidden="false" targetId="18aaa654-8154-30cf-8813-d8af752f8aea" type="rule"/>
             <infoLink id="c65d4902-b4cf-f711-caee-238ab3cfc5c7" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
             <infoLink id="35511061-cbb6-c068-78eb-3ffb7908aed3" hidden="false" targetId="b4b420ad-1f65-45a0-047c-9dc1a03c409e" type="profile"/>
@@ -1294,7 +1306,7 @@ The Horror - WC 1 : A malediction that targets a single enemy unit within 24”.
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="b9281f81-367a-51e3-e310-79018feffcb8" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="b9281f81-367a-51e3-e310-79018feffcb8" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1488,16 +1500,16 @@ these Victory Points.</description>
             <infoLink id="5a80ca74-e7c9-99f5-6842-1af4a1ef3bb4" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
             <infoLink id="76749423-9b1d-81b6-272b-594370d6b199" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
             <infoLink id="28da1212-71b8-4923-021c-9cd57824ad6d" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
-            <infoLink id="80c19c01-4aa9-ede5-f7e8-20e9c06c4dc4" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="80c19c01-4aa9-ede5-f7e8-20e9c06c4dc4" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="01c971c3-62ad-40dc-370a-a60a75f0aac8" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-            <infoLink id="e25c8503-fc0f-4283-291d-eb1af1bc95e6" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+            <infoLink id="e25c8503-fc0f-4283-291d-eb1af1bc95e6" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
             <infoLink id="eee5f015-fb7b-fc63-c355-735b57bf7673" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
             <infoLink id="920e99bb-f9dd-5773-9bf9-197849e5c35d" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
             <infoLink id="81f885f0-4b3a-6f8a-44e0-ef91303099ce" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
             <infoLink id="927653b3-7a8a-e3c3-6ae8-ec4395d5f0db" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
-            <infoLink id="2c4467d0-ba90-a3ec-3a6f-e4b31b53ea2c" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="2c4467d0-ba90-a3ec-3a6f-e4b31b53ea2c" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="e94744ac-cbb7-baed-88d2-53987d8dbfa5" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
-            <infoLink id="d5c08f0b-d6ea-9631-42e1-6d4631e8ce14" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+            <infoLink id="d5c08f0b-d6ea-9631-42e1-6d4631e8ce14" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="09049438-d35c-69e9-6dfb-6ceb70c2083d" name="Scything Talons" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1571,15 +1583,15 @@ these Victory Points.</description>
               </profiles>
               <infoLinks>
                 <infoLink id="c5e5a950-787c-2190-ec8b-2323f37f449d" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-                <infoLink id="2fadac8f-0cc9-1c6e-2790-08089aeee797" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="830ac8f5-db3e-dd2e-4ffc-b6f44b43861b" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="2fadac8f-0cc9-1c6e-2790-08089aeee797" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="830ac8f5-db3e-dd2e-4ffc-b6f44b43861b" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="dd7423d0-66af-1fe2-618c-f90060fb91b2" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="281f2453-905c-f9b6-3aeb-7f7e5b1b767f" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
                 <infoLink id="1eaf79db-1048-b9d2-01af-a98944cdef64" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
                 <infoLink id="3af60f3c-2295-874a-0b4f-d68df3f4b732" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
                 <infoLink id="05ab6b0c-e9da-3c04-cb1e-c5d09ccb16d0" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
                 <infoLink id="4c27fcea-0681-fca5-4549-82fe3a7bd064" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
-                <infoLink id="bb1cd7c9-e31f-0d79-86ca-5fb14cbae77f" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+                <infoLink id="bb1cd7c9-e31f-0d79-86ca-5fb14cbae77f" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
                 <infoLink id="5e4f593c-35d0-645e-a26a-79fd6a5fc645" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -1951,9 +1963,9 @@ these Victory Points.</description>
                 <rule id="e7e80522-62e3-4e3a-c027-80424c45dc19" name="Bounding Leap" publicationId="f2f40acf--pubN65999" page="42" hidden="false"/>
               </rules>
               <infoLinks>
-                <infoLink id="2c2d0c3c-1467-a317-ddcd-83c4525b23ee" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="2c2d0c3c-1467-a317-ddcd-83c4525b23ee" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="6ed35510-d4c9-5f63-7e8d-601961d1646c" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
-                <infoLink id="5b758e9c-afd8-387b-6073-df58c9afdaee" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="5b758e9c-afd8-387b-6073-df58c9afdaee" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="7a70feac-c694-9b69-78ec-efe26b6faae7" name="Scything Talons" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -2045,7 +2057,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="10d357f5-e48c-7884-9287-daaa95261ca3" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="10d357f5-e48c-7884-9287-daaa95261ca3" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="ab4734e8-fe9d-cf9b-69a4-0d4d0bd21ea1" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2109,7 +2121,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="b2459696-0e3e-1c8b-46df-7532f58c4fc9" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="b2459696-0e3e-1c8b-46df-7532f58c4fc9" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="fe36b854-d99c-1012-7462-00f99fa57783" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2173,7 +2185,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="ac2dc8d0-60a9-05c0-95b1-25b24809b915" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="ac2dc8d0-60a9-05c0-95b1-25b24809b915" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="c60b68f4-822e-57e4-b375-821f6e7ae214" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2237,7 +2249,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="9de35132-0884-104e-29c3-f9ec234712cb" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="9de35132-0884-104e-29c3-f9ec234712cb" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="6f3fc81c-5db7-2cfc-ec75-7732e2a61e02" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2573,7 +2585,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="d4ec948e-61ab-aeb9-8f99-15dac6c6b215" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="d4ec948e-61ab-aeb9-8f99-15dac6c6b215" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="be7e4376-5593-bbc3-654f-087f0fde098b" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2637,7 +2649,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="af8956ae-9205-3914-ad51-b5ca231e3b9e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="af8956ae-9205-3914-ad51-b5ca231e3b9e" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="e3773b76-a991-ac8f-584a-d8cd9418bf1f" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2701,7 +2713,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="ee31bc44-1fce-b523-4ca0-4bde8c18e24e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="ee31bc44-1fce-b523-4ca0-4bde8c18e24e" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="9d38dad1-8aee-96ab-37c0-4ecb2cf364b9" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2765,7 +2777,7 @@ these Victory Points.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="ec2af51f-94ba-caca-7784-98f131051eea" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="ec2af51f-94ba-caca-7784-98f131051eea" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="a348126b-3289-dc76-1d63-da470e538312" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -2846,9 +2858,9 @@ these Victory Points.</description>
                 <rule id="165fe0b1-0938-92d4-2dba-851edbfff83d" name="Bounding Leap" publicationId="f2f40acf--pubN65999" page="42" hidden="false"/>
               </rules>
               <infoLinks>
-                <infoLink id="1d234321-6eba-6714-c3b9-34fe314ce14e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="1d234321-6eba-6714-c3b9-34fe314ce14e" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="62af3196-0331-4ee7-5525-aa6f5bf3fa77" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
-                <infoLink id="be3d9c1d-6582-95dc-1caf-e0952d70dad0" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="be3d9c1d-6582-95dc-1caf-e0952d70dad0" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="c36fa6f5-488d-5b21-444c-0f69d7ff02b0" name="Scything Talons" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -3572,7 +3584,7 @@ suffer -5 to their Initiative
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1cc4-0026-db32-113d" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="1cc4-0026-db32-113d" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -3795,6 +3807,15 @@ suffer -5 to their Initiative
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3ac96-76e2-d8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e2637-56e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="267fa-e605-68c1-e926" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5c662-86e7-a469-d635" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -4123,7 +4144,7 @@ suffer -5 to their Initiative
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="2f798917-0c7c-afa1-3262-734feadcc996" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="2f798917-0c7c-afa1-3262-734feadcc996" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -4371,6 +4392,15 @@ suffer -5 to their Initiative
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup id="3rac9-71re2-d8e0-a5r3e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91rd6-4bc8-e237-5eer4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e30r5-68c1-e9r26" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5ce2-83re7-a4r19-dr35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="97d68fa2-6dd0-bc5a-09cd-30e1d36f00c6" hidden="false" collective="false" import="true" targetId="436b133f-23f6-4b9a-43e4-9f5e01786d71" type="selectionEntryGroup"/>
@@ -4610,7 +4640,7 @@ suffer -5 to their Initiative
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="69e94d19-f00a-5509-2d55-00837a2c2a4e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="69e94d19-f00a-5509-2d55-00837a2c2a4e" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="0bcf688d-b85e-11e5-9b88-41f7876c8407" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -4674,7 +4704,7 @@ suffer -5 to their Initiative
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="0cd8181a-2e9b-6dc1-447a-3ab7f6441e7b" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="0cd8181a-2e9b-6dc1-447a-3ab7f6441e7b" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="05077bd0-3356-de0d-4a03-f4bd7d51d271" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -4738,7 +4768,7 @@ suffer -5 to their Initiative
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="fb4d6b20-794e-a475-6adc-b3687cca293f" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="fb4d6b20-794e-a475-6adc-b3687cca293f" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="830e2dc9-9768-fd68-348b-5be563e3d65b" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -4802,7 +4832,7 @@ suffer -5 to their Initiative
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="d3d1cb52-ba5b-3c5e-b15d-de2dddfb0d6c" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="d3d1cb52-ba5b-3c5e-b15d-de2dddfb0d6c" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="a6e67807-5366-823d-b46a-e3cd9fedf59d" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -4872,7 +4902,7 @@ suffer -5 to their Initiative
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="84c7e127-b7d6-fa2e-116a-305e4ac1543b" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="84c7e127-b7d6-fa2e-116a-305e4ac1543b" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -4948,6 +4978,15 @@ suffer -5 to their Initiative
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3azzc9-71e2-d8e0-a53ze2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91dz6-4bzc8-e237-5ee4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e3z05-68c1z-e926" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5cze2-z83e7-a419-deaz35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -5321,9 +5360,9 @@ suffer -5 to their Initiative
                     <rule id="7f8c2fd1-71b1-8d8a-fe94-16e5176776a1" name="Bounding Leap" publicationId="f2f40acf--pubN65999" page="42" hidden="false"/>
                   </rules>
                   <infoLinks>
-                    <infoLink id="dea7383f-6ebe-a1bf-c771-e6dfa00a8467" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="dea7383f-6ebe-a1bf-c771-e6dfa00a8467" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="a3f3a2b3-30e3-0ac9-8ff8-4b0b7b298302" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
-                    <infoLink id="3c00c4f6-e64f-52c7-7319-0e2266fc6fbd" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                    <infoLink id="3c00c4f6-e64f-52c7-7319-0e2266fc6fbd" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="74b4b22c-b0c8-fc64-fe06-2eccd4617696" name="Scything Talons" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -5415,7 +5454,7 @@ suffer -5 to their Initiative
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="6fdb6ae1-1055-b287-5e6b-80c95ba82e31" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="6fdb6ae1-1055-b287-5e6b-80c95ba82e31" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="20b428f8-3ec9-4765-1fd7-d9c348a1443f" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -5479,7 +5518,7 @@ suffer -5 to their Initiative
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="d18457de-ac96-c13f-d58e-c030deff8de8" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="d18457de-ac96-c13f-d58e-c030deff8de8" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="60836e66-fdf6-7e69-dcfd-644e14bd9f4e" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -5543,7 +5582,7 @@ suffer -5 to their Initiative
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="f4e34bed-d93f-f965-4593-1efbce31adbd" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="f4e34bed-d93f-f965-4593-1efbce31adbd" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="591a7893-505a-7121-cf74-c326cca02cf7" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -5607,7 +5646,7 @@ suffer -5 to their Initiative
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="1b93a527-9015-e8f3-3d3c-ce76925d3e1b" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="1b93a527-9015-e8f3-3d3c-ce76925d3e1b" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="b2165213-1af8-47b1-9ca1-b3e4c5213cce" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -6209,7 +6248,7 @@ suffer -5 to their Initiative
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1a20115b-d471-fd02-2c8f-5422e227d542" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="1a20115b-d471-fd02-2c8f-5422e227d542" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -6434,6 +6473,15 @@ suffer -5 to their Initiative
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup id="3acx9-7x1e2-dx8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-xx4bc8-e237-5ee4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27xfa-e305-68xc1-e926" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5ce2-8x3e7-a41xx9-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="6bd9e1b5-4557-90c3-903f-97ec4f3611c6" hidden="false" collective="false" import="true" targetId="436b133f-23f6-4b9a-43e4-9f5e01786d71" type="selectionEntryGroup"/>
@@ -6484,15 +6532,15 @@ suffer -5 to their Initiative
           </profiles>
           <infoLinks>
             <infoLink id="c59e17e6-0df7-1323-2ec6-0bc147f34683" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-            <infoLink id="0324dbd5-4550-9330-3032-62a65cffe507" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-            <infoLink id="6b38776f-2df0-49cd-60fb-1d05084ac4eb" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="0324dbd5-4550-9330-3032-62a65cffe507" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+            <infoLink id="6b38776f-2df0-49cd-60fb-1d05084ac4eb" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="cbd6eeb0-f615-f215-6f24-e4662355f0ac" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
             <infoLink id="653a3434-7a13-33f7-efe9-d638b57720ee" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
             <infoLink id="a214a9bd-0dad-6ad6-2c2d-d297d571f559" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
             <infoLink id="d0bb09b1-5663-652e-0ded-540dbbfd467e" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
             <infoLink id="5d5d399e-b6c5-9d36-aeb4-5054876210b9" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
             <infoLink id="0d3185bb-cac7-6a7d-0708-a21730057811" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
-            <infoLink id="baaac569-750d-ac93-3ee3-7bb72dfd651c" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+            <infoLink id="baaac569-750d-ac93-3ee3-7bb72dfd651c" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
             <infoLink id="12abe8ba-fd44-6ea6-1f1f-63084fa23ade" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -7202,7 +7250,7 @@ suffer -5 to their Initiative
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="2d9095e0-874e-be6f-8331-bcda42c697f9" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="2d9095e0-874e-be6f-8331-bcda42c697f9" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -7240,6 +7288,17 @@ suffer -5 to their Initiative
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3ccac9-71ce2-dc8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c1d6-4bc8-e2c37-5ee4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e305-cc68c1-e926" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5cec2-83e7-a41cc9-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="285.0"/>
               </costs>
@@ -7318,7 +7377,7 @@ suffer -5 to their Initiative
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="4252b67c-1e54-14a2-ddec-485e9d46d246" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="4252b67c-1e54-14a2-ddec-485e9d46d246" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -7543,6 +7602,15 @@ suffer -5 to their Initiative
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3acss9-71se2-ds8e0-as53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91dss6-4bsc8-es237-5ee4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fas-e305-68c1-e9s26" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5ces2-83es7-a4ss19-deass35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -8350,7 +8418,7 @@ Leviathan II).</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="69c326a8-9f8d-89e7-1520-96c6daaf33f3" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="69c326a8-9f8d-89e7-1520-96c6daaf33f3" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -8874,7 +8942,7 @@ Leviathan II).</description>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="b0a5b510-34c6-3ec6-8e27-95653cbcbb48" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="b0a5b510-34c6-3ec6-8e27-95653cbcbb48" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="0936ba56-ada7-a514-25e9-4df61d17c9ac" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -8938,7 +9006,7 @@ Leviathan II).</description>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="a4c490dc-6ee6-e83d-6934-d21a5392e6d5" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="a4c490dc-6ee6-e83d-6934-d21a5392e6d5" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="bd144412-ab0b-8a8e-86f7-b41eba1af2ca" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -9002,7 +9070,7 @@ Leviathan II).</description>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="01badf48-eec2-524b-8b8d-82849f799edd" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="01badf48-eec2-524b-8b8d-82849f799edd" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="e3276057-349f-0432-863d-5f1ccb97fcaf" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -9066,7 +9134,7 @@ Leviathan II).</description>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="9ebcdf0d-e65a-c2af-751f-141f85c58829" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                        <infoLink id="9ebcdf0d-e65a-c2af-751f-141f85c58829" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                         <infoLink id="80477497-3b32-bfe5-6b89-8a1da88f941f" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -9147,9 +9215,9 @@ Leviathan II).</description>
                     <rule id="248f16dd-4104-776a-25aa-70f2f3f0df37" name="Bounding Leap" publicationId="f2f40acf--pubN65999" page="42" hidden="false"/>
                   </rules>
                   <infoLinks>
-                    <infoLink id="3c8f5261-1ba4-33d7-2a3e-a7d2195ce671" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                    <infoLink id="3c8f5261-1ba4-33d7-2a3e-a7d2195ce671" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                     <infoLink id="ad923364-7c2a-c9aa-3f1f-d337f441387b" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
-                    <infoLink id="2d0a6979-fe1a-8877-da18-715487d6e225" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                    <infoLink id="2d0a6979-fe1a-8877-da18-715487d6e225" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="29431964-060c-97a2-dbb0-f015f808e3ca" name="Scything Talons" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -9410,7 +9478,7 @@ Leviathan II).</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="6188df32-d76d-ffc4-121f-8bb34aff0e12" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="6188df32-d76d-ffc4-121f-8bb34aff0e12" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -10094,9 +10162,9 @@ Leviathan II).</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="d4adf769-573f-f535-56d8-ac0babcfc55c" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="77083fa5-0e4c-5592-1778-f5473078bb9a" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="bf5eba83-d53a-ac1e-5969-fee8d6dacaec" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="d4adf769-573f-f535-56d8-ac0babcfc55c" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="77083fa5-0e4c-5592-1778-f5473078bb9a" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="bf5eba83-d53a-ac1e-5969-fee8d6dacaec" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="add47a78-20d4-5039-9b9a-ca344421b24d" name="Scything Talons" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10170,9 +10238,9 @@ Leviathan II).</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="17526e06-ccf8-a07d-855a-f41e619f54d0" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="37f1abe8-13ef-8462-a95a-f10869d9cbdf" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="15447e55-ea1a-bd5c-58dc-57b532c3e090" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="17526e06-ccf8-a07d-855a-f41e619f54d0" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="37f1abe8-13ef-8462-a95a-f10869d9cbdf" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="15447e55-ea1a-bd5c-58dc-57b532c3e090" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="b9b82faa-fcb8-05c2-e028-ef3fd6f78578" hidden="false" targetId="18aaa654-8154-30cf-8813-d8af752f8aea" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -10182,7 +10250,8 @@ Leviathan II).</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="2a6be690-6e55-be5d-3cdd-a49b1e42285a" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="b2b29048-b998-0beb-b026-c7851httfgge48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
+                    <infoLink id="b2be8-beyh-0bqeb-b026-c726e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -10436,13 +10505,24 @@ Hits on Zooming Flyers are always resolved against the target model&apos;s side 
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="ba663318-2f81-4c3b-2aed-a0b6a5516292" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="ba663318-2f81-4c3b-2aed-a0b6a5516292" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3ac9-71e2-d8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e237-5ee4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e305-68c1-e926" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5ce2-83e7-a419-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="205.0"/>
           </costs>
@@ -10634,9 +10714,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="298156e6-7780-1185-a6fe-d9b686131ec3" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="16763a87-6e5f-341d-3952-f056455224c8" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="437d1d9e-4047-c2fb-0bd2-7d349ffbfb1c" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="298156e6-7780-1185-a6fe-d9b686131ec3" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="16763a87-6e5f-341d-3952-f056455224c8" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="437d1d9e-4047-c2fb-0bd2-7d349ffbfb1c" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="5d60547e-1618-04ca-d0e5-ac3538009e04" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -10696,9 +10776,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 <rule id="f7dcbcfe-a4c5-c575-aec9-1a96b885d38a" name="Warlord Trait: Innate Understanding" publicationId="f2f40acf--pubN71925" page="34" hidden="false"/>
               </rules>
               <infoLinks>
-                <infoLink id="826a9991-7be2-0e76-edf7-8a0460c88663" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="53c81ce1-96bf-42c7-06b1-e75f8731735e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="8f761f19-1a08-000f-4714-f602da1a83dd" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="826a9991-7be2-0e76-edf7-8a0460c88663" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="53c81ce1-96bf-42c7-06b1-e75f8731735e" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="8f761f19-1a08-000f-4714-f602da1a83dd" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="a28a7f71-cf81-46c0-fd9c-64578466156e" hidden="false" targetId="18aaa654-8154-30cf-8813-d8af752f8aea" type="rule"/>
                 <infoLink id="2bd13ade-9ad4-14db-ab34-7f354e9c1225" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
                 <infoLink id="5e144d25-7def-0627-abbc-632f0d89a510" hidden="false" targetId="b4b420ad-1f65-45a0-047c-9dc1a03c409e" type="profile"/>
@@ -10711,7 +10791,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b82fe0cb-9a29-4609-2f35-6a6f94f2cc38" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="b82fe0cb-9a29-4609-2f35-6a6f94f2cc38" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -11540,7 +11620,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8e1514c4-be9f-c1d1-be47-87a3c140bc03" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="8e1514c4-be9f-c1d1-be47-87a3c140bc03" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -12175,7 +12255,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="51fe4e73-9e2a-434e-3433-06c2f3eec5e4" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="51fe4e73-9e2a-434e-3433-06c2f3eec5e4" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -12590,7 +12670,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="1523d94e-4989-d3be-86e5-319ea71a0244" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="1523d94e-4989-d3be-86e5-319ea71a0244" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -12840,7 +12920,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
             <rule id="0fde40c7-df94-52b2-33d6-e74f1cf02fd9" name="Sporefield" publicationId="f2f40acf--pubN87706" hidden="false"/>
           </rules>
           <infoLinks>
-            <infoLink id="d0560fd4-a959-36d4-dbe1-817b41a447a7" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+            <infoLink id="d0560fd4-a959-36d4-dbe1-817b41a447a7" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="7dad58f7-cf53-0d6a-77bb-5dbc3c6f202b-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
@@ -13118,7 +13198,7 @@ Hits on Zooming Flyers are always resolved against the target model&apos;s side 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e7469138-4c52-0db2-ab5d-62e48b516721" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="e7469138-4c52-0db2-ab5d-62e48b516721" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -13364,7 +13444,7 @@ Hits on Zooming Flyers are always resolved against the target model&apos;s side 
         <rule id="924d00d1-50a3-293e-9132-6e495629d1c7" name="Sporefield" publicationId="f2f40acf--pubN87706" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="22ff1271-d026-fd61-1384-5aca35a33438" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+        <infoLink id="22ff1271-d026-fd61-1384-5aca35a33438" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5b328075-216b-f5b6-e4ec-babb64a4a054-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true"/>
@@ -13913,7 +13993,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
           <infoLinks>
             <infoLink id="c00fe76c-78ae-056a-91e0-074487ba725d" hidden="false" targetId="ead00294-ae51-3cd3-4536-065f29207cce" type="rule"/>
             <infoLink id="74be8baf-ff44-e2dc-d391-a16f267fe82c" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
-            <infoLink id="4aaa9e99-bf99-d074-b470-48e3ae0fc033" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="4aaa9e99-bf99-d074-b470-48e3ae0fc033" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="75c2c3e4-3dc2-9fdb-04b4-08dc78f8d2b5" hidden="false" targetId="34a50f2a-82f2-8f06-0d60-e26e520f2add" type="rule"/>
             <infoLink id="b150539b-a655-afc5-67f7-fbbd4212e4e1" hidden="false" targetId="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" type="rule"/>
           </infoLinks>
@@ -14266,7 +14346,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
             <infoLink id="0805a68e-bd8a-4b50-3002-16fd6f74ec6d" hidden="false" targetId="ead00294-ae51-3cd3-4536-065f29207cce" type="rule"/>
             <infoLink id="09db9a2f-4b2d-7349-c5a8-9c524fc4dfa9" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
             <infoLink id="5524254a-4ffb-a080-1040-49a859911dcb" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
-            <infoLink id="5232d556-01c2-35fc-c901-3055ece3043d" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="5232d556-01c2-35fc-c901-3055ece3043d" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="5ffc7573-18b7-a8cf-cb0d-0b7137364790" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -14377,7 +14457,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
           <infoLinks>
             <infoLink id="4031b6b1-7a21-bbeb-df9c-69da499032cd" hidden="false" targetId="ead00294-ae51-3cd3-4536-065f29207cce" type="rule"/>
             <infoLink id="4ef6f0a0-58e5-b418-3724-ae8e82b57ece" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
-            <infoLink id="21cc3406-3279-61c5-4ac7-fc0aaa9f6a02" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="21cc3406-3279-61c5-4ac7-fc0aaa9f6a02" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="6cae6053-c4b9-14ec-5612-694898f8a827" hidden="false" targetId="34a50f2a-82f2-8f06-0d60-e26e520f2add" type="rule"/>
             <infoLink id="2e90798e-22c0-d9bc-529b-f3cc801887cb" hidden="false" targetId="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" type="rule"/>
           </infoLinks>
@@ -14721,7 +14801,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
             <infoLink id="28429ef4-38ef-d317-51e4-dec68ae8a564" hidden="false" targetId="ead00294-ae51-3cd3-4536-065f29207cce" type="rule"/>
             <infoLink id="64b7e3ca-5c42-6cd8-0e2f-61a82952449e" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
             <infoLink id="5c372cc3-2479-d4a5-85e4-5369d20c727a" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
-            <infoLink id="53f1c299-04f2-95d3-73ed-7550d2ad44f4" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="53f1c299-04f2-95d3-73ed-7550d2ad44f4" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="1562bed2-a3a8-8eaf-03b0-09839bfcb3c1" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -15265,7 +15345,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1c37-c659-73ca-365c" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+            <infoLink id="1c37-c659-73ca-365c" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -15387,7 +15467,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="37084283-4ab9-b152-44e4-b1b5bfbe5124" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="37084283-4ab9-b152-44e4-b1b5bfbe5124" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -15494,7 +15574,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="5e8cefbf-d8c8-ab7d-87cf-2825f99b84e2" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="5e8cefbf-d8c8-ab7d-87cf-2825f99b84e2" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -15669,7 +15749,7 @@ The Formation&apos;s Trygon and Mawloc enter play via Deep Strike as usual.</des
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c0a81980-6010-bd2f-51bc-401073fbe488" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="c0a81980-6010-bd2f-51bc-401073fbe488" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -16674,7 +16754,7 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0e03d246-3ab4-1dc2-8089-6a9b1039d2b8" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="0e03d246-3ab4-1dc2-8089-6a9b1039d2b8" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -16999,9 +17079,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="c001e26b-fb03-dca4-91bb-e4dec2f6d409" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="bff1ef94-3184-2380-816a-5cdbd4dc4629" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="fb744e22-5aac-d471-89fa-752d3978037b" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="c001e26b-fb03-dca4-91bb-e4dec2f6d409" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="bff1ef94-3184-2380-816a-5cdbd4dc4629" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="fb744e22-5aac-d471-89fa-752d3978037b" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="250534bf-c6b0-9ac9-644e-091c3608e839" name="Scything Talons" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -17075,9 +17155,9 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="1ce10379-66e9-1fd9-2ee7-d5476811ea19" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-                <infoLink id="2403960d-defa-c0cb-f57a-e04dc047d4ff" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                <infoLink id="80caf0eb-c3c4-e2fd-a97b-3d6e3e594647" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="1ce10379-66e9-1fd9-2ee7-d5476811ea19" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+                <infoLink id="2403960d-defa-c0cb-f57a-e04dc047d4ff" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                <infoLink id="80caf0eb-c3c4-e2fd-a97b-3d6e3e594647" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="bbbf8804-2258-540f-2fe5-09484342192a" hidden="false" targetId="18aaa654-8154-30cf-8813-d8af752f8aea" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -17087,7 +17167,8 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="c14c8d7c-59eb-f5cc-f081-3341a6df4b71" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                    <infoLink id="b2b29048-b998-0beb-b026-c7851ec26e48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
+                    <infoLink id="b2bewe48-be998-0bqeb-b026-c7t85126e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -17165,16 +17246,16 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                 <infoLink id="7ba31d13-32a7-746d-1f39-37543cdc4148" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
                 <infoLink id="3eb98fec-50f0-8150-c32b-a69e601c38ea" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="a0ff1b94-4cd3-1b30-9828-847e0f2fe916" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
-                <infoLink id="d53d02dd-609b-6d52-cf5a-ac56f5fb6901" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="d53d02dd-609b-6d52-cf5a-ac56f5fb6901" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="455de77e-18f5-b1b9-9352-b38264d002bf" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-                <infoLink id="9bd91dd4-4380-bf08-0db8-335bbf3fdb64" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="9bd91dd4-4380-bf08-0db8-335bbf3fdb64" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="6e3009a3-8e5f-2f63-2dfb-3c3ebbea5428" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
                 <infoLink id="085803db-58cc-a054-b107-7188f554a486" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
                 <infoLink id="d92e4956-34aa-8baa-e9f2-4e9a4bb72d5f" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
                 <infoLink id="ffeb729c-9915-395e-cbb3-14dc97d30520" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
-                <infoLink id="7a91f4a5-45f8-4a70-b3d1-e2c02ec33cdd" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                <infoLink id="7a91f4a5-45f8-4a70-b3d1-e2c02ec33cdd" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                 <infoLink id="75652a9d-d899-5ccf-7617-73c0b6ca5e78" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
-                <infoLink id="3b5968a0-1133-4836-2942-0963cd2aa3c4" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+                <infoLink id="3b5968a0-1133-4836-2942-0963cd2aa3c4" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="1589b64f-b3aa-d82a-050a-7f86f113243e" name="Scything Talons" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -17246,15 +17327,15 @@ would treat both the Burst and Lance profiles as Assault 3.</description>
                   </profiles>
                   <infoLinks>
                     <infoLink id="6e050517-d448-bc15-3ef8-7c41d22db47a" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-                    <infoLink id="0299ed2b-d9d8-9bfe-2f6a-80e09bdfea2b" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-                    <infoLink id="6e22e509-2966-4de6-e69a-b2b788977c20" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+                    <infoLink id="0299ed2b-d9d8-9bfe-2f6a-80e09bdfea2b" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+                    <infoLink id="6e22e509-2966-4de6-e69a-b2b788977c20" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
                     <infoLink id="ed9ff9e1-147f-7cba-f952-638d54c55368" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                     <infoLink id="88a7d8d0-5027-e9cd-be77-376ebba21edb" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
                     <infoLink id="5fe06fa3-7870-17be-39c1-5bb01b01b83b" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
                     <infoLink id="1c6c1697-c50c-0e58-476a-66f1681fc256" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
                     <infoLink id="005ec321-6edb-b771-88e3-621ef575002a" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
                     <infoLink id="182dc3a8-4681-54d4-9280-7a71898de504" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
-                    <infoLink id="0d22844d-fbf6-8f1b-da30-dc7546d0dda6" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+                    <infoLink id="0d22844d-fbf6-8f1b-da30-dc7546d0dda6" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
                     <infoLink id="18ccdca9-9718-9d94-e72d-3806e45cd264" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
@@ -18213,16 +18294,16 @@ these Victory Points.</description>
         <infoLink id="488c-1549-20e0-40b4" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
         <infoLink id="1a4c-4472-579f-9d24" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
         <infoLink id="5951-d5bb-dcee-bccc" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
-        <infoLink id="645e-a870-4a1f-4b2a" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+        <infoLink id="645e-a870-4a1f-4b2a" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="aa7d-f795-40b6-1bef" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-        <infoLink id="bcc0-ab2c-ddb9-e36e" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+        <infoLink id="bcc0-ab2c-ddb9-e36e" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
         <infoLink id="ca84-c5ba-819c-5c3e" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
         <infoLink id="ac9b-5c96-5c43-bbff" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
         <infoLink id="c5f9-8c68-7b1f-4c0c" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
         <infoLink id="1693-bf27-c866-dea8" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
-        <infoLink id="2994-7ec4-9373-3a62" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+        <infoLink id="2994-7ec4-9373-3a62" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="4297-ff07-0426-8409" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
-        <infoLink id="c15d-ab34-c38b-ffe6" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+        <infoLink id="c15d-ab34-c38b-ffe6" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
         <infoLink id="ff90-e7b9-3bde-0d62" hidden="false" targetId="fc3d-d6d9-18a2-5a65" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -18537,9 +18618,9 @@ during the same turn that it uses this special rule.</description>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3c9b-fc15-dd8b-0b32" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-            <infoLink id="92de-7409-874c-c5ee" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-            <infoLink id="0b07-6f00-68bb-cfaf" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="3c9b-fc15-dd8b-0b32" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+            <infoLink id="92de-7409-874c-c5ee" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+            <infoLink id="0b07-6f00-68bb-cfaf" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="9373-fcc3-05b3-3d17" hidden="false" targetId="17cc-b1b3-2c72-45d5" type="profile"/>
           </infoLinks>
           <selectionEntries>
@@ -18587,9 +18668,9 @@ during the same turn that it uses this special rule.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="7625-2f4b-2ef3-0bfb" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
-            <infoLink id="12af-e179-1297-6494" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-            <infoLink id="ff37-6f2c-ebc2-bb8e" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="7625-2f4b-2ef3-0bfb" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+            <infoLink id="12af-e179-1297-6494" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+            <infoLink id="ff37-6f2c-ebc2-bb8e" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="d41d-996a-a186-bbd2" hidden="false" targetId="18aaa654-8154-30cf-8813-d8af752f8aea" type="rule"/>
             <infoLink id="f15f-031b-50d5-ce60" hidden="false" targetId="79e4-55ba-c1d3-fc0f" type="profile"/>
           </infoLinks>
@@ -18600,7 +18681,8 @@ during the same turn that it uses this special rule.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8253-d9c4-e80d-449b" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+                <infoLink id="b2b298-b998-0beb-b026-c78ec26e48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
+                <infoLink id="b2beweavwa48-be998-0beb-b026-c7t85126e48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -19300,7 +19382,7 @@ not benefit from this rule.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="14f3-67b7-cff4-0ad3" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+            <infoLink id="14f3-67b7-cff4-0ad3" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -19527,6 +19609,15 @@ not benefit from this rule.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3are1c9-7b1e2-sd8e0-awt512" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-sf4bc8-e2137-5v3ee4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa1-et305-68csb51-e9126" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5c1n4e2-813e7-a419-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7920-5ee7-bdf3-f6a7" hidden="false" collective="false" import="true" targetId="436b133f-23f6-4b9a-43e4-9f5e01786d71" type="selectionEntryGroup"/>
@@ -19554,9 +19645,9 @@ normally be D6+3&quot;).</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="b992-db64-002e-cc50" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+            <infoLink id="b992-db64-002e-cc50" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
             <infoLink id="3e2a-ad14-1c1b-222f" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
-            <infoLink id="d290-b33b-8370-fb6f" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="d290-b33b-8370-fb6f" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="d6aa-82a2-741f-bdef" hidden="false" targetId="f3f1-af61-2956-2bd7" type="profile"/>
           </infoLinks>
           <selectionEntries>
@@ -19619,15 +19710,15 @@ normally be D6+3&quot;).</description>
           </constraints>
           <infoLinks>
             <infoLink id="b6a5-cd43-f720-fd91" hidden="false" targetId="1da1bda2-e733-5f73-629b-c4c4e14480f0" type="rule"/>
-            <infoLink id="68b4-7736-a064-5206" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
-            <infoLink id="a1ef-43fa-1f89-9bcd" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+            <infoLink id="68b4-7736-a064-5206" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+            <infoLink id="a1ef-43fa-1f89-9bcd" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
             <infoLink id="032f-1ea2-5991-fc1b" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
             <infoLink id="f7dd-f1f7-7848-7017" hidden="false" targetId="8695d558-1b1b-8e50-231c-d507a5362667" type="rule"/>
             <infoLink id="0bd3-3a36-6b9f-6815" hidden="false" targetId="d6598fb5-d5f5-3935-9324-32e0e4561a97" type="rule"/>
             <infoLink id="fd27-34ce-be7b-96a4" hidden="false" targetId="84dc61f5-ac9f-e894-3e2b-b6132076eca4" type="profile"/>
             <infoLink id="333b-43dd-9edd-4567" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
             <infoLink id="b156-d75a-a671-7b2f" hidden="false" targetId="df1a8230-27ec-cae4-cee2-95e4ec56008a" type="rule"/>
-            <infoLink id="90c0-d6a3-b7a3-b38b" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+            <infoLink id="90c0-d6a3-b7a3-b38b" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
             <infoLink id="e411-c0e8-6d5f-8438" hidden="false" targetId="0489b7e8-ec5c-17db-625d-c939d408a20f" type="rule"/>
             <infoLink id="0285-ab83-0f0d-19eb" hidden="false" targetId="2623-53c3-c627-c4eb" type="profile"/>
           </infoLinks>
@@ -19708,8 +19799,8 @@ normally be D6+3&quot;).</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="76de-24eb-e280-5523" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
-            <infoLink id="0ccd-ca3d-d397-1232" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+            <infoLink id="76de-24eb-e280-5523" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
+            <infoLink id="0ccd-ca3d-d397-1232" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
             <infoLink id="aa8c-34c3-43a3-283d" hidden="false" targetId="fc7889a0-72a9-e4af-b6ff-e8a2e2661c61" type="profile"/>
             <infoLink id="5e91-ac0f-9e75-6cab" hidden="false" targetId="34a50f2a-82f2-8f06-0d60-e26e520f2add" type="rule"/>
             <infoLink id="fada-fb48-dbeb-519a" hidden="false" targetId="b0cd4292-39c6-4b45-3ec8-53588a4e6eba" type="rule"/>
@@ -19782,13 +19873,24 @@ normally be D6+3&quot;).</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="5ffb-2f9d-cb2b-59c7" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+            <infoLink id="5ffb-2f9d-cb2b-59c7" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3a1c9-7awrv1e2-d8e0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-4bavrwac8-e2137-5ee4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa1-e3rvac05-68c1-e9126" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ce2-813e7-a41awbra9-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="205.0"/>
       </costs>
@@ -20416,7 +20518,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5d67-34b9-cc8c-b1ad" hidden="false" targetId="ec080480-ade1-4910-3d11-9acfd44ec0c4" type="rule"/>
+        <infoLink id="5d67-34b9-cc8c-b1ad" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
         <infoLink id="5d4c-63f8-a8b5-85c3" hidden="false" targetId="df193096-f043-32d5-c3ea-47959c56e10d" type="rule"/>
         <infoLink id="12c3-59c3-a261-dac8" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
         <infoLink id="b3f1-9b02-2e3f-2e9c" hidden="false" targetId="7e2c-584f-edfc-1c78" type="profile"/>
@@ -20488,7 +20590,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="5fc4-25de-4482-b8f1" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="5fc4-25de-4482-b8f1" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="d74a-7a54-b50f-e7d5" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="3bf3-2369-4001-6706" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20537,7 +20639,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="05a9-0b0c-d7e2-11be" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="05a9-0b0c-d7e2-11be" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="bdcd-8856-2e8a-314b" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="0a9e-2528-19ac-c365" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20586,7 +20688,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="488c-d8e9-acb6-98f3" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="488c-d8e9-acb6-98f3" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="1821-2414-fdf8-f976" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="fdb1-2863-fbb4-f9b7" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20635,7 +20737,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1bd2-977b-b892-0fbc" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="1bd2-977b-b892-0fbc" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="cd86-6ca3-b162-9a4c" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="6e8a-e342-a357-5f3c" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20693,7 +20795,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
               <infoLinks>
                 <infoLink id="52ee-b903-8c36-6182" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="6ddb-b81f-9c19-d942" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
-                <infoLink id="435e-c4ca-011c-7e6a" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="435e-c4ca-011c-7e6a" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="05e5-3695-32bd-f5c8" name="Adrenal Glands" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -20765,7 +20867,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0d7e-b9af-1783-eefa" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="0d7e-b9af-1783-eefa" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="a042-de32-3123-451d" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="f27e-eda2-5ebc-65c9" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20818,7 +20920,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6c53-b2f4-80c8-b40c" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="6c53-b2f4-80c8-b40c" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="79f8-eeba-d5e7-4f24" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="1501-49a8-f662-e17f" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20867,7 +20969,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e9e0-332d-8776-5b30" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="e9e0-332d-8776-5b30" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="8dec-5398-7444-b54d" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="d492-09b7-11f7-8be7" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20916,7 +21018,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
                 <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e490-9021-96d9-2fa2" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="e490-9021-96d9-2fa2" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
                 <infoLink id="abf4-73cb-08f9-641d" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="4fa3-4a22-3b90-b114" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
               </infoLinks>
@@ -20974,7 +21076,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
               <infoLinks>
                 <infoLink id="be4f-c9c7-291d-2ca4" hidden="false" targetId="10af1b39-648e-4448-fa97-ef24d7c1f398" type="rule"/>
                 <infoLink id="4ecb-35ee-c9b4-243c" hidden="false" targetId="d270-4e19-c030-ad4a" type="profile"/>
-                <infoLink id="969a-c5ac-0847-42d6" hidden="false" targetId="3c71fd34-64af-5ac9-62ed-fd53370af369" type="rule"/>
+                <infoLink id="969a-c5ac-0847-42d6" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="7a2e-fa87-97b4-b6fe" name="Adrenal Glands" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -21050,7 +21152,7 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="2866-5db2-9461-9c35" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+            <infoLink id="2866-5db2-9461-9c35" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -21129,6 +21231,15 @@ Once per battle, a Sporocyst can produce a single Mucolid Spore instead of a Spo
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3a1bqwc9-71e2-d8e0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-4svrbc8-e2137-5eeb4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27qcwfa1-e305-68c1-e9126" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ce2-813e7-a425b19-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -21245,7 +21356,7 @@ chosen unit has that special rule until the end of the turn.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a494-f56a-5e82-cda3" hidden="false" targetId="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" type="rule"/>
+            <infoLink id="a494-f56a-5e82-cda3" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -21286,6 +21397,17 @@ chosen unit has that special rule until the end of the turn.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3faa1c9-71e2-d8effvs0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-4bc8-e213fes7-5ee4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa1-e30svf5-68c1-e9126" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ce2-81sfve3e7-a4v19-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="285.0"/>
       </costs>
@@ -21378,7 +21500,7 @@ chosen unit has that special rule until the end of the turn.</description>
         <infoLink id="aa49-827a-6627-1cdc" hidden="false" targetId="ead00294-ae51-3cd3-4536-065f29207cce" type="rule"/>
         <infoLink id="b65d-68a8-76db-dda2" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
         <infoLink id="ef21-3215-27fb-cc1a" hidden="false" targetId="be993f25-3873-e26f-ba32-20c8e35f0618" type="rule"/>
-        <infoLink id="ab4c-c031-d45c-a352" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+        <infoLink id="ab4c-c031-d45c-a352" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="538a-fe6c-92de-6a36" hidden="false" targetId="948f850e-5bc2-9955-77c7-66ca26251928" type="rule"/>
         <infoLink id="aeec-7a66-f13b-db97" hidden="false" targetId="084b-f87c-5075-be57" type="profile"/>
         <infoLink id="c9bb-161d-17e9-e769" name="New InfoLink" hidden="false" targetId="1bb3-2856-abde-cd6d" type="rule"/>
@@ -21460,7 +21582,7 @@ chosen unit has that special rule until the end of the turn.</description>
       <infoLinks>
         <infoLink id="4477-04a5-f608-427b" hidden="false" targetId="ead00294-ae51-3cd3-4536-065f29207cce" type="rule"/>
         <infoLink id="978b-ec5d-f082-3d02" hidden="false" targetId="44d1e26e-edf6-7f5e-c0f4-8759aa455e27" type="rule"/>
-        <infoLink id="7736-7cfa-4afc-a537" hidden="false" targetId="56c6b072-b405-6717-1664-78d761217927" type="rule"/>
+        <infoLink id="7736-7cfa-4afc-a537" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
         <infoLink id="7e96-c5c0-8d15-f944" hidden="false" targetId="34a50f2a-82f2-8f06-0d60-e26e520f2add" type="rule"/>
         <infoLink id="e540-d18b-5874-b574" hidden="false" targetId="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" type="rule"/>
         <infoLink id="1f5d-f70c-9b1e-b841" hidden="false" targetId="81a9-6ade-272b-20ac" type="profile"/>
@@ -22775,7 +22897,6 @@ casualties from that unit; Feel No Pain rolls should be individually made after 
 save.</description>
     </rule>
     <rule id="32db2eb1-474c-1b05-ec3d-ac79f870cafa" name="Fighter Ace" publicationId="f2f40acf--pubN87706" page="44" hidden="false"/>
-    <rule id="56c6b072-b405-6717-1664-78d761217927" name="Fleet" publicationId="f2f40acf--pubN190941" page="35" hidden="false"/>
     <rule id="81015637-1c4d-77e2-0b82-b2cfe6847c5f" name="Floating Death" publicationId="f2f40acf--pubN65999" page="65" hidden="false"/>
     <rule id="1da1bda2-e733-5f73-629b-c4c4e14480f0" name="Hit and Run" publicationId="f2f40acf--pubN190941" page="38" hidden="false">
       <description>A unit that contains at least one model with this special rule that is locked in combat can
@@ -22797,7 +22918,7 @@ and then alternate disengaging them. If the last of these ends up no longer in c
 Consolidates instead.</description>
     </rule>
     <rule id="eb3e56c5-e03f-7e98-8f7a-83475c28bb1f" name="Independent Character" publicationId="f2f40acf--pubN190941" page="39" hidden="false"/>
-    <rule id="ec080480-ade1-4910-3d11-9acfd44ec0c4" name="Infiltrate" publicationId="f2f40acf--pubN190941" page="38" hidden="false"/>
+    <rule id="0b11-a0ff-f0ba-5341" name="Infiltrate" publicationId="f2f40acf--pubN190941" page="38" hidden="false"/>
     <rule id="948f850e-5bc2-9955-77c7-66ca26251928" name="Instinctive Behaviour - Feed" publicationId="f2f40acf--pubN65999" page="33" hidden="false">
       <description>1-3 - Cannibalistic Hunger: The unit immediately suffers a number of hits equal to
 the number of models in that unit. These hits are resolved using the unit&apos;s majority
@@ -22849,7 +22970,6 @@ Stealth special rule.</description>
       <description>When this model charges, it inflicts D3 Hammer of Wrath Attacks, rather than just 1.</description>
     </rule>
     <rule id="18b954cd-f827-b45d-fb5b-b2ee38be97db" name="Living Bomb" publicationId="f2f40acf--pubN65999" page="65" hidden="false"/>
-    <rule id="3c71fd34-64af-5ac9-62ed-fd53370af369" name="Move Through Cover" publicationId="f2f40acf--pubN190941" page="40" hidden="false"/>
     <rule id="9a0a1c97-7aae-812a-9c12-9a222f5ed167" name="Outflank" publicationId="f2f40acf--pubN190941" page="35" hidden="false"/>
     <rule id="d6598fb5-d5f5-3935-9324-32e0e4561a97" name="Pheromone Trail" publicationId="f2f40acf--pubN65999" page="44" hidden="false">
       <description>If a friendly unit from Codex: Tyranids arrives on the battlefield via Deep Strike, it will
@@ -22883,7 +23003,9 @@ Psychic Scream is a nova power with a range of 6&quot;. For each target unit, ro
 subtract their Leadership. That unit suffers a number of Wounds equal to the result.
 Armour and cover saves cannot be taken against Wounds caused by Psychic Scream.</description>
     </rule>
-    <rule id="eafb54a8-e9b7-8cd0-8d0e-0fd364bf4873" name="Psyker" publicationId="f2f40acf--pubN190941" page="41" hidden="false"/>
+    <rule id="qrvqe-36n2-38m32-1b61" name="Broodlord Powers" publicationId="f2f40acf--pubN190941" page="41" hidden="false"/> 
+      <description>Broodlord only knows "The Horror"</description>
+    </rule>
     <rule id="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" name="Shadow in the Warp" publicationId="f2f40acf--pubN65999" page="38" hidden="false">
       <description>All enemy units and models with the Psyker, Psychic Pilot or Brotherhood of Psykers
 special rules suffer a -3 penalty to their Leadership whilst they are within 12&quot; of one or

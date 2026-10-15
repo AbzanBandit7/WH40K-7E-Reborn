@@ -570,6 +570,21 @@ Perils of the Warp in addition to any other effects.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3ac9-71e2-d8a40-a532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e237-5a0a74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-ba305-68c1-de92a6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ce2-83f7-a419-d6a35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+            <entryLink id="d583-2fa6-91ba7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="49e7-c132-ab65-8fd09a" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="24af-d761-9ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+            <entryLink id="83be-f427-d190-6aca3" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="afb9-05f4-c311-07ab" name="New EntryLink" hidden="true" collective="false" import="true" targetId="29e5-eb99-563b-681b" type="selectionEntry">
           <modifiers>
@@ -6267,6 +6282,21 @@ Note that Bike Squads count as being at full strength when they have eight Space
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3bc9-71e2-d8a40-a532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91bd6-4bc8-e237-5b0a74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-bb305-68c1-de92b6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5cb2-83f7-b419-d6a35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+            <entryLink id="d583-bfa6-91bb7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="49e7-b132-ab65-8fd0b" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="24af-d761-9ce8-b5b049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+            <entryLink id="83be-f427-d190-6abb3" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="15d2-d797-f2ff-ecfa" name="New EntryLink" hidden="true" collective="false" import="true" targetId="29e5-eb99-563b-681b" type="selectionEntry">
           <modifiers>
@@ -6745,6 +6775,21 @@ Note that Bike Squads count as being at full strength when they have eight Space
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3ac9-71e52-5540-a532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d5-4b58-e237-5a0a74" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-ba305-6851-d556" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5ce2-85f7-a419-d6a35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+                <entryLink id="d583-2fa5-91ba7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+                <entryLink id="49e7-c152-ab65-8fd09a" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+                <entryLink id="24af-d765-9ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+                <entryLink id="83be-f527-d190-6aca3" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>

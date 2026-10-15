@@ -2825,6 +2825,17 @@
                     <infoLink id="6d38-c286-9969-f205" hidden="false" targetId="7672255a-03d3-3a8b-e7f5-ea6d624175f0" type="rule" name="Psyker (Mastery Level 1)"/>
                     <infoLink id="00d9-0a19-f4f1-4869" hidden="false" targetId="9d243a7d-9897-9eab-8d89-fbbd80427247" type="profile" name="Astropath"/>
                   </infoLinks>
+                  <selectionEntryGroup id="y5nw3a1c9-71e2-d85bw40-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+                    <constraints>
+                      <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="915332d6-4bc8-e237-5a0f74" type="max"/>
+                      <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2qq7fqa-42b305-68c1-de9246" type="min"/>
+                    </constraints>
+                    <entryLinks>
+                      <entryLink id="a714-39qn6qdc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+                      <entryLink id="dq583-32fa6-91berw7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+                      <entryLink id="eq83be-f427-d19qnq0-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+                    </entryLinks>
+                  </selectionEntryGroup>
                   <entryLinks>
                     <entryLink id="6794-354b-bf35-42ad" hidden="false" collective="false" import="true" targetId="f2c773dd-0705-81de-d50f-03d3564e6b41" type="selectionEntry" name="Frag Grenades"/>
                     <entryLink id="9028-5190-fe53-ace8" hidden="false" collective="false" import="true" targetId="96adaf66-208e-4983-80e5-0527009c04cc" type="selectionEntryGroup" name="Reg Adv Weapons"/>
@@ -5783,6 +5794,17 @@
                 <entryLink id="9859-6915-bf5a-68f2" hidden="false" collective="false" import="true" targetId="a8ed2377-b403-a5ff-8434-78e162b086c5" type="selectionEntry" name="Flak Armour"/>
                 <entryLink id="8dfa-0cc2-d3c2-f330" hidden="false" collective="false" import="true" targetId="f3aee269-2f69-f57e-eaea-6a91ac502357" type="selectionEntry" name="Warlord"/>
               </entryLinks>
+              <selectionEntryGroup id="3ac925-5sbtw-nwttbe-6fwtvb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+                <constraints>
+                  <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4b5sc8-rqwr4d-5a0f74" type="max"/>
+                  <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-averwq-243268c1-de9246" type="min"/>
+                </constraints>
+                <entryLinks>
+                    <entryLink id="83be-f422427-d190-6ac6m73" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+                    <entryLink id="a714-39gcdc-f682-0be5qw1" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+                    <entryLink id="d583-2fa6-91g5hb7-4hf028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+                </entryLinks>
+              </selectionEntryGroup>
               <costs>
                 <cost name="pts" typeId="points" value="25"/>
               </costs>
@@ -7609,6 +7631,17 @@
                     <infoLink id="60d8-4d60-7755-aae3" hidden="false" targetId="7672255a-03d3-3a8b-e7f5-ea6d624175f0" type="rule" name="Psyker (Mastery Level 1)"/>
                     <infoLink id="6cab-ffdd-9f0a-fdaa" hidden="false" targetId="9d243a7d-9897-9eab-8d89-fbbd80427247" type="profile" name="Astropath"/>
                   </infoLinks>
+                  <selectionEntryGroup id="3a462c9-71e242-d85240-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+                    <constraints>
+                      <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9154d6-4rwtbc8-e237-5a0f74" type="max"/>
+                      <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="237fa-b30nm655-68cdsq1-de9246" type="min"/>
+                    </constraints>
+                    <entryLinks>
+                      <entryLink id="a714-3952bdc-ff2682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+                      <entryLink id="d54283-2fcwa6-91wrb7-4ce0b228" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+                      <entryLink id="83be-f43227-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+                    </entryLinks>
+                  </selectionEntryGroup>
                   <entryLinks>
                     <entryLink id="638f-b807-b6f8-dad9" hidden="false" collective="false" import="true" targetId="f2c773dd-0705-81de-d50f-03d3564e6b41" type="selectionEntry" name="Frag Grenades"/>
                     <entryLink id="5850-22f3-7142-eceb" hidden="false" collective="false" import="true" targetId="96adaf66-208e-4983-80e5-0527009c04cc" type="selectionEntryGroup" name="Reg Adv Weapons"/>
@@ -14924,20 +14957,18 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntry id="8fk31-c754-52de-b19k47" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
-        <selectionEntryGroups>
-          <selectionEntryGroup id="3a59-71e2-d840-6fkk2" name="Discipline" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="95ac9-71e2-d840-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
             <constraints>
-              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9u56-4bc8-e237-5ak74" type="max"/>
-              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fk-b305ku-68c1-de9246" type="min"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e28537-5a067f74" type="max"/>
+              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-b595305-68c1-de9246" type="min"/>
             </constraints>
             <entryLinks>
-              <entryLink id="kce2-83fu-a419-d50b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
-              <entryLink id="ak14-3udc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
-              <entryLink id="6bk9-eua1-74fc-c85062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
-              <entryLink id="d5k3-2fu6-91b7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
-              <entryLink id="49e5-cukk2-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
-              <entryLink id="24a5-d761-9uek8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+              <entryLink id="5ce2-83123f7-a4245719-d60b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+              <entryLink id="a71413-359dc-f62182-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+              <entryLink id="6b229-e546a1-74fc-c83062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+              <entryLink id="d585343-2f62a6-931b7-4c5e028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+              <entryLink id="49e227-c132-ab2465-8fd3093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="24a4f-d7161-92ce8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
             </entryLinks>
           </selectionEntryGroup>
         </selectionEntryGroups>
@@ -18221,27 +18252,22 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntry id="8fuu31-c754-52de-b19047" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
-        <selectionEntryGroups>
-          <selectionEntryGroup id="3a59-71e2-d840-6fbu532" name="Discipline" hidden="false" collective="false" import="true">
-            <constraints>
-              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9u56-4bc8-e237-5a0f74" type="max"/>
-              <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305uu-68c1-de9246" type="min"/>
-            </constraints>
-            <entryLinks>
-              <entryLink id="5ce2-83fu-a419-d50b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
-              <entryLink id="a714-3udc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
-              <entryLink id="6b29-eua1-74fc-c85062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
-              <entryLink id="d553-2fu6-91b7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
-              <entryLink id="49e5-cu32-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
-              <entryLink id="24a5-d761-9ue8-b53049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
-            </entryLinks>
-          </selectionEntryGroup>
-        </selectionEntryGroups>
-        <costs>
-          <cost name="pts" typeId="points" value="0"/>
-        </costs>
-      </selectionEntry>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3ac925-52r71e2-t4d840-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4b5sc8-e237-5a0f74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-b530qf5-243268c1-de9246" type="min"/>
+          </constraints>
+          <entryLinks>
+              <entryLink id="5ce2-832d32ff7-a419-d60b35" hidden="false" collective="false" import="true" targetId="e05c-cec2-bad0-4445" type="selectionEntry" name="Discipline: Telekinesis"/>
+              <entryLink id="a714-3952cdc-f682-0be591" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+              <entryLink id="6b29-e5a1-74wwv3wfc-c83062" hidden="false" collective="false" import="true" targetId="7b9c-cc71-5fb2-f287" type="selectionEntry" name="Discipline: Biomancy"/>
+              <entryLink id="d583-2fa6-9115bb7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+              <entryLink id="49e7-c132-abq2vq65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+              <entryLink id="24af-d761-9ce8-b5qwec3049" hidden="false" collective="false" import="true" targetId="94c0-771b-4dc2-a9a9" type="selectionEntry" name="Discipline: Pyromancy"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c997-38d1-4a37-1faf" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
         <entryLink id="d627-e180-6872-7b46" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>

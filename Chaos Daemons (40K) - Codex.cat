@@ -3206,6 +3206,15 @@ Furthermore, Screamers from a Burning Skyhost cause D3+1 S4 AP- hits when making
             <entryLink id="21a1-7971-c02b-0584" hidden="false" collective="false" import="true" targetId="6538-5d1c-0256-5506" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="77a59-7e2t-dr2v840-6m32" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9t16-4b777a8-er37-5tm74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b3077vq-678c1-ety6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5cgg2-83f77-a4124b9-d50x76tmt5" hidden="false" collective="false" import="true" targetId="d502-9b83-4ea6-f7c1" type="selectionEntry" name="Discipline: Plague"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a59c-0c49-99b1-cb15" hidden="false" collective="false" import="true" targetId="3ea18292-e8be-46a0-77c2-4a3b7e8aa16b" type="selectionEntry"/>
@@ -3284,6 +3293,15 @@ Furthermore, Screamers from a Burning Skyhost cause D3+1 S4 AP- hits when making
           <entryLinks>
             <entryLink id="1775-1cdf-479c-6e90" hidden="false" collective="false" import="true" targetId="1f57-87d5-c469-07e4" type="selectionEntry"/>
             <entryLink id="b683-2f43-b2b1-6439" hidden="false" collective="false" import="true" targetId="743e-8b4f-b3bf-9e9e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3a59-7e2t-dr2v840-6m32" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9t16-4bcsa8-er37-5tm74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25fa-b305vq-6mwr8c1-ety6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5cgg2-83f7-a4124b9-d50xqqmt5" hidden="false" collective="false" import="true" targetId="e613-ac94-5fb7-a8d2" type="selectionEntry" name="Discipline: Excess"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3374,6 +3392,16 @@ Furthermore, Screamers from a Burning Skyhost cause D3+1 S4 AP- hits when making
           <entryLinks>
             <entryLink id="5cgg2-83f7-a419-d50mt5" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
             <entryLink id="a714-35dc-fm82-0te5t" hidden="false" collective="false" import="true" targetId="c4f1-8a72-3d95-e6b0" type="selectionEntry" name="Discipline: Change"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3a59-7e2b2t-d8sb40-6nm32" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9t16-4bc8wsdr-e37-5tm74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25rwbfa-b305-6m8bwc1-ety6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5cgg2-83f7-a4192v5-d5250mt5" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="a714-35d36bc-fm82-0te5t" hidden="false" collective="false" import="true" targetId="c4f1-8a72-3d95-e6b0" type="selectionEntry" name="Discipline: Change"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7399,6 +7427,18 @@ All models inside the Tetragon gets shrouded.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3a5r29-71myee2-d85b40-6mm32" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="915wd6-4dbc8-nwe237-5mmf74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25efa-b3b05-6m8ewc1-dne9246" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ce2vs-8e3f7-a41y9-d50ewm35" hidden="false" collective="false" import="true" targetId="5ae3-21ce-7903-74a1" type="selectionEntry" name="Discipline: Daemonology (Malefic)"/>
+            <entryLink id="a71se4-35ddc-fm8tr2-0be591" hidden="false" collective="false" import="true" targetId="c4f1-8a72-3d95-e6b0" type="selectionEntry" name="Discipline: Change"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="15a7-64ab-6901-4072" hidden="false" collective="false" import="true" targetId="a567e325-4907-1e0f-0a93-b2e3f562a1f8" type="selectionEntry"/>
         <entryLink id="e4e2-486b-79cc-451f" hidden="false" collective="false" import="true" targetId="9b75f082-4d5c-8f8e-3c7d-a72b6d8d346a" type="selectionEntry"/>
