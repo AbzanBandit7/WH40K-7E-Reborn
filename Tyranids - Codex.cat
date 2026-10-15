@@ -883,8 +883,7 @@ Wound rolls of 1 in the Shooting phase.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b2bxyx29048-b99d8-0beb-b026-c7851ec26e48" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
-                    <infoLink id="b2bewe48-be998-0bqeb-b026-c7t851fhjfde48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
+                    <infoLink id="b2bewe48-be214b998-0636n7bqeb-b026-c7t81cjfde48" hidden="false" targetId="qrvqe-36n2-38m32-1b61" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -3808,13 +3807,13 @@ suffer -5 to their Initiative
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3ac96-76e2-d8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="ttttt3ac96-76e2-d8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e2637-56e4" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="267fa-e605-68c1-e926" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bttttc8-e2ttt637-56e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="267fa-etttt605-68c1-e926" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5c662-86e7-a469-d635" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                <entryLink id="5c66tt2-86e7-a46ttttt9-d635" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -4392,13 +4391,13 @@ suffer -5 to their Initiative
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3rac9-71re2-d8e0-a5r3e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="yhu3rac9-71re2-d8e0-a5r3e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91rd6-4bc8-e237-5eer4" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e30r5-68c1-e9r26" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a3rv91rd6-4bc8-e237-5eer4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56b27fa-e30r5-68c1-e9r26" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5ce2-83re7-a4r19-dr35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                <entryLink id="9m6735ce2-83re7-a4r19-dr35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -4979,13 +4978,13 @@ suffer -5 to their Initiative
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3azzc9-71e2-d8e0-a53ze2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="9483azzc9-71e2-d8e0-a53ze2" name="Psychic Discipline" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91dz6-4bzc8-e237-5ee4" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e3z05-68c1z-e926" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="256291dz6-4bzc8-e237-5ee4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="154127fa-e3z05-68c1z-e926" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5cze2-z83e7-a419-deaz35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                <entryLink id="2e535cze2-z83e7-a419-deaz35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -6473,13 +6472,13 @@ suffer -5 to their Initiative
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3acx9-7x1e2-dx8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="444acx9-7x1e2-dx8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-xx4bc8-e237-5ee4" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27xfa-e305-68xc1-e926" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9444d6-xx4bc8-e237-5ee4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2474xfa4-e3045-68xc1-e926" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5ce2-8x3e7-a41xx9-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                <entryLink id="4485ce2-8x3e7-a41xx9-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -7288,17 +7287,6 @@ suffer -5 to their Initiative
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="3ccac9-71ce2-dc8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c1d6-4bc8-e2c37-5ee4" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e305-cc68c1-e926" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="5cec2-83e7-a41cc9-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="285.0"/>
               </costs>
@@ -7602,15 +7590,6 @@ suffer -5 to their Initiative
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="3acss9-71se2-ds8e0-as53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91dss6-4bsc8-es237-5ee4" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fas-e305-68c1-e9s26" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="5ces2-83es7-a4ss19-deass35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
-                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -10513,13 +10492,13 @@ Hits on Zooming Flyers are always resolved against the target model&apos;s side 
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3ac9-71e2-d8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="ip3ac9-71e2-d8e0-a53e2" name="Psychic Discipline" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-e237-5ee4" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa-e305-68c1-e926" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="upi91d6-4bc8-e237-5ee4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="poi27fa-e305-68c1-e926" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5ce2-83e7-a419-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+                <entryLink id="twf5ce2-83e7-a419-dea35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -19881,13 +19860,13 @@ normally be D6+3&quot;).</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3a1c9-7awrv1e2-d8e0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2223a1c9-7awrv1e2-d8e0-a512" name="Psychic Discipline" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d16-4bavrwac8-e2137-5ee4" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27fa1-e3rvac05-68c1-e9126" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22291d16-4bavrwac8-e2137-5ee4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11127fa1-e3rvac05-68c1-e9126" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5ce2-813e7-a41awbra9-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
+            <entryLink id="2225ce2-813e7-a41awbra9-de1a35" hidden="false" collective="false" import="true" targetId="fba1-ce9d-ee22-1ec2" type="selectionEntry" name="Discipline: Powers of the Hive Mind"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
