@@ -22902,7 +22902,7 @@ Psychic Scream is a nova power with a range of 6&quot;. For each target unit, ro
 subtract their Leadership. That unit suffers a number of Wounds equal to the result.
 Armour and cover saves cannot be taken against Wounds caused by Psychic Scream.</description>
     </rule>
-    <rule id="qrvqe-36n2-38m32-1b61" name="Broodlord Powers" publicationId="f2f40acf--pubN190941" page="41" hidden="false"/> 
+    <rule id="qrvqe-36n2-38m32-1b61" name="Broodlord Powers" publicationId="f2f40acf--pubN190941" page="41" hidden="false"> 
       <description>Broodlord only knows "The Horror"</description>
     </rule>
     <rule id="2ae91f87-7808-36b9-090d-2fbcc6bbd26c" name="Shadow in the Warp" publicationId="f2f40acf--pubN65999" page="38" hidden="false">
