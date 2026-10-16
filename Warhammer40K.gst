@@ -3906,6 +3906,47 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </selectionEntryGroups>
       <costs><cost name="pts" typeId="points" value="0.0"/></costs>
     </selectionEntry>
+    <selectionEntry id="wr41th-ac94-5fb7-a8d2" name="Discipline: Wraith Guide" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="904c-av6e67-7ea5-f218" name="Psychic Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9dsav52ac2-df51-a8b3-4e76" name="1 - Enliven" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="b6437n3r6f9-c20e-f13a-8d54" name="1 - Enliven" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Fleet special rule.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="abd1dw4dqs3-e062-b9c494984-5f87" name="2 - Foreboding" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="c796950a-d314c27n4f-a24b-9e65" name="2 - Foreboding" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Foreboding is a Witchfire power with the following profile: Range 18&quot; Str 3 AP5 Assault D6, Aether Shock
+
+Aether Shock: If this attack hits then the targeted unit must take a Pinning test with a -2 Ld penalty.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="bce4-f28muin173-cad5-6098" name="3 - Deliverance" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles><profile id="d81b-e420-b35c-aqbtr65df76" name="3 - Deliverance" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                <characteristics>
+                  <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
+                  <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Blessing</characteristic>
+                  <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24"</characteristic>
+                  <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Feel No Pain (5+) special rule.</characteristic>
+                </characteristics>
+              </profile></profiles><costs><cost name="pts" typeId="points" value="0.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="pts" typeId="points" value="0.0"/></costs>
+    </selectionEntry>
     <selectionEntry id="b17c-4e92-a638-d05f" name="Discipline: Runes of Battle" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="c28d-5fa3-b749-e160" name="Psychic Powers" hidden="false" collective="false" import="true">

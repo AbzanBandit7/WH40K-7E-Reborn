@@ -16591,7 +16591,6 @@
 
 * The unit can immediately move as if it were your Movement phase.
 * The unit can immediately shoot (or Run or Turbo-boost) as if it were your Shooting Phase.
-* The unit can immediately make a charge move as if it were your Charge sub-phase (if they do so, enemy units can fire Overwatch as if it were your Charge sub-phase). A unit that makes a charge in the Fight sub-phase does so at the end of the current Initiative step, and once they have charged, the Initiative steps continue to resolve as before (including for models in the charging unit).
 
 A unit can only make a Soulburst action once per turn.</description>
     </rule>

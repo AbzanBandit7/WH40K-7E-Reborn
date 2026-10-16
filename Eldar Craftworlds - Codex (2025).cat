@@ -4008,6 +4008,20 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eld4-71e2-d840-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-4bc8-3ldr-5a0f74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ldr-b305-68c1-de9246" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ld4-2fa6-91b7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="49e7-eld4-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="3ld4-6ca0-43bd-87e256" hidden="false" collective="false" import="true" targetId="2a73-f18c-46bd-9e05" type="selectionEntry" name="Discipline: Runes of Fate"/>
+            <entryLink id="83be-eld4-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="195.0"/>
       </costs>
@@ -4420,6 +4434,18 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="eld4-71e2-4v245-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-14v41-3ldr-5a0f74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ldr-b305-68c1-7nyrds" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ld4-2fa6-q5bdt-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="49e7-eld4-q3rwtt-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="3ld4-6ca0-imiyb-87e256" hidden="false" collective="false" import="true" targetId="2a73-f18c-46bd-9e05" type="selectionEntry" name="Discipline: Runes of Fate"/>
+            <entryLink id="83be-eld4-1245bs-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6066,6 +6092,20 @@ If this Detachment contains four units, its units can roll to arrive from Deep S
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eld4-71e2-wtnre7m-6fb532" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-67nyumt-3ldr-5a0f74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ldr-7nyijh-68c1-de9246" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ld4-s21eac-91b7-4ce028" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="w637ne-eld4-ab65-8fd093" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="3ld4-wn7rds-43bd-87e256" hidden="false" collective="false" import="true" targetId="b17c-4e92-a638-d05f" type="selectionEntry" name="Discipline: Runes of Battle"/>
+            <entryLink id="s7nfdb-eld4-d190-6ac513" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cc05-210f-9761-410a" hidden="false" collective="false" import="true" targetId="4e7b-ba68-4a42-df94" type="selectionEntry"/>
       </entryLinks>
@@ -9683,15 +9723,6 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         <rule id="975a-baea-5801-905f" name="Spirit Mark" publicationId="555e-9663-pubN65910" page="111" hidden="false">
           <description>Wraithguard, Wraithblades, Wraithlords, Wraithknights, and Hemlock Wraithfighters can re-roll To-Hit rolls of 1 against enemy units that are within 12&quot; of a model with this special rule.</description>
         </rule>
-        <rule id="c6c8-78c4-9b70-61c2" name="Wraithseer Guide" publicationId="555e-9663-pubN70264" page="213" hidden="false">
-          <description>Enliven (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Fleet special rule.
-
-Foreboding (1 warp charge): Foreboding is a Witchfire power with the following profile: Range 18&quot; Str 3 AP5 Assault D6, Aether Shock
-
-Aether Shock: If this attack hits then the targeted unit must take a Pinning test with a -2 Ld penalty.
-
-Deliverance (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Feel No Pain (5+) special rule.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="700e-51d1-5ba1-9e26" hidden="false" targetId="80e8-2653-cfa1-0d13" type="rule"/>
@@ -9739,6 +9770,21 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eld4-71e2-wtnre7m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91d6-67nyumt-3ldr-mdcshy" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ldr-7nyijhw-6yrun8c1-de9246" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ld4-s21eac-91b7-67imwdr" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="w637ne-eld4-ab65-85mytwbnyw" hidden="false" collective="false" import="true" targetId="aec7-f89f-3f7c-596b" type="selectionEntry" name="Discipline: Divination"/>
+            <entryLink id="3ld4-wn7rds-43bd-87eudfav56" hidden="false" collective="false" import="true" targetId="b17c-4e92-a638-d05f" type="selectionEntry" name="Discipline: Runes of Battle"/>
+            <entryLink id="s7nfdb-eld4-d190-sbtdbtny" hidden="false" collective="false" import="true" targetId="f3dd-c529-d047-3c68" type="selectionEntry" name="Discipline: Telepathy"/>
+            <entryLink id="s732qb6qnfdb-el6nq36nd4-d16bq90-sbtdbtny" hidden="false" collective="false" import="true" targetId="wr41th-ac94-5fb7-a8d2" type="selectionEntry" name="Discipline: Wraith Guide"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="61f1-a9ce-10c3-bdc8" hidden="false" collective="false" import="true" targetId="eedf-9490-0d7d-483e" type="selectionEntryGroup"/>
         <entryLink id="cf7a-7f6b-c8f3-f2c9" name="" hidden="false" collective="false" import="true" targetId="efbf-4f34-7421-2a88" type="selectionEntryGroup"/>
@@ -11719,6 +11765,16 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="eld4-7xxeqe1e2-wtnre7m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91cc14d6-67nyumt-3ld52r-mdcshy" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3l425dr-7nyijhw-6yrun8qweqc1-de92146" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ld4-s21eac-91wqq1b7-67imwdr" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="3ld4-wn7rds-47422x53bd-87eudfav56" hidden="false" collective="false" import="true" targetId="b17c-4e92-a638-d05f" type="selectionEntry" name="Discipline: Runes of Battle"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="35.0"/>
@@ -12298,6 +12354,16 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="elggtd4-7xxeqe1e2-wtnre7m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91cc14d6-67nggtyumt-3ld52r-mdcshy" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3l425dr-7nyijhw-6yrunggt8qweqc1-de92146" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="gggt3ld4-s21eac-91wqq1b7-67imwdr" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+                <entryLink id="3lggtd4-wn7rds-47422x53bd-87eudfav56" hidden="false" collective="false" import="true" targetId="b17c-4e92-a638-d05f" type="selectionEntry" name="Discipline: Runes of Battle"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -13035,15 +13101,6 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
         </profile>
       </profiles>
       <rules>
-        <rule id="c6c8-78c4-9b70-61c2" name="Wraithseer Guide" publicationId="555e-9663-pubN70264" page="213" hidden="false">
-          <description>Enliven (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Fleet special rule.
-
-Foreboding (1 warp charge): Foreboding is a Witchfire power with the following profile: Range 18&quot; Str 3 AP5 Assault D6, Aether Shock
-
-Aether Shock: If this attack hits then the targeted unit must take a Pinning test with a -2 Ld penalty.
-
-Deliverance (1 warp charge): This is a Blessing which targets a single friendly unit of Wraithguard, Wraithblades, or a single Wraithlord. Whilst the power is in effect, the target unit gains the Feel No Pain (5+) special rule.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="f2a1-e476-f027-f3a9" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule"/>
@@ -13150,6 +13207,15 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="eld34-7xxqqbyree2-wtnre7m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91cc14d6-6eryneynmt-3ld52r-mdcshy" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3l425dr-yenrejhw-6yrun8qweqc1-de92146" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3ltynrd4-s21eac-91wqq1b7-67imwdr" hidden="false" collective="false" import="true" targetId="wr41th-ac94-5fb7-a8d2" type="selectionEntry" name="Discipline: Wraith Guide"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -13473,6 +13539,16 @@ Deliverance (1 warp charge): This is a Blessing which targets a single friendly 
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="u92dd4-7xxbbe2-wtnre7m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91cc14d6-67nggbbw-3ld52r-mdcshy" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3l42b5dr-7nyijhw-6yruqw7b9ugt8c1-de92146" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="gggbt3ld4-s21eac-91wqq1b7-67imbbwdr" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="3lggtd4-wnb7rds-47422x53bd-87eudbbfav56" hidden="false" collective="false" import="true" targetId="b17c-4e92-a638-d05f" type="selectionEntry" name="Discipline: Runes of Battle"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -15092,6 +15168,18 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroup>
+        <selectionEntryGroup id="egtd4-7x361e2-w56m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91c50d6-6723-3ld52r-mdcshy" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3lrdr-7nyijhw-6yr8y1-de92146" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="iryu4-s21eac-9rq1b7-67imwdr" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="3lptd4-wn7rds-47utx4-8etaty" hidden="false" collective="false" import="true" targetId="963a-e8df-3eaf-3aad" type="selectionEntry" name="Discipline: Revenant"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="275.0"/>
       </costs>
@@ -15187,6 +15275,18 @@ Farseer Skyrunner, Warlock Skyrunner Council, Windrider Jetbikes or Vyper Squadr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="egtd4-4wr1e2-w5726m-imsfv4" name="Psychic Discipline" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="m9rwc-6722723-3ld52r-m80hy" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3lrdr-n424bn2n-6yr8y1-de92146" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="iryu4-s21e7-9rq1bb27-677n2n26r" hidden="false" collective="false" import="true" targetId="2e19-c945-9ee7-338f" type="selectionEntry" name="Discipline: Daemonology (Sanctic)"/>
+            <entryLink id="3ln4-w2n27rds-47n4-8etaty" hidden="false" collective="false" import="true" targetId="963a-e8df-3eaf-3aad" type="selectionEntry" name="Discipline: Revenant"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
